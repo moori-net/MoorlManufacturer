@@ -1,0 +1,92 @@
+[
+    {
+        "id": "{ID:CATEGORY_PARTS_LIST}",
+        "parentId": "{NAVIGATION_CATEGORY_ID}",
+        "cmsPageId": "{ID:CMS_PAGE_ROOT}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Stücklisten Konfigurator"
+            },
+            "{en-GB}": {
+                "name": "Parts list configurator"
+            }
+        },
+        "seoUrls": [
+            {
+                "id": "{ID:CATEGORY_PARTS_LIST_URL_DE}",
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "languageId": "{de-DE}",
+                "foreignKey": "{ID:CATEGORY_PARTS_LIST}",
+                "routeName": "frontend.navigation.page",
+                "pathInfo": "/navigation/{ID:CATEGORY_PARTS_LIST}",
+                "seoPathInfo": "MoorlManufacturer",
+                "isCanonical": true,
+                "isModified": true
+            },
+            {
+                "id": "{ID:CATEGORY_PARTS_LIST_URL_EN}",
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "languageId": "{en-GB}",
+                "foreignKey": "{ID:CATEGORY_PARTS_LIST}",
+                "routeName": "frontend.navigation.page",
+                "pathInfo": "/navigation/{ID:CATEGORY_PARTS_LIST}",
+                "seoPathInfo": "MoorlManufacturer",
+                "isCanonical": true,
+                "isModified": true
+            }
+        ]
+    },
+    {
+        "id": "{ID:CATEGORY_PARTS_LIST_FENCES}",
+        "parentId": "{ID:CATEGORY_PARTS_LIST}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Zaunmatten"
+            },
+            "{en-GB}": {
+                "name": "Fence panels"
+            }
+        }
+    },
+    {
+        "id": "{ID:CATEGORY_PARTS_LIST_POSTS}",
+        "parentId": "{ID:CATEGORY_PARTS_LIST}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Pfosten"
+            },
+            "{en-GB}": {
+                "name": "Posts"
+            }
+        }
+    },
+    {
+        "id": "{ID:CATEGORY_PARTS_LIST_DOORS}",
+        "parentId": "{ID:CATEGORY_PARTS_LIST}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Tore"
+            },
+            "{en-GB}": {
+                "name": "Gates"
+            }
+        }
+    },
+    {
+        "id": "{ID:CATEGORY_PARTS_LIST_OPTIONAL_ACCESSORIES}",
+        "parentId": "{ID:CATEGORY_PARTS_LIST}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Zubehör"
+            },
+            "{en-GB}": {
+                "name": "Accessories"
+            }
+        }
+    }
+]

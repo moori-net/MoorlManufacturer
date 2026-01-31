@@ -1,0 +1,133 @@
+{# Collecting media #}
+{% set mediaIds = [] %}
+{% for group in configuratorSettings %}
+    {% for option in group.options %}
+        {% if option.translated.customFields.moorl_manufacturer_image %}
+            {% set mediaIds = mediaIds|merge([option.translated.customFields.moorl_manufacturer_image]) %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+{% if mediaIds|length >= 1 %}
+    {% set mediaCollection = searchMedia(mediaIds, context.context) %}
+{% endif %}
+
+{% for group in configuratorSettings %}
+        <fieldset
+                class="js-group product-detail-configurator-group mb-3"
+                data-identifier="{{ identifier }}"
+                data-technical-name="{{ manufacturer.getMappingName(group.id) }}"
+                data-logical="{{ logical }}"
+        >
+            <legend class="h3">
+                <span data-step>{{ step }}</span>.
+                {{ 'component.product.configurator.legend'|trans({ '%group_name%': group.translated.name, '%hidden_cls%': 'visually-hidden' })|sw_sanitize }}
+            </legend>
+
+            <div class="product-detail-configurator-options d-flex flex-wrap gap-2">
+                {% for option in group.options %}
+                    {% if elementId is defined and elementId is not null %}
+                        {% set optionIdentifier = [group.id, option.id, elementId]|join('-') %}
+                    {% else %}
+                        {% set optionIdentifier = [group.id, option.id]|join('-') %}
+                    {% endif %}
+
+                    {% set isActive = false %}
+
+                    {% set isCombinableCls = 'is-combinable' %}
+
+                    {% if option.id in product.optionIds %}
+                        {% set isActive = true %}
+                    {% endif %}
+
+                    {% if option.configuratorSetting.media %}
+                        {% set displayType = 'media' %}
+                        {% set media = option.configuratorSetting.media %}
+                    {% else %}
+                        {% set displayType = group.displayType %}
+                        {% if option.media %}
+                            {% set media = option.media %}
+                        {% else %}
+                            {% set media = false %}
+                        {% endif %}
+                    {% endif %}
+
+                    <div
+                            class="product-detail-configurator-option d-inline-flex"
+                            data-position="{{ option.translated.position }}"
+                            {% if option.translated.customFields.moorl_manufacturer_image %}
+                                data-moorl-hover-card="true"
+                                data-moorl-hover-card-options="{{ {
+                                    template: "#popover-#{optionIdentifier}",
+                                    placement: "top"
+                                }|json_encode }}"
+                            {% endif %}
+                    >
+                        <input
+                                type="radio"
+                                name="{{ group.id }}"
+                                value="{{ option.id }}"
+                                class="product-detail-configurator-option-input {{ isCombinableCls }} btn-check"
+                                id="{{ optionIdentifier }}"
+                                aria-labelledby="{{ optionIdentifier }}-label"
+                                {% if isActive %}checked="checked"{% endif %}
+                                data-logical="{{ logical }}"
+                                data-technical-name="{{ manufacturer.getMappingName(option.id) }}"
+                        >
+
+                        <label
+                                class="product-detail-configurator-option-label {{ isCombinableCls }} is-display-{{ displayType }} btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"
+                                {% if displayType == 'color' and option.colorHexCode %}style="background-color: {{ option.colorHexCode }}"{% endif %}
+                                title="{{ option.translated.name }}"
+                                id="{{ optionIdentifier }}-label"
+                                for="{{ optionIdentifier }}"
+                                aria-hidden="true"
+                        >
+                            {% if displayType == 'media' and media %}
+                                {% sw_thumbnails 'configurator-option-img-thumbnails' with {
+                                    media: media,
+                                    sizes: {
+                                        default: '120px'
+                                    },
+                                    attributes: {
+                                        class: 'product-detail-configurator-option-image h-100',
+                                        role: 'presentation',
+                                    }
+                                } %}
+                            {% endif %}
+
+                            {% if displayType == 'media' and media or displayType == 'color' and option.colorHexCode %}
+                                <span class="visually-hidden">{{ option.translated.name }}</span>
+                            {% else %}
+                                {{ option.translated.name }}
+                            {% endif %}
+                            {% if not option.combinable %}
+                                <small class="visually-hidden">({{ 'detail.unavailableTooltip'|trans|sw_sanitize }})</small>
+                            {% endif %}
+                        </label>
+                    </div>
+
+                    {% if option.translated.customFields.moorl_manufacturer_image %}
+                        {% set popoverMedia = mediaCollection.get(option.translated.customFields.moorl_manufacturer_image) %}
+
+                        <template id="popover-{{ optionIdentifier }}">
+                            {% sw_thumbnails 'configurator-option-img-thumbnails' with {
+                                media: popoverMedia,
+                                sizes: {
+                                    default: '120px'
+                                },
+                                attributes: {
+                                    class: 'product-detail-configurator-option-image h-100',
+                                    role: 'presentation',
+                                }
+                            } %}
+                        </template>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            {% if logical %}
+                <div class="js-logical-configurator"></div>
+            {% endif %}
+        </fieldset>
+{% endfor %}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #706f6f;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: #878787;
+        font-family: Lato-Black, Lato;
+        font-size: 18.44px;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        fill: #6d6d6c;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #d8d8d8;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-3" x="38.14" y="38.29" width="28.34" height="28.34"/>
+    <rect class="cls-4" x="26.95" y="38.53" width="6.74" height="230.23"/>
+    <rect class="cls-4" x="144.65" y="-79.37" width="6.74" height="219.75" transform="translate(117.51 178.53) rotate(-90)"/>
+    <rect class="cls-3" x="229.56" y="38.29" width="28.34" height="28.34" transform="translate(191.26 296.19) rotate(-90)"/>
+    <rect class="cls-4" x="262.99" y="38.53" width="6.74" height="230.23"/>
+    <rect class="cls-4" x="38.38" y="250.18" width="27.87" height="18.58"/>
+    <rect class="cls-4" x="229.79" y="250.18" width="27.87" height="18.58"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="30.32" cy="147.12" r="17.25"/>
+    <text class="cls-2"><tspan x="23.77" y="153.29">A</tspan></text>
+  </g>
+  <g>
+    <circle class="cls-1" cx="151.24" cy="30.51" r="17.25"/>
+    <text class="cls-2"><tspan x="145.07" y="36.68">B</tspan></text>
+  </g>
+  <g>
+    <circle class="cls-1" cx="266.36" cy="147.12" r="17.25"/>
+    <text class="cls-2"><tspan x="259.84" y="153.29">C</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "{ID:STREAM_CATEGORY_PARTS_LIST_FENCES}",
+    "name": "Fence panels",
+    "filters": [
+      {
+        "type": "multi",
+        "queries": [
+          {
+            "type": "multi",
+            "queries": [
+              {
+                "type": "equals",
+                "field": "product.categoriesRo.id",
+                "value": "{ID:CATEGORY_PARTS_LIST_FENCES}"
+              }
+            ],
+            "operator": "AND"
+          }
+        ],
+        "operator": "OR"
+      }
+    ]
+  },
+  {
+    "id": "{ID:STREAM_CATEGORY_PARTS_LIST_POSTS}",
+    "name": "Posts",
+    "filters": [
+      {
+        "type": "multi",
+        "queries": [
+          {
+            "type": "multi",
+            "queries": [
+              {
+                "type": "equals",
+                "field": "product.categoriesRo.id",
+                "value": "{ID:CATEGORY_PARTS_LIST_POSTS}"
+              }
+            ],
+            "operator": "AND"
+          }
+        ],
+        "operator": "OR"
+      }
+    ]
+  },
+  {
+    "id": "{ID:STREAM_CATEGORY_PARTS_LIST_LAYOUT_ACCESSORIES}",
+    "name": "Gates",
+    "filters": [
+      {
+        "type": "multi",
+        "queries": [
+          {
+            "type": "multi",
+            "queries": [
+              {
+                "type": "equals",
+                "field": "product.categoriesRo.id",
+                "value": "{ID:CATEGORY_PARTS_LIST_DOORS}"
+              }
+            ],
+            "operator": "AND"
+          }
+        ],
+        "operator": "OR"
+      }
+    ]
+  },
+  {
+    "id": "{ID:STREAM_CATEGORY_PARTS_LIST_OPTIONAL_ACCESSORIES}",
+    "name": "Accessories",
+    "filters": [
+      {
+        "type": "multi",
+        "queries": [
+          {
+            "type": "multi",
+            "queries": [
+              {
+                "type": "equals",
+                "field": "product.categoriesRo.id",
+                "value": "{ID:CATEGORY_PARTS_LIST_OPTIONAL_ACCESSORIES}"
+              }
+            ],
+            "operator": "AND"
+          }
+        ],
+        "operator": "OR"
+      }
+    ]
+  }
+]

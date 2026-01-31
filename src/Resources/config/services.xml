@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <imports>
+        <import resource="monolog.xml"/>
+        <import resource="data.xml"/>
+    </imports>
+
+    <services>
+        <service id="Moorl\Manufacturer\Core\Service\PartsListService" public="true">
+            <argument type="service" id="Shopware\Core\Framework\DataAbstractionLayer\DefinitionInstanceRegistry"/>
+            <argument type="service" id="moorl.manufacturer.logger"/>
+        </service>
+
+        <!-- Entities -->
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerDefinition">
+            <tag name="shopware.entity.definition" entity="moorl_manufacturer"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerTranslationDefinition">
+            <tag name="shopware.entity.definition" entity="moorl_manufacturer_translation"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerMediaDefinition">
+            <tag name="shopware.entity.definition" entity="moorl_manufacturer_media"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\SalesChannelManufacturerDefinition">
+            <tag name="shopware.sales_channel.entity.definition"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\ManufacturerListing">
+            <argument type="service" id="sales_channel.moorl_manufacturer.repository"/>
+
+            <tag name="moorl.foundation.entity_suggest" priority="0"/>
+            <tag name="moorl.foundation.entity_search" priority="0"/>
+        </service>
+
+        <!-- SEO -->
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\DataAbstractionLayer\ManufacturerIndexer">
+            <argument type="service" id="Doctrine\DBAL\Connection"/>
+            <argument type="service" id="Shopware\Core\Framework\DataAbstractionLayer\Dbal\Common\IteratorFactory"/>
+            <argument type="service" id="moorl_manufacturer.repository"/>
+            <argument type="service" id="event_dispatcher"/>
+            <argument type="service" id="MoorlFoundation\Core\Framework\DataAbstractionLayer\Indexing\HtmlContentUpdater"/>
+
+            <tag name="shopware.entity_indexer"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\Seo\ManufacturerSeoUrlRoute">
+            <argument type="service" id="Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerDefinition"/>
+
+            <tag name="shopware.seo_url.route"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\Seo\SeoUrlUpdateListener">
+            <argument type="service" id="Shopware\Core\Content\Seo\SeoUrlUpdater"/>
+
+            <tag name="kernel.event_subscriber"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\ManufacturerDetailRoute" public="true">
+            <argument type="service" id="sales_channel.moorl_manufacturer.repository"/>
+            <argument type="service" id="Shopware\Core\Content\Cms\SalesChannel\SalesChannelCmsPageLoader"/>
+            <argument type="service" id="Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerDefinition"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Storefront\Page\Manufacturer\ManufacturerPageLoader">
+            <argument type="service" id="Shopware\Storefront\Page\GenericPageLoader"/>
+            <argument type="service" id="Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\ManufacturerDetailRoute"/>
+            <argument type="service" id="Shopware\Core\Content\Product\SalesChannel\Listing\ProductListingRoute"/>
+        </service>
+
+        <!-- Controllers -->
+        <service id="Moorl\Manufacturer\Storefront\Controller\ManufacturerController" public="true">
+            <argument type="service" id="Moorl\Manufacturer\Storefront\Page\Manufacturer\ManufacturerPageLoader"/>
+
+            <call method="setContainer">
+                <argument type="service" id="service_container"/>
+            </call>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\Listing\ManufacturerListingFeaturesSubscriber">
+            <argument type="service" id="MoorlFoundation\Core\Service\SortingService"/>
+
+            <tag name="kernel.event_subscriber"/>
+        </service>
+
+        <!-- CMS Resolver -->
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\Cms\ManufacturerListingCmsElementResolver">
+            <argument type="service" id="MoorlFoundation\Core\Service\SortingService"/>
+            <argument type="service" id="Shopware\Core\Content\Product\SalesChannel\Listing\ProductListingRoute"/>
+
+            <tag name="shopware.cms.data_resolver"/>
+        </service>
+
+        <!-- Calculators -->
+        <service id="Moorl\Manufacturer\Core\Calculator\CoreCalculator">
+            <tag name="moorl.manufacturer.calculator"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Calculator\DemoFenceCalculator">
+            <argument type="service" id="Moorl\Manufacturer\Core\Service\PartsListService"/>
+
+            <tag name="moorl.manufacturer.calculator"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Calculator\DemoFenceCalculator2">
+            <argument type="service" id="Moorl\Manufacturer\Core\Service\PartsListService"/>
+
+            <tag name="moorl.manufacturer.calculator"/>
+        </service>
+    </services>
+</container>

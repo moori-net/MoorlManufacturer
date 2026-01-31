@@ -1,0 +1,22 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+{% set manufacturer = page.manufacturer %}
+
+{% block base_head %}
+    {% sw_include '@Storefront/plugin/moorl-manufacturer/layout/manufacturer-meta.html.twig' %}
+{% endblock %}
+
+{% block base_main_inner %}
+    <div class="container-main">
+        {% block page_content %}
+            {% block cms_content %}
+                {% set cmsPageClasses = ('cms-page ' ~ page.cmsPage.cssClass|striptags)|trim %}
+                <div class="{{ cmsPageClasses }}" itemscope itemtype="https://schema.org/Person">
+                    {% block page_content_blocks %}
+                        {% sw_include "@Storefront/storefront/page/content/detail.html.twig" with {'cmsPage': page.cmsPage} %}
+                    {% endblock %}
+                </div>
+            {% endblock %}
+        {% endblock %}
+    </div>
+{% endblock %}

@@ -1,0 +1,327 @@
+[
+    {
+        "name": "Parts list configurator default",
+        "type": "manufacturer_detail",
+        "id": "Moorl\\Manufacturer\\MoorlManufacturer::CMS_PAGE_PARTS_LIST_CONFIGURATOR_DEFAULT_ID",
+        "sections": [
+            {
+                "position": 0,
+                "type": "default",
+                "sizingMode": "boxed",
+                "backgroundMediaMode": "cover",
+                "visibility": {
+                    "mobile": true,
+                    "tablet": true,
+                    "desktop": true
+                },
+                "customFields": {
+                    "moorl_section_config": {
+                        "color": null
+                    }
+                },
+                "id": "{ID:CMS_PAGE_FCD_SECTION_1}",
+                "blocks": [
+                    {
+                        "position": 0,
+                        "type": "moorl-column-layout-1",
+                        "sectionPosition": "main",
+                        "marginTop": "0",
+                        "marginBottom": "0",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "backgroundMediaMode": "cover",
+                        "visibility": {
+                            "mobile": true,
+                            "tablet": true,
+                            "desktop": true
+                        },
+                        "customFields": {},
+                        "id": "{ID:CMS_PAGE_FCD_BLOCK_1}",
+                        "slots": [
+                            {
+                                "type": "product-name",
+                                "slot": "slot-a",
+                                "config": {
+                                    "content": {
+                                        "source": "mapped",
+                                        "value": "moorl_manufacturer.translated.name"
+                                    },
+                                    "verticalAlign": {
+                                        "source": "static",
+                                        "value": null
+                                    }
+                                },
+                                "id": "{ID:CMS_PAGE_FCD_SLOT_1}"
+                            }
+                        ],
+                        "sizingMode": "boxed"
+                    },
+                    {
+                        "position": 1,
+                        "type": "moorl-column-layout-1",
+                        "sectionPosition": "main",
+                        "marginTop": "0",
+                        "marginBottom": "20px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "backgroundMediaMode": "cover",
+                        "visibility": {
+                            "mobile": true,
+                            "tablet": true,
+                            "desktop": true
+                        },
+                        "customFields": {},
+                        "id": "{ID:CMS_PAGE_FCD_BLOCK_10}",
+                        "slots": [
+                            {
+                                "type": "text",
+                                "slot": "slot-a",
+                                "config": {
+                                    "content": {
+                                        "source": "mapped",
+                                        "value": "moorl_manufacturer.translated.description"
+                                    },
+                                    "verticalAlign": {
+                                        "source": "static",
+                                        "value": null
+                                    }
+                                },
+                                "id": "{ID:CMS_PAGE_FCD_SLOT_10}"
+                            }
+                        ],
+                        "sizingMode": "boxed"
+                    }
+                ]
+            },
+            {
+                "position": 1,
+                "type": "moorl-grid",
+                "sizingMode": "boxed",
+                "backgroundMediaMode": "cover",
+                "visibility": {
+                    "mobile": true,
+                    "tablet": true,
+                    "desktop": true
+                },
+                "customFields": {
+                    "moorl_section_config": {
+                        "color": null
+                    },
+                    "moorl_section_spacing": 20,
+                    "moorl_section_grid_config": [
+                        {
+                            "value": {
+                                "lg": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": "6",
+                                    "inherit": false
+                                },
+                                "md": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": 12,
+                                    "inherit": true
+                                },
+                                "sm": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": 12,
+                                    "inherit": true
+                                },
+                                "xl": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": "6",
+                                    "inherit": false
+                                },
+                                "xs": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": 12,
+                                    "inherit": true
+                                },
+                                "xxl": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": 12,
+                                    "inherit": true
+                                }
+                            },
+                            "isSticky": false,
+                            "offsetTop": "30px",
+                            "alignItems": "normal",
+                            "justifyContent": "normal"
+                        },
+                        {
+                            "value": {
+                                "lg": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": "6",
+                                    "inherit": false
+                                },
+                                "md": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": 12,
+                                    "inherit": true
+                                },
+                                "sm": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": 12,
+                                    "inherit": true
+                                },
+                                "xl": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": "6",
+                                    "inherit": false
+                                },
+                                "xs": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": 12,
+                                    "inherit": true
+                                },
+                                "xxl": {
+                                    "show": true,
+                                    "order": 0,
+                                    "width": 12,
+                                    "inherit": true
+                                }
+                            },
+                            "isSticky": true,
+                            "offsetTop": "30px",
+                            "alignItems": "normal",
+                            "justifyContent": "normal"
+                        }
+                    ],
+                    "moorl_section_column_count": "2"
+                },
+                "id": "{ID:CMS_PAGE_FCD_SECTION_2}",
+                "blocks": [
+                    {
+                        "position": 0,
+                        "type": "moorl-column-layout-1",
+                        "sectionPosition": "moorl_grid_0",
+                        "marginTop": "0",
+                        "marginBottom": "20px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "backgroundMediaMode": "cover",
+                        "visibility": {
+                            "mobile": true,
+                            "tablet": true,
+                            "desktop": true
+                        },
+                        "customFields": {},
+                        "id": "{ID:CMS_PAGE_FCD_BLOCK_2}",
+                        "slots": [
+                            {
+                                "type": "moorl-manufacturer",
+                                "slot": "slot-a",
+                                "config": {
+                                    "manufacturer": {
+                                        "source": "mapped",
+                                        "value": "moorl_manufacturer.id"
+                                    }
+                                },
+                                "id": "{ID:CMS_PAGE_FCD_SLOT_2}"
+                            }
+                        ],
+                        "sizingMode": "boxed"
+                    },
+                    {
+                        "position": 1,
+                        "type": "moorl-column-layout-1",
+                        "sectionPosition": "moorl_grid_1",
+                        "marginTop": "0",
+                        "marginBottom": "0",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "backgroundMediaMode": "cover",
+                        "visibility": {
+                            "mobile": true,
+                            "tablet": true,
+                            "desktop": true
+                        },
+                        "customFields": {},
+                        "id": "{ID:CMS_PAGE_FCD_BLOCK_3}",
+                        "slots": [
+                            {
+                                "type": "image-gallery",
+                                "slot": "slot-a",
+                                "config": {
+                                    "sliderItems": {
+                                        "source": "mapped",
+                                        "value": "moorl_manufacturer.media"
+                                    },
+                                    "navigationArrows": {
+                                        "source": "static",
+                                        "value": "inside"
+                                    },
+                                    "navigationDots": {
+                                        "source": "static",
+                                        "value": "none"
+                                    },
+                                    "displayMode": {
+                                        "source": "static",
+                                        "value": "standard"
+                                    },
+                                    "minHeight": {
+                                        "source": "static",
+                                        "value": "340px"
+                                    },
+                                    "verticalAlign": {
+                                        "source": "static",
+                                        "value": null
+                                    },
+                                    "speed": {
+                                        "value": 300,
+                                        "source": "static"
+                                    },
+                                    "autoSlide": {
+                                        "value": false,
+                                        "source": "static"
+                                    },
+                                    "autoplayTimeout": {
+                                        "value": 5000,
+                                        "source": "static"
+                                    },
+                                    "isDecorative": {
+                                        "source": "static",
+                                        "value": false
+                                    },
+                                    "zoom": {
+                                        "value": false,
+                                        "source": "static"
+                                    },
+                                    "fullScreen": {
+                                        "value": false,
+                                        "source": "static"
+                                    },
+                                    "galleryPosition": {
+                                        "value": "left",
+                                        "source": "static"
+                                    },
+                                    "magnifierOverGallery": {
+                                        "value": false,
+                                        "source": "static"
+                                    },
+                                    "keepAspectRatioOnZoom": {
+                                        "value": true,
+                                        "source": "static"
+                                    }
+                                },
+                                "id": "{ID:CMS_PAGE_FCD_SLOT_3}"
+                            }
+                        ],
+                        "sizingMode": "boxed"
+                    }
+                ]
+            }
+        ]
+    }
+]

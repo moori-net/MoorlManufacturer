@@ -1,0 +1,394 @@
+[
+    {
+        "id": "{ID:PRODUCT_FENCE_656_1000}",
+        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Zaunmatten - 1000mm (6/5/6)"
+            },
+            "{en-GB}": {
+                "name": "Fence panel - 1000mm (6/5/6)"
+            }
+        },
+        "productNumber": "FENCE_656_1000",
+        "stock": 100,
+        "taxId": "{TAX_ID_STANDARD}",
+        "price": "{PRICE:50|S}",
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{ID:CATEGORY_PARTS_LIST_FENCES}"
+            }
+        ],
+        "cover": {
+            "mediaId": "{MEDIA_FILE:product/fence-green-example.jpeg}"
+        },
+        "properties": [
+            {"id": "{MD5:LINE_656}"},
+            {"id": "{MD5:LENGTH_1000}"}
+        ],
+        "configuratorSettings": [
+            {"id": "{ID:PRODUCT_FENCE_656_1000.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
+            {"id": "{ID:PRODUCT_FENCE_656_1000.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
+            {"id": "{ID:PRODUCT_FENCE_656_1000.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
+            {"id": "{ID:PRODUCT_FENCE_656_1000.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}"},
+            {"id": "{ID:PRODUCT_FENCE_656_1000.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 112.5},
+            {"id": "{ID:PRODUCT_FENCE_656_1000.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 125},
+            {"id": "{ID:PRODUCT_FENCE_656_1000.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 150}
+        ]
+    },
+    {
+        "id": "{ID:PRODUCT_FENCE_656_2500}",
+        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Zaunmatten - 2500mm (6/5/6)"
+            },
+            "{en-GB}": {
+                "name": "Fence panel - 2500mm (6/5/6)"
+            }
+        },
+        "productNumber": "FENCE_656_2500",
+        "stock": 100,
+        "taxId": "{TAX_ID_STANDARD}",
+        "price": "{PRICE:150|S}",
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{ID:CATEGORY_PARTS_LIST_FENCES}"
+            }
+        ],
+        "cover": {
+            "mediaId": "{MEDIA_FILE:product/fence-green-example.jpeg}"
+        },
+        "properties": [
+            {"id": "{MD5:LINE_656}"},
+            {"id": "{MD5:LENGTH_2500}"}
+        ],
+        "configuratorSettings": [
+            {"id": "{ID:PRODUCT_FENCE_656_2500.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
+            {"id": "{ID:PRODUCT_FENCE_656_2500.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
+            {"id": "{ID:PRODUCT_FENCE_656_2500.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
+            {"id": "{ID:PRODUCT_FENCE_656_2500.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}"},
+            {"id": "{ID:PRODUCT_FENCE_656_2500.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 112.5},
+            {"id": "{ID:PRODUCT_FENCE_656_2500.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 125},
+            {"id": "{ID:PRODUCT_FENCE_656_2500.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 150}
+        ]
+    },
+    {
+        "id": "{ID:PRODUCT_FENCE_868}",
+        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Zaunmatten (8/6/8)"
+            },
+            "{en-GB}": {
+                "name": "Fence panel (8/6/8)"
+            }
+        },
+        "productNumber": "FENCE_868",
+        "stock": 100,
+        "taxId": "{TAX_ID_STANDARD}",
+        "price": "{PRICE:70|S}",
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{ID:CATEGORY_PARTS_LIST_FENCES}"
+            }
+        ],
+        "cover": {
+            "mediaId": "{MEDIA_FILE:product/fence-green-example.jpeg}"
+        },
+        "properties": [
+            {"id": "{MD5:LINE_868}"}
+        ],
+        "configuratorSettings": [
+            {"id": "{ID:PRODUCT_FENCE_868.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
+            {"id": "{ID:PRODUCT_FENCE_868.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
+            {"id": "{ID:PRODUCT_FENCE_868.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
+            {"id": "{ID:PRODUCT_FENCE_868.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}"},
+            {"id": "{ID:PRODUCT_FENCE_868.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 112.5},
+            {"id": "{ID:PRODUCT_FENCE_868.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 125},
+            {"id": "{ID:PRODUCT_FENCE_868.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 150},
+            {"id": "{ID:PRODUCT_FENCE_868.LENGTH_1000}", "optionId": "{MD5:LENGTH_1000}"},
+            {"id": "{ID:PRODUCT_FENCE_868.LENGTH_2500}", "optionId": "{MD5:LENGTH_2500}", "_price": 200}
+        ]
+    },
+    {
+        "id": "{ID:PRODUCT_POST_SMALL}",
+        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Pfosten (Klein)"
+            },
+            "{en-GB}": {
+                "name": "Post (Small)"
+            }
+        },
+        "productNumber": "POST_SMALL",
+        "stock": 100,
+        "taxId": "{TAX_ID_STANDARD}",
+        "price": "{PRICE:20|S}",
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{ID:CATEGORY_PARTS_LIST_POSTS}"
+            }
+        ],
+        "cover": {
+            "mediaId": "{MEDIA_FILE:product/fence-post.jpg}"
+        },
+        "properties": [
+            {"id": "{MD5:LINE_656}"},
+            {"id": "{MD5:LINE_868}"}
+        ],
+        "configuratorSettings": [
+            {"id": "{ID:PRODUCT_POST_SMALL.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
+            {"id": "{ID:PRODUCT_POST_SMALL.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
+            {"id": "{ID:PRODUCT_POST_SMALL.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
+            {"id": "{ID:PRODUCT_POST_SMALL.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}", "_price": 112.5},
+            {"id": "{ID:PRODUCT_POST_SMALL.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 125},
+            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_MOUNTING_COVER}", "optionId": "{MD5:PARTS_LIST_POST_MOUNTING_COVER}", "_price": 105},
+            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_MOUNTING_CLAMPS}", "optionId": "{MD5:PARTS_LIST_POST_MOUNTING_CLAMPS}"},
+            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}"},
+            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "_price": 105},
+            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}"},
+            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "_price": 105},
+            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}"},
+            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_TYPE_SIDE}", "optionId": "{MD5:PARTS_LIST_POST_TYPE_SIDE}"},
+            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_TYPE_CORNER}", "optionId": "{MD5:PARTS_LIST_POST_TYPE_CORNER}", "_price": 105}
+        ]
+    },
+    {
+        "id": "{ID:PRODUCT_POST_LARGE}",
+        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Pfosten (Groß)"
+            },
+            "{en-GB}": {
+                "name": "Post (Large)"
+            }
+        },
+        "productNumber": "POST_LARGE",
+        "stock": 100,
+        "taxId": "{TAX_ID_STANDARD}",
+        "price": "{PRICE:30|S}",
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{ID:CATEGORY_PARTS_LIST_POSTS}"
+            }
+        ],
+        "cover": {
+            "mediaId": "{MEDIA_FILE:product/fence-post.jpg}"
+        },
+        "properties": [
+            {"id": "{MD5:LINE_656}"},
+            {"id": "{MD5:LINE_868}"}
+        ],
+        "configuratorSettings": [
+            {"id": "{ID:PRODUCT_POST_LARGE.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
+            {"id": "{ID:PRODUCT_POST_LARGE.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
+            {"id": "{ID:PRODUCT_POST_LARGE.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
+            {"id": "{ID:PRODUCT_POST_LARGE.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 112.5},
+            {"id": "{ID:PRODUCT_POST_LARGE.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 125},
+            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_MOUNTING_COVER}", "optionId": "{MD5:PARTS_LIST_POST_MOUNTING_COVER}", "_price": 105},
+            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_MOUNTING_CLAMPS}", "optionId": "{MD5:PARTS_LIST_POST_MOUNTING_CLAMPS}"},
+            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}"},
+            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "_price": 105},
+            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}"},
+            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "_price": 105},
+            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}"},
+            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_TYPE_SIDE}", "optionId": "{MD5:PARTS_LIST_POST_TYPE_SIDE}"},
+            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_TYPE_CORNER}", "optionId": "{MD5:PARTS_LIST_POST_TYPE_CORNER}", "_price": 105}
+        ]
+    },
+    {
+        "id": "{ID:PRODUCT_DOOR_SMALL}",
+        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Tor (Klein)"
+            },
+            "{en-GB}": {
+                "name": "Gate (Small)"
+            }
+        },
+        "productNumber": "DOOR_SMALL",
+        "stock": 100,
+        "taxId": "{TAX_ID_STANDARD}",
+        "price": "{PRICE:100|S}",
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{ID:CATEGORY_PARTS_LIST_DOORS}"
+            }
+        ],
+        "cover": {
+            "mediaId": "{MEDIA_FILE:product/fence-door.jpg}"
+        },
+        "properties": [
+            {"id": "{MD5:LINE_656}"},
+            {"id": "{MD5:LINE_868}"},
+            {"id": "{MD5:LENGTH_1000}"}
+        ],
+        "configuratorSettings": [
+            {"id": "{ID:PRODUCT_DOOR_SMALL.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
+            {"id": "{ID:PRODUCT_DOOR_SMALL.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
+            {"id": "{ID:PRODUCT_DOOR_SMALL.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
+            {"id": "{ID:PRODUCT_DOOR_SMALL.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}"},
+            {"id": "{ID:PRODUCT_DOOR_SMALL.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 112.5},
+            {"id": "{ID:PRODUCT_DOOR_SMALL.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 125},
+            {"id": "{ID:PRODUCT_DOOR_SMALL.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 150},
+            {"id": "{ID:PRODUCT_DOOR_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}"},
+            {"id": "{ID:PRODUCT_DOOR_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "_price": 105},
+            {"id": "{ID:PRODUCT_DOOR_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}"},
+            {"id": "{ID:PRODUCT_DOOR_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "_price": 105},
+            {"id": "{ID:PRODUCT_DOOR_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}"}
+        ]
+    },
+    {
+        "id": "{ID:PRODUCT_DOOR_LARGE}",
+        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Tor (Groß)"
+            },
+            "{en-GB}": {
+                "name": "Gate (Large)"
+            }
+        },
+        "productNumber": "DOOR_LARGE",
+        "stock": 100,
+        "taxId": "{TAX_ID_STANDARD}",
+        "price": "{PRICE:300|S}",
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{ID:CATEGORY_PARTS_LIST_DOORS}"
+            }
+        ],
+        "cover": {
+            "mediaId": "{MEDIA_FILE:product/fence-door.jpg}"
+        },
+        "properties": [
+            {"id": "{MD5:LINE_656}"},
+            {"id": "{MD5:LINE_868}"},
+            {"id": "{MD5:LENGTH_2500}"}
+        ],
+        "configuratorSettings": [
+            {"id": "{ID:PRODUCT_DOOR_LARGE.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
+            {"id": "{ID:PRODUCT_DOOR_LARGE.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
+            {"id": "{ID:PRODUCT_DOOR_LARGE.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
+            {"id": "{ID:PRODUCT_DOOR_LARGE.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}"},
+            {"id": "{ID:PRODUCT_DOOR_LARGE.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 112.5},
+            {"id": "{ID:PRODUCT_DOOR_LARGE.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 125},
+            {"id": "{ID:PRODUCT_DOOR_LARGE.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 150},
+            {"id": "{ID:PRODUCT_DOOR_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}"},
+            {"id": "{ID:PRODUCT_DOOR_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "_price": 105},
+            {"id": "{ID:PRODUCT_DOOR_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}"},
+            {"id": "{ID:PRODUCT_DOOR_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "_price": 105},
+            {"id": "{ID:PRODUCT_DOOR_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}"}
+        ]
+    },
+    {
+        "id": "{ID:PRODUCT_BIT}",
+        "active": true,
+        "name": "Akku Bit 5,5mm",
+        "productNumber": "BIT",
+        "stock": 100,
+        "taxId": "{TAX_ID_STANDARD}",
+        "price": "{PRICE:6|S}",
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{ID:CATEGORY_PARTS_LIST_OPTIONAL_ACCESSORIES}"
+            }
+        ],
+        "cover": {
+            "mediaId": "{MEDIA_FILE:product/bit.jpg}"
+        }
+    },
+    {
+        "id": "{ID:PRODUCT_DOSE}",
+        "active": true,
+        "translations": {
+            "{de-DE}": {
+                "name": "Sprühdose (400ml)"
+            },
+            "{en-GB}": {
+                "name": "Spray (400ml)"
+            }
+        },
+        "productNumber": "DOSE",
+        "stock": 100,
+        "taxId": "{TAX_ID_STANDARD}",
+        "price": "{PRICE:20|S}",
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{ID:CATEGORY_PARTS_LIST_OPTIONAL_ACCESSORIES}"
+            }
+        ],
+        "cover": {
+            "mediaId": "{MEDIA_FILE:product/spruhdose-400ml.jpg}"
+        },
+        "configuratorSettings": [
+            {"id": "{ID:PRODUCT_DOSE.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}"},
+            {"id": "{ID:PRODUCT_DOSE.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}"}
+        ]
+    }
+]

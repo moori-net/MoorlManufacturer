@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>General</title>
+        <title lang="de-DE">Einstellungen</title>
+    </card>
+
+    <card>
+        <title>Advanced search</title>
+        <title lang="de-DE">Erweiterte Suche</title>
+
+        <input-field type="bool">
+            <name>suggestActive</name>
+            <label>Suggest active</label>
+            <label lang="de-DE">Suchvorschläge aktiv</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="int">
+            <name>suggestLimit</name>
+            <label>Suggest limit</label>
+            <label lang="de-DE">Maximale Suchvorschläge</label>
+            <defaultValue>6</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>searchActive</name>
+            <label>Search active</label>
+            <label lang="de-DE">Suchergebnisse aktiv</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="int">
+            <name>searchLimit</name>
+            <label>Search limit</label>
+            <label lang="de-DE">Maximale Suchergebnisse</label>
+            <defaultValue>24</defaultValue>
+        </input-field>
+    </card>
+
+    <card>
+        <title>Suggest config</title>
+        <title lang="de-DE">Suchvorschläge Konfiguration</title>
+        <input-field type="bool">
+            <name>suggestConfigActive</name>
+            <label>Active</label>
+            <label lang="de-DE">Aktiv</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+        <component name="moorl-listing-config">
+            <name>suggestConfig</name>
+        </component>
+    </card>
+
+    <card>
+        <title>Search config</title>
+        <title lang="de-DE">Suchergebnisse Konfiguration</title>
+        <input-field type="bool">
+            <name>searchConfigActive</name>
+            <label>Active</label>
+            <label lang="de-DE">Aktiv</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+        <component name="moorl-listing-config">
+            <name>searchConfig</name>
+        </component>
+    </card>
+</config>

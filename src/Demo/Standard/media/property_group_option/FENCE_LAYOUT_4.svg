@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #706f6f;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: #878787;
+        font-family: Lato-Black, Lato;
+        font-size: 18.44px;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        fill: #6d6d6c;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #d8d8d8;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-3" x="39.97" y="40.35" width="28.34" height="28.34"/>
+    <rect class="cls-4" x="28.62" y="40.35" width="6.74" height="151.09"/>
+    <rect class="cls-3" x="231.38" y="40.35" width="28.34" height="28.34" transform="translate(191.04 300.07) rotate(-90)"/>
+    <rect class="cls-3" x="231.38" y="231.32" width="28.34" height="28.34"/>
+    <rect class="cls-4" x="181.79" y="192.88" width="6.74" height="149.11" transform="translate(-82.28 452.6) rotate(-90)"/>
+    <rect class="cls-4" x="146.3" y="-77.31" width="6.74" height="219.75" transform="translate(117.11 182.23) rotate(-90)"/>
+    <rect class="cls-4" x="264.64" y="40.58" width="6.74" height="219.08"/>
+    <rect class="cls-4" x="40.44" y="172.85" width="27.87" height="18.58"/>
+    <rect class="cls-4" x="105.96" y="235.96" width="27.87" height="18.58" transform="translate(365.15 125.36) rotate(90)"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="31.99" cy="115.89" r="17.25"/>
+    <text class="cls-2"><tspan x="25.43" y="122.06">A</tspan></text>
+  </g>
+  <g>
+    <circle class="cls-1" cx="150" cy="32.56" r="17.25"/>
+    <text class="cls-2"><tspan x="143.83" y="38.74">B</tspan></text>
+  </g>
+  <g>
+    <circle class="cls-1" cx="268.01" cy="150.12" r="17.25"/>
+    <text class="cls-2"><tspan x="261.49" y="156.29">C</tspan></text>
+  </g>
+  <g>
+    <circle class="cls-1" cx="185.16" cy="267.44" r="17.25"/>
+    <text class="cls-2"><tspan x="178.15" y="273.62">D</tspan></text>
+  </g>
+</svg>

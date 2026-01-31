@@ -1,0 +1,19 @@
+{
+    "sw-seo-url-template-card": {
+        "routeNames": {
+            "frontend-moorl-manufacturer-detail": "Stücklisten Konfiguratoren"
+        }
+    },
+    "global": {
+        "entities": {
+            "moorl_manufacturer": "Stücklisten Konfiguratoren",
+            "moorl_manufacturer_filter": "Stücklisten Filter"
+        }
+    },
+    "moorl-manufacturer": {
+        "type": {
+            "calculator": "Stücklisten Kalkulator",
+            "filter": "Stücklisten Filter"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+import './manufacturer-product-listing';

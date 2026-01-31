@@ -1,0 +1,62 @@
+<?php declare(strict_types=1);
+
+namespace Moorl\Manufacturer\Core\Content\Manufacturer;
+
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldEntityCollection;
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldMediaGalleryMediaCollection;
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldMultiEntityCollection;
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldThingCollection;
+use Shopware\Core\Content\Product\Aggregate\ProductManufacturer\ProductManufacturerDefinition;
+use Shopware\Core\Framework\DataAbstractionLayer\EntityDefinition;
+use Shopware\Core\Framework\DataAbstractionLayer\Field\Flag\Required;
+use Shopware\Core\Framework\DataAbstractionLayer\Field\IntField;
+use Shopware\Core\Framework\DataAbstractionLayer\FieldCollection;
+
+class ManufacturerDefinition extends EntityDefinition
+{
+    final public const ENTITY_NAME = 'moorl_manufacturer';
+    final public const PROPERTY_NAME = 'manufacturer';
+
+    public function getEntityName(): string
+    {
+        return self::ENTITY_NAME;
+    }
+
+    public function getCollectionClass(): string
+    {
+        return ManufacturerCollection::class;
+    }
+
+    public function getEntityClass(): string
+    {
+        return ManufacturerEntity::class;
+    }
+
+    public function getDefaults(): array
+    {
+        return [
+            'active' => false
+        ];
+    }
+
+    protected function defineFields(): FieldCollection
+    {
+        return new FieldCollection(array_merge(
+            FieldEntityCollection::getFieldItems(
+                localClass: self::class,
+                translationReferenceClass: ManufacturerTranslationDefinition::class
+            ),
+            [
+                (new IntField('product_count', 'productCount'))->addFlags(),
+            ],
+            FieldThingCollection::getFieldItems(media: false),
+            FieldMediaGalleryMediaCollection::getFieldItems(
+                localClass: self::class,
+                mediaReferenceClass: ManufacturerMediaDefinition::class
+            ),
+            FieldMultiEntityCollection::getManyToOneFieldItems([
+                [ProductManufacturerDefinition::class, [new Required()], []],
+            ]),
+        ));
+    }
+}

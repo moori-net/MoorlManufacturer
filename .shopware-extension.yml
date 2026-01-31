@@ -1,0 +1,233 @@
+store:
+  availabilities:
+    - German
+    - International
+  default_locale: de_DE
+  localizations:
+    - de_DE
+    - en_GB
+  categories:
+    - Bezahlung
+  type: extension
+  icon: src/Resources/config/plugin.png
+  automatic_bugfix_version_compatibility: true
+  description:
+    de: file:docs/store.md
+    en: file:docs/store.en.md
+  installation_manual:
+    de: file:docs/manual.md
+    en: file:docs/manual.en.md
+  tags:
+    de:
+      - Produkt
+      - Stückliste
+      - Konfigurator
+    en:
+      - Product
+      - Parts list
+      - Configurator
+  videos:
+    de: []
+    en: []
+  highlights:
+    de:
+      - Flexible Stücklisten erstellen
+      - Zusammenspiel aus Eigenschaften, Ausprägungen und dynamischen Produktgruppen
+      - Warenkorb Vorschau
+      - Erweiterung durch benutzerdefinierte Kalkulatoren möglich
+      - Volle Gestaltungsfreiheit durch CMS Templates, Listings und Suche
+    en:
+      - Create flexible parts lists
+      - Interplay of characteristics, features, and dynamic product groups
+      - Shopping cart preview
+      - Extension possible through custom calculators
+      - Complete design freedom with CMS templates, listings, and search
+  features:
+    de: []
+    en: []
+  faq:
+    de: []
+    en: []
+  images:
+    - file: docs/images/admin-1.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+    - file: docs/images/admin-2.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+    - file: docs/images/admin-3.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+    - file: docs/images/admin-4.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+    - file: docs/images/admin-5.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+    - file: docs/images/admin-7.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+    - file: docs/images/admin-8.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+    - file: docs/images/admin-9.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+    - file: docs/images/admin-10.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+    - file: docs/images/admin-11.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+    - file: docs/images/admin-12.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+    - file: docs/images/admin-13.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+    - file: docs/images/admin-14.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+    - file: docs/images/admin-15.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+    - file: docs/images/storefront-1.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+    - file: docs/images/storefront-2.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: true
+        en: true
+      priority: 100
+    - file: docs/images/storefront-3.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+    - file: docs/images/storefront-4.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+    - file: docs/images/storefront-5.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+    - file: docs/images/storefront-6.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+    - file: docs/images/storefront-7.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+    - file: docs/images/storefront-8.png
+      activate:
+        de: true
+        en: true
+      preview:
+        de: false
+        en: false
+      priority: 0
+
+changelog:
+  enabled: true
+  pattern: '^[A-Z].{19,}'
+  template: |
+    {{range .Commits}}- {{ .Message }}
+    {{end}}
+
+build:
+  zip:
+    pack:
+      excludes:
+        paths:
+          - docs
+          - TODO.md

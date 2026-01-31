@@ -1,0 +1,15 @@
+[
+  {
+    "id": "{ID:MAIN_ENTITY_CFG}",
+    "entity": "moorl_manufacturer",
+    "associationFields": [],
+    "folder": {
+      "id":  "{ID:MAIN_ENTITY_FOLDER}",
+      "name": "moorl_manufacturer",
+      "configuration": {
+        "id": "{ID:MAIN_ENTITY_FOLDER_CONFIG}"
+      },
+      "useParentConfiguration": false
+    }
+  }
+]

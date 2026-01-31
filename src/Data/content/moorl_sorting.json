@@ -1,0 +1,31 @@
+[
+  {
+    "id": "{ID:SORTING_1}",
+    "priority": 0,
+    "translations": {
+      "{de-DE}": {
+        "label": "Standard"
+      },
+      "{en-GB}": {
+        "label": "Standard"
+      }
+    },
+    "key": "standard",
+    "entity": "moorl_manufacturer",
+    "active": true,
+    "fields": [
+      {
+        "field": "moorl_manufacturer.id",
+        "order": "asc",
+        "priority": 0,
+        "naturalSorting": 0
+      },
+      {
+        "field": "moorl_manufacturer.name",
+        "order": "asc",
+        "priority": 1,
+        "naturalSorting": 0
+      }
+    ]
+  }
+]

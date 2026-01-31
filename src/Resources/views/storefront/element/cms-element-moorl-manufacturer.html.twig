@@ -1,0 +1,71 @@
+{% set manufacturer = page.manufacturer %}
+{% set config = {
+    url: path('frontend.moorl.manufacturer.detail', {manufacturerId: manufacturer.id}),
+    type: manufacturer.type
+} %}
+
+<div
+        class="cms-element-moorl-manufacturer"
+        data-moorl-manufacturer="true"
+        data-moorl-manufacturer-options="{{ config|json_encode }}"
+>
+    <div class="product-detail-configurator-container">
+        <div class="product-detail-configurator">
+            <form>
+                {% for filter in manufacturer.getFilters %}
+                    {% if not filter.fixed %}
+                        {% sw_include "@MoorlManufacturer/plugin/moorl-manufacturer/component/configurator.html.twig" with {
+                            configuratorSettings: filter.propertyGroupOptions.groupByPropertyGroups,
+                            logical: filter.logical,
+                            identifier: filter.id,
+                            accessoryList: page.partsList.filterByProductStreamIds(filter.productStreamIds)
+                        } %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if partsList.count > 0 %}
+                    <fieldset
+                            data-hide-on-load
+                            id="accessoryList"
+                            class="mb-3"
+                            style="display: none"
+                    >
+                        <legend class="h3">
+                            {% if manufacturer.type == 'calculator' %}
+                                {{ "moorl-manufacturer.accessoryList"|trans }}
+                            {% else %}
+                                {{ "moorl-manufacturer.partsList"|trans }}
+                            {% endif %}
+                        </legend>
+
+                        <div data-content></div>
+                    </fieldset>
+                {% endif %}
+            </form>
+        </div>
+    </div>
+
+    <div
+            data-hide-on-load
+            class="d-grid my-3"
+            style="display: none"
+    >
+        <button
+                class="js-load-button btn btn-outline-primary"
+                aria-label="{{ "moorl-manufacturer.load"|trans }}"
+        >
+            {{ "moorl-manufacturer.load"|trans }}
+        </button>
+    </div>
+
+    <fieldset
+            id="partsList"
+            style="display: none"
+    >
+        <legend class="h3">
+            {{ "moorl-manufacturer.calculatedPartsList"|trans }}
+        </legend>
+
+        <div data-content></div>
+    </fieldset>
+</div>

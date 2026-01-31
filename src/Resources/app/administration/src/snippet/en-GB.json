@@ -1,0 +1,19 @@
+{
+    "sw-seo-url-template-card": {
+        "routeNames": {
+            "frontend-moorl-manufacturer-detail": "Parts list configurator"
+        }
+    },
+    "global": {
+        "entities": {
+            "moorl_manufacturer": "Parts list configurators",
+            "moorl_manufacturer_filter": "Configurator filters"
+        }
+    },
+    "moorl-manufacturer": {
+        "type": {
+            "calculator": "Parts list calculator",
+            "filter": "Parts list filter"
+        }
+    }
+}

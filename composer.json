@@ -1,0 +1,41 @@
+{
+    "name": "moorl/manufacturer",
+    "description": "Extended Manufacturer",
+    "version": "1.7.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "moori"
+        }
+    ],
+    "require": {
+        "shopware/core": "~6.7.0",
+        "moorl/foundation": "~1.7.46"
+    },
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "Moorl\\Manufacturer\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Moorl\\Manufacturer\\MoorlManufacturer",
+        "copyright": "(c) by moori",
+        "label": {
+            "de-DE": "Erweiterte Hersteller",
+            "en-GB": "Extended Manufacturer"
+        },
+        "description": {
+            "de-DE": "Mit dem Stücklisten Konfigurator lassen sich basierend auf Kompatibilitätsregeln einfache Konfiguratoren erstellen, die anhand vordefinierten Kriterien eine Stückliste zusammen stellt.",
+            "en-GB": "The Parts List (BOM) Configurator allows you to create simple configurators based on compatibility rules, which compile a parts list using predefined criteria."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://docs.moori.net/",
+            "en-GB": "https://docs.moori.net/"
+        },
+        "supportLink": {
+            "de-DE": "https://docs.moori.net/",
+            "en-GB": "https://docs.moori.net/"
+        }
+    }
+}

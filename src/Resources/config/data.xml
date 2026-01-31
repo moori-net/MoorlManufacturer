@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<container xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://symfony.com/schema/dic/services"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        https://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <!-- priority > 1000 = run after activation (Plugin Data) -->
+        <service id="Moorl\Manufacturer\Data\Data">
+            <tag name="moorl.foundation.data" priority="1001"/>
+        </service>
+
+        <!-- priority <= 1000 = run manually (Demo Data) -->
+        <service id="Moorl\Manufacturer\Demo\Standard\DemoStandard">
+            <tag name="moorl.foundation.data" priority="0"/>
+        </service>
+    </services>
+</container>

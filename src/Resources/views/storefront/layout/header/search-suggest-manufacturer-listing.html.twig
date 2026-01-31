@@ -1,0 +1,17 @@
+{% sw_extends '@MoorlFoundation/plugin/moorl-foundation/search-suggest.html.twig' %}
+
+{% block moorl_foundation_listing_item %}
+    {% sw_include '@MoorlFoundation/plugin/moorl-foundation/listing-item.html.twig' with {
+        url: seoUrl('frontend.moorl.manufacturer.detail', {manufacturerId: item.id}),
+        media: item.cover.media,
+        title: item.translated.name,
+        description: item.translated.teaser
+    } %}
+{% endblock %}
+
+{% block moorl_foundation_listing %}
+    {% set searchResult = moorlSearchResult %}
+    {% set config = moorlSearchResult.elementConfig %}
+
+    {{ parent() }}
+{% endblock %}

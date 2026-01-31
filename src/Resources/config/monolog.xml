@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:monolog="http://symfony.com/schema/dic/monolog">
+    <monolog:config>
+        <monolog:channel>moorl_manufacturer_channel</monolog:channel>
+        <monolog:handler name="moorlManufacturerLogHandler"
+                         type="rotating_file"
+                         path="%kernel.logs_dir%/moorl_manufacturer_%kernel.environment%.log">
+            <monolog:channels>
+                <monolog:channel>moorl_manufacturer_channel</monolog:channel>
+            </monolog:channels>
+        </monolog:handler>
+    </monolog:config>
+
+    <services>
+        <service id="moorl.manufacturer.logger" class="MoorlFoundation\Core\Service\LoggerService" public="true">
+            <argument type="service" id="monolog.logger.moorl_manufacturer_channel"/>
+        </service>
+    </services>
+</container>
