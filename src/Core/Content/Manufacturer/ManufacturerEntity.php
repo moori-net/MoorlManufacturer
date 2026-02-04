@@ -16,7 +16,6 @@ class ManufacturerEntity extends Entity
     use EntityCustomFieldsTrait;
     use EntityThingMetaTrait;
     use EntityThingPageTrait;
-    use EntityThingBaseTrait;
 
     protected bool $active = false;
     protected ?string $coverId = null;

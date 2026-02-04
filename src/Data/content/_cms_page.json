@@ -1,8 +1,8 @@
 [
     {
-        "name": "Parts list configurator default",
+        "name": "Extended manufacturer default",
         "type": "manufacturer_detail",
-        "id": "Moorl\\Manufacturer\\MoorlManufacturer::CMS_PAGE_PARTS_LIST_CONFIGURATOR_DEFAULT_ID",
+        "id": "Moorl\\Manufacturer\\MoorlManufacturer::CMS_PAGE_MANUFACTURER_DEFAULT_ID",
         "sections": [
             {
                 "position": 0,

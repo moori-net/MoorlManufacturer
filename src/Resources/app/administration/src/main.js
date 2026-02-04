@@ -18,7 +18,9 @@ onMoorlFoundationReady(() => {
         ],
         pluginName: 'MoorlManufacturer',
         demoName: 'standard',
-        entityMapping: {},
+        entityMapping: {
+            productManufacturer: {tab: 'general', card: 'general', order: 'first'}
+        },
         cmsElements: [
             {
                 name: 'manufacturer-listing',

@@ -56,7 +56,7 @@ class Data extends DataExtension implements DataInterface
     public function getLocalReplacers(): array
     {
         return [
-            '{CMS_PAGE_PARTS_LIST_CONFIGURATOR_DEFAULT_ID}' => MoorlManufacturer::CMS_PAGE_PARTS_LIST_CONFIGURATOR_DEFAULT_ID,
+            '{CMS_PAGE_MANUFACTURER_DEFAULT_ID}' => MoorlManufacturer::CMS_PAGE_MANUFACTURER_DEFAULT_ID,
             '{SEO_ROUTE_NAME}' => ManufacturerSeoUrlRoute::ROUTE_NAME,
             '{SEO_DEFAULT_TEMPLATE}' => ManufacturerSeoUrlRoute::DEFAULT_TEMPLATE,
             '{MAIN_ENTITY}' => ManufacturerDefinition::ENTITY_NAME,
@@ -66,7 +66,7 @@ class Data extends DataExtension implements DataInterface
     public function getPreInstallQueries(): array
     {
         return [
-            "UPDATE `cms_page` SET `locked` = '0' WHERE `id` = UNHEX('{CMS_PAGE_PARTS_LIST_CONFIGURATOR_DEFAULT_ID}');"
+            "UPDATE `cms_page` SET `locked` = '0' WHERE `id` = UNHEX('{CMS_PAGE_MANUFACTURER_DEFAULT_ID}');"
         ];
     }
 

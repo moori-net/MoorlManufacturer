@@ -10,7 +10,7 @@ use Shopware\Core\Framework\Plugin\Context\UpdateContext;
 
 class MoorlManufacturer extends Plugin
 {
-    final public const CMS_PAGE_PARTS_LIST_CONFIGURATOR_DEFAULT_ID = 'e48001efe482dda2a0970ff518315ec7';
+    final public const CMS_PAGE_MANUFACTURER_DEFAULT_ID = 'e48001efe482dda2a1970ff518a15eb7';
     final public const NAME = 'MoorlManufacturer';
     final public const DATA_CREATED_AT = '2025-01-29 00:00:00.000';
     final public const PLUGIN_TABLES = [

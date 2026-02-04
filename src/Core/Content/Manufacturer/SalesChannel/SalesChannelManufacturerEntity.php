@@ -11,7 +11,7 @@ class SalesChannelManufacturerEntity extends ManufacturerEntity
     protected array $currentOptionIds = [];
     public function getCmsPageId(): ?string
     {
-        return $this->cmsPageId ?: MoorlManufacturer::CMS_PAGE_PARTS_LIST_CONFIGURATOR_DEFAULT_ID;
+        return $this->cmsPageId ?: MoorlManufacturer::CMS_PAGE_MANUFACTURER_DEFAULT_ID;
     }
 
     public function getCurrentOptionIds(): array

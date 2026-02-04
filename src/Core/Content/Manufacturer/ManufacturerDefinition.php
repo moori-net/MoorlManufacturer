@@ -2,6 +2,8 @@
 
 namespace Moorl\Manufacturer\Core\Content\Manufacturer;
 
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldAddressCollection;
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldContactCollection;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldEntityCollection;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldMediaGalleryMediaCollection;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldMultiEntityCollection;
@@ -9,6 +11,7 @@ use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldThingCol
 use Shopware\Core\Content\Product\Aggregate\ProductManufacturer\ProductManufacturerDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\Flag\Required;
+use Shopware\Core\Framework\DataAbstractionLayer\Field\Flag\WriteProtected;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\IntField;
 use Shopware\Core\Framework\DataAbstractionLayer\FieldCollection;
 
@@ -47,9 +50,11 @@ class ManufacturerDefinition extends EntityDefinition
                 translationReferenceClass: ManufacturerTranslationDefinition::class
             ),
             [
-                (new IntField('product_count', 'productCount'))->addFlags(),
+                (new IntField('product_count', 'productCount'))->addFlags(new WriteProtected()),
             ],
             FieldThingCollection::getFieldItems(media: false),
+            FieldAddressCollection::getFieldItems(),
+            FieldContactCollection::getFieldItems(),
             FieldMediaGalleryMediaCollection::getFieldItems(
                 localClass: self::class,
                 mediaReferenceClass: ManufacturerMediaDefinition::class
