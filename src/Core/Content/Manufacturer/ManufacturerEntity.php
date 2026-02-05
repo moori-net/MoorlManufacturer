@@ -18,6 +18,4 @@ class ManufacturerEntity extends Entity
     use EntityThingPageTrait;
     use EntityActiveTrait;
     use EntityProductManufacturerTrait;
-
-    protected string $name = "";
 }

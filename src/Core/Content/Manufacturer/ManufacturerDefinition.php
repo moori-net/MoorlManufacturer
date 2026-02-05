@@ -50,7 +50,7 @@ class ManufacturerDefinition extends EntityDefinition
                 translationReferenceClass: ManufacturerTranslationDefinition::class
             ),
             [
-                (new IntField('product_count', 'productCount'))->addFlags(new WriteProtected()),
+                (new IntField('product_count', 'productCount'))->addFlags(new WriteProtected())
             ],
             FieldThingCollection::getFieldItems(thingBanner: true, thingAvatar: true, media: false),
             FieldAddressCollection::getFieldItems(),
