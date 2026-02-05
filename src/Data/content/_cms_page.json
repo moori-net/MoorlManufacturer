@@ -132,7 +132,7 @@
                     "source": "static"
                   },
                   "listingSorting": {
-                    "value": "9fd97f750e0a0f3a22091bc51810b4d5",
+                    "value": null,
                     "source": "static"
                   },
                   "navigationDots": {
@@ -352,7 +352,7 @@
                   },
                   "listingSorting": {
                     "source": "static",
-                    "value": "9fd97f750e0a0f3a22091bc51810b4d5"
+                    "value": null
                   },
                   "listingItemIds": {
                     "source": "static",

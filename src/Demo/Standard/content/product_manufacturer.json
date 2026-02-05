@@ -4,7 +4,7 @@
     "link": "https://www.audi.de/",
     "name": "Audi",
     "description": "{LOREM_IPSUM_50}",
-    "mediaId": "{MEDIA_FILE:product_manufacturer/audi.png}"
+    "mediaId": "{MEDIA_FILE:product_manufacturer/audi.jpg}"
   },
   {
     "id": "{ID:PRODUCT_MANUFACTURER_BENTLEY}",
