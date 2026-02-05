@@ -18,6 +18,7 @@ class ManufacturerDefinition extends EntityDefinition
 {
     final public const ENTITY_NAME = 'moorl_manufacturer';
     final public const PROPERTY_NAME = 'manufacturer';
+    final public const EXTENSION_COLLECTION_NAME = 'moorlManufacturers';
 
     public function getEntityName(): string
     {
