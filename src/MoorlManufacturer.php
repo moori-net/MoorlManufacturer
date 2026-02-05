@@ -18,6 +18,7 @@ class MoorlManufacturer extends Plugin
         'moorl_manufacturer_translation'
     ];
     final public const SHOPWARE_TABLES = [
+        'seo_url_template',
         'moorl_sorting',
         'cms_page',
         'cms_page_translation',

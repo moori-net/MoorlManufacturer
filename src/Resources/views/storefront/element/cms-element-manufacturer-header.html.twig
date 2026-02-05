@@ -3,7 +3,10 @@
 
     <div class="cms-element-manufacturer-header">
         {% block manufacturer_page_header_banner %}
-            <div class="moorl-manufacturer-banner">
+            <div
+                    class="moorl-manufacturer-banner"
+                    {% if manufacturer.bannerColor %}style="background-color:{{ manufacturer.bannerColor }}"{% endif %}
+            >
                 {% if manufacturer.banner %}
                     {% sw_thumbnails 'manufacturer-banner' with {
                         media: manufacturer.banner,
@@ -21,25 +24,11 @@
             <div class="container p-0">
                 <div class="row">
                     {% block manufacturer_page_header_avatar %}
-                        {% if manufacturer.avatar %}
+                        {% if manufacturer.avatar or manufacturer.productManufacturer.media %}
                             <div class="col-auto">
                                 <div class="moorl-manufacturer-avatar">
                                     {% sw_thumbnails 'manufacturer-avatar' with {
-                                        media: manufacturer.avatar,
-                                        attributes: {
-                                            'itemprop': 'image',
-                                            'class': '',
-                                            'alt': manufacturer.translated.name,
-                                            'title': manufacturer.translated.name
-                                        }
-                                    } %}
-                                </div>
-                            </div>
-                        {% elseif manufacturer.productManufacturer.media %}
-                            <div class="col-auto">
-                                <div class="moorl-manufacturer-avatar">
-                                    {% sw_thumbnails 'manufacturer-avatar' with {
-                                        media: manufacturer.productManufacturer.media,
+                                        media: manufacturer.avatar ?: manufacturer.productManufacturer.media,
                                         attributes: {
                                             'itemprop': 'image',
                                             'class': '',
@@ -56,6 +45,9 @@
                             <h1 class="moorl-manufacturer-title">
                                 <span itemprop="name">{{ manufacturer.translated.name }}</span>
                             </h1>
+                            <p>
+                                <small>{{ manufacturer.productCount }} {{ "moorl-manufacturer.products"|trans }}</small>
+                            </p>
                         {% endblock %}
 
                         {% block manufacturer_page_header_description %}

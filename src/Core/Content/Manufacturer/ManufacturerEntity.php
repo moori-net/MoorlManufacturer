@@ -3,6 +3,7 @@
 namespace Moorl\Manufacturer\Core\Content\Manufacturer;
 
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityActiveTrait;
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityBannerTrait;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityProductManufacturerTrait;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityThingMetaTrait;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityThingPageTrait;
@@ -18,4 +19,17 @@ class ManufacturerEntity extends Entity
     use EntityThingPageTrait;
     use EntityActiveTrait;
     use EntityProductManufacturerTrait;
+    use EntityBannerTrait;
+
+    protected int $productCount = 0;
+
+    public function getProductCount(): int
+    {
+        return $this->productCount;
+    }
+
+    public function setProductCount(int $productCount): void
+    {
+        $this->productCount = $productCount;
+    }
 }

@@ -1,6 +1,7 @@
 {
     "moorl-manufacturer": {
         "manufacturers": "Manufacturers",
-        "link": "Manufacturer Website"
+        "link": "Manufacturer Website",
+        "products": "Products"
     }
 }
