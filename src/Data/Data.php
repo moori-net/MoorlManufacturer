@@ -62,18 +62,4 @@ class Data extends DataExtension implements DataInterface
             '{MAIN_ENTITY}' => ManufacturerDefinition::ENTITY_NAME,
         ];
     }
-
-    public function getPreInstallQueries(): array
-    {
-        return [
-            "UPDATE `cms_page` SET `locked` = '0' WHERE `id` = UNHEX('{CMS_PAGE_MANUFACTURER_DEFAULT_ID}');"
-        ];
-    }
-
-    public function getInstallQueries(): array
-    {
-        return [
-            "INSERT IGNORE INTO `seo_url_template` (`id`,`is_valid`,`route_name`,`entity_name`,`template`,`created_at`) VALUES (UNHEX('{ID:SEO_URL_1}'),1,'{SEO_ROUTE_NAME}','{MAIN_ENTITY}','{SEO_DEFAULT_TEMPLATE}','{DATA_CREATED_AT}');"
-        ];
-    }
 }

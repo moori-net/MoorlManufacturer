@@ -9,11 +9,6 @@
     </imports>
 
     <services>
-        <service id="Moorl\Manufacturer\Core\Service\PartsListService" public="true">
-            <argument type="service" id="Shopware\Core\Framework\DataAbstractionLayer\DefinitionInstanceRegistry"/>
-            <argument type="service" id="moorl.manufacturer.logger"/>
-        </service>
-
         <!-- Entities -->
         <service id="Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerDefinition">
             <tag name="shopware.entity.definition" entity="moorl_manufacturer"/>
@@ -98,23 +93,6 @@
             <argument type="service" id="Shopware\Core\Content\Product\SalesChannel\Listing\ProductListingRoute"/>
 
             <tag name="shopware.cms.data_resolver"/>
-        </service>
-
-        <!-- Calculators -->
-        <service id="Moorl\Manufacturer\Core\Calculator\CoreCalculator">
-            <tag name="moorl.manufacturer.calculator"/>
-        </service>
-
-        <service id="Moorl\Manufacturer\Core\Calculator\DemoFenceCalculator">
-            <argument type="service" id="Moorl\Manufacturer\Core\Service\PartsListService"/>
-
-            <tag name="moorl.manufacturer.calculator"/>
-        </service>
-
-        <service id="Moorl\Manufacturer\Core\Calculator\DemoFenceCalculator2">
-            <argument type="service" id="Moorl\Manufacturer\Core\Service\PartsListService"/>
-
-            <tag name="moorl.manufacturer.calculator"/>
         </service>
     </services>
 </container>

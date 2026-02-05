@@ -28,7 +28,6 @@ SQL;
         // Try to execute all queries at once
         try {
             $connection->executeStatement($sql);
-            $this->additionalCustomUpdate($connection);
             return;
         } catch (\Exception) {
             if (!class_exists(EntityDefinitionQueryHelper::class)) {
@@ -51,17 +50,5 @@ SQL;
             $sql = "ALTER TABLE moorl_manufacturer_translation ADD CONSTRAINT `fk.moorl_manufacturer_translation.language_id` FOREIGN KEY (language_id) REFERENCES language (id) ON UPDATE CASCADE ON DELETE CASCADE;";
             EntityDefinitionQueryHelper::tryExecuteStatement($connection, $sql, 'moorl_manufacturer_translation');
         }
-
-        $this->additionalCustomUpdate($connection);
-    }
-
-    public function updateDestructive(Connection $connection): void
-    {
-        // Add destructive update if necessary
-    }
-
-    private function additionalCustomUpdate(Connection $connection): void
-    {
-        // Add custom update if necessary
     }
 }

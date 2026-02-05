@@ -16,10 +16,7 @@ class SalesChannelManufacturerDefinition extends ManufacturerDefinition implemen
 
     public function processCriteria(Criteria $criteria, SalesChannelContext $context): void
     {
-        $criteria->addAssociation('media');
-        $criteria->addAssociation('cover.media');
         $criteria->addAssociation('productManufacturer.media');
-        $criteria->addAssociation('manufacturerProductStreams');
 
         if (!$this->hasAvailableFilter($criteria)) {
             $criteria->addFilter(

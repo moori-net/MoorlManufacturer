@@ -65,7 +65,7 @@ class ManufacturerUrlProvider extends AbstractUrlProvider
             if (isset($seoUrls[$entity->getId()])) {
                 $newUrl->setLoc($seoUrls[$entity->getId()]['seo_path_info']);
             } else {
-                $newUrl->setLoc($this->router->generate('frontend.moorl.gtl.look.detail', ['manufacturerId' => $entity->getId()], UrlGeneratorInterface::ABSOLUTE_PATH));
+                $newUrl->setLoc($this->router->generate('frontend.moorl.manufacturer.detail', ['manufacturerId' => $entity->getId()], UrlGeneratorInterface::ABSOLUTE_PATH));
             }
 
             $newUrl->setLastmod($lastMod);
