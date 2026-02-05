@@ -68,7 +68,6 @@ class ManufacturerListing extends EntityListingExtension implements EntityListin
 
     public function processCriteria(Criteria $criteria): void
     {
-        $criteria->addAssociation('cover');
         $criteria->addFilter(new ManufacturerAvailableFilter($this->salesChannelContext));
 
         if ($this->event instanceof ProductSuggestResultEvent) {
