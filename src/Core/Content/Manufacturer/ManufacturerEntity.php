@@ -3,6 +3,7 @@
 namespace Moorl\Manufacturer\Core\Content\Manufacturer;
 
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityActiveTrait;
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityAvatarTrait;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityBannerTrait;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityProductManufacturerTrait;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityThingMetaTrait;
@@ -20,6 +21,7 @@ class ManufacturerEntity extends Entity
     use EntityActiveTrait;
     use EntityProductManufacturerTrait;
     use EntityBannerTrait;
+    use EntityAvatarTrait;
 
     protected int $productCount = 0;
 
