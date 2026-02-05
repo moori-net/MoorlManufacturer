@@ -27,9 +27,9 @@ onMoorlFoundationReady(() => {
                 parent: 'listing',
                 icon: 'regular-view-grid',
                 cmsElementEntity: {
-                    associations: ['cover.media'],
+                    associations: ['avatar'],
                     propertyMapping: {
-                        media: 'cover.media',
+                        media: 'avatar',
                         name: ['translated.name', 'name'],
                         description: ['translated.teaser', 'teaser'],
                     },

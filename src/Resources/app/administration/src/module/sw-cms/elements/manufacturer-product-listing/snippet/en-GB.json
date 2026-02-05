@@ -1,7 +1,7 @@
 {
     "sw-cms": {
         "elements": {
-            "creator-product-listing": {
+            "manufacturer-product-listing": {
                 "name": "Product listing"
             }
         }

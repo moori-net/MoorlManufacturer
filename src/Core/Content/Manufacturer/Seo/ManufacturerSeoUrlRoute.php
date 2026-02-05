@@ -14,7 +14,7 @@ use Shopware\Core\System\SalesChannel\SalesChannelEntity;
 class ManufacturerSeoUrlRoute implements SeoUrlRouteInterface
 {
     final public const ROUTE_NAME = 'frontend.moorl.manufacturer.detail';
-    final public const DEFAULT_TEMPLATE = 'configurator/{{ manufacturer.translated.name }}';
+    final public const DEFAULT_TEMPLATE = 'manufacturer/{{ manufacturer.translated.name }}';
 
     public function __construct(private readonly ManufacturerDefinition $entityDefinition)
     {

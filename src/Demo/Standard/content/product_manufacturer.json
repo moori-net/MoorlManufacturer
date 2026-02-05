@@ -1,0 +1,135 @@
+[
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "link": "https://www.audi.de/",
+    "name": "Audi",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/audi.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_BENTLEY}",
+    "link": "https://www.bentleymotors.com/",
+    "name": "Bentley",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/bentley.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_BMW}",
+    "link": "https://www.bmw.de/",
+    "name": "BMW",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/bmw.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_CHEVROLET}",
+    "link": "https://www.chevrolet.de/",
+    "name": "Chevrolet",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/chevrolet.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_DAIHATSU}",
+    "link": "https://www.daihatsu.de/",
+    "name": "Daihatsu",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/daihatsu.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_FIAT}",
+    "link": "https://www.fiat.de/",
+    "name": "FIAT",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/fiat.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_FORD}",
+    "link": "https://www.ford.de/",
+    "name": "Ford",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/ford.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_GMC}",
+    "link": "https://www.gmc.com/",
+    "name": "GMC",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/gmc.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_HONDA}",
+    "link": "https://www.honda.de/",
+    "name": "Honda",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/honda.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_LANDROVER}",
+    "link": "https://www.landrover.de/",
+    "name": "Landrover",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/landrover.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_LEXUS}",
+    "link": "https://www.lexus.de/",
+    "name": "Lexus",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/lexus.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_MERCEDES}",
+    "link": "https://www.mercedes.de/",
+    "name": "Mercedes Benz",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/mercedes.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_NISSAN}",
+    "link": "https://www.nissan.de/",
+    "name": "Nissan",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/nissan.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_PEUGEOT}",
+    "link": "https://www.peugeot.de/",
+    "name": "Peugeot",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/peugeot.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_PORSCHE}",
+    "link": "https://www.porsche.de/",
+    "name": "Porsche",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/porsche.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_TESLA}",
+    "link": "https://www.tesla.com/",
+    "name": "Tesla",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/tesla.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_TOYOTA}",
+    "link": "https://www.toyota.de/",
+    "name": "Toyota",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/toyota.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "link": "https://www.volkswagen.de/",
+    "name": "Volkswagen",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/volkswagen.png}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_VOLVO}",
+    "link": "https://www.volvo.de/",
+    "name": "Volvo",
+    "description": "{LOREM_IPSUM_50}",
+    "mediaId": "{MEDIA_FILE:product_manufacturer/volvo.png}"
+  }
+]

@@ -15,10 +15,10 @@ class MoorlManufacturer extends Plugin
     final public const DATA_CREATED_AT = '2025-01-29 00:00:00.000';
     final public const PLUGIN_TABLES = [
         'moorl_manufacturer',
-        'moorl_manufacturer_translation',
-        'moorl_manufacturer_media',
+        'moorl_manufacturer_translation'
     ];
     final public const SHOPWARE_TABLES = [
+        'moorl_sorting',
         'cms_page',
         'cms_page_translation',
         'cms_section',
@@ -28,6 +28,7 @@ class MoorlManufacturer extends Plugin
         'seo_url',
         'property_group',
         'product_stream', /* Insert before products because indexing */
+        'product_manufacturer',
         'product',
         'product_translation',
         'product_category',

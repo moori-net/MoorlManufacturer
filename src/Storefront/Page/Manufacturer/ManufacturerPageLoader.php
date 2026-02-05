@@ -37,7 +37,7 @@ class ManufacturerPageLoader
         }
 
         $criteria = new Criteria();
-        $criteria->addFilter(new EqualsFilter('manufacturerId', $manufacturerId));
+        $criteria->addFilter(new EqualsFilter('manufacturerId', $manufacturer->getProductManufacturerId()));
         $result = $this->productListingRoute->load(
             $salesChannelContext->getSalesChannel()->getNavigationCategoryId(),
             $request,

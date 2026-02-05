@@ -1,394 +1,626 @@
 [
-    {
-        "id": "{ID:PRODUCT_FENCE_656_1000}",
-        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
-        "active": true,
-        "translations": {
-            "{de-DE}": {
-                "name": "Zaunmatten - 1000mm (6/5/6)"
-            },
-            "{en-GB}": {
-                "name": "Fence panel - 1000mm (6/5/6)"
-            }
-        },
-        "productNumber": "FENCE_656_1000",
-        "stock": 100,
-        "taxId": "{TAX_ID_STANDARD}",
-        "price": "{PRICE:50|S}",
-        "visibilities": [
-            {
-                "salesChannelId": "{SALES_CHANNEL_ID}",
-                "visibility": 30
-            }
-        ],
-        "categories": [
-            {
-                "id": "{ID:CATEGORY_PARTS_LIST_FENCES}"
-            }
-        ],
-        "cover": {
-            "mediaId": "{MEDIA_FILE:product/fence-green-example.jpeg}"
-        },
-        "properties": [
-            {"id": "{MD5:LINE_656}"},
-            {"id": "{MD5:LENGTH_1000}"}
-        ],
-        "configuratorSettings": [
-            {"id": "{ID:PRODUCT_FENCE_656_1000.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
-            {"id": "{ID:PRODUCT_FENCE_656_1000.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
-            {"id": "{ID:PRODUCT_FENCE_656_1000.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
-            {"id": "{ID:PRODUCT_FENCE_656_1000.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}"},
-            {"id": "{ID:PRODUCT_FENCE_656_1000.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 112.5},
-            {"id": "{ID:PRODUCT_FENCE_656_1000.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 125},
-            {"id": "{ID:PRODUCT_FENCE_656_1000.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 150}
-        ]
-    },
-    {
-        "id": "{ID:PRODUCT_FENCE_656_2500}",
-        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
-        "active": true,
-        "translations": {
-            "{de-DE}": {
-                "name": "Zaunmatten - 2500mm (6/5/6)"
-            },
-            "{en-GB}": {
-                "name": "Fence panel - 2500mm (6/5/6)"
-            }
-        },
-        "productNumber": "FENCE_656_2500",
-        "stock": 100,
-        "taxId": "{TAX_ID_STANDARD}",
-        "price": "{PRICE:150|S}",
-        "visibilities": [
-            {
-                "salesChannelId": "{SALES_CHANNEL_ID}",
-                "visibility": 30
-            }
-        ],
-        "categories": [
-            {
-                "id": "{ID:CATEGORY_PARTS_LIST_FENCES}"
-            }
-        ],
-        "cover": {
-            "mediaId": "{MEDIA_FILE:product/fence-green-example.jpeg}"
-        },
-        "properties": [
-            {"id": "{MD5:LINE_656}"},
-            {"id": "{MD5:LENGTH_2500}"}
-        ],
-        "configuratorSettings": [
-            {"id": "{ID:PRODUCT_FENCE_656_2500.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
-            {"id": "{ID:PRODUCT_FENCE_656_2500.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
-            {"id": "{ID:PRODUCT_FENCE_656_2500.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
-            {"id": "{ID:PRODUCT_FENCE_656_2500.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}"},
-            {"id": "{ID:PRODUCT_FENCE_656_2500.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 112.5},
-            {"id": "{ID:PRODUCT_FENCE_656_2500.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 125},
-            {"id": "{ID:PRODUCT_FENCE_656_2500.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 150}
-        ]
-    },
-    {
-        "id": "{ID:PRODUCT_FENCE_868}",
-        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
-        "active": true,
-        "translations": {
-            "{de-DE}": {
-                "name": "Zaunmatten (8/6/8)"
-            },
-            "{en-GB}": {
-                "name": "Fence panel (8/6/8)"
-            }
-        },
-        "productNumber": "FENCE_868",
-        "stock": 100,
-        "taxId": "{TAX_ID_STANDARD}",
-        "price": "{PRICE:70|S}",
-        "visibilities": [
-            {
-                "salesChannelId": "{SALES_CHANNEL_ID}",
-                "visibility": 30
-            }
-        ],
-        "categories": [
-            {
-                "id": "{ID:CATEGORY_PARTS_LIST_FENCES}"
-            }
-        ],
-        "cover": {
-            "mediaId": "{MEDIA_FILE:product/fence-green-example.jpeg}"
-        },
-        "properties": [
-            {"id": "{MD5:LINE_868}"}
-        ],
-        "configuratorSettings": [
-            {"id": "{ID:PRODUCT_FENCE_868.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
-            {"id": "{ID:PRODUCT_FENCE_868.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
-            {"id": "{ID:PRODUCT_FENCE_868.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
-            {"id": "{ID:PRODUCT_FENCE_868.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}"},
-            {"id": "{ID:PRODUCT_FENCE_868.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 112.5},
-            {"id": "{ID:PRODUCT_FENCE_868.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 125},
-            {"id": "{ID:PRODUCT_FENCE_868.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 150},
-            {"id": "{ID:PRODUCT_FENCE_868.LENGTH_1000}", "optionId": "{MD5:LENGTH_1000}"},
-            {"id": "{ID:PRODUCT_FENCE_868.LENGTH_2500}", "optionId": "{MD5:LENGTH_2500}", "_price": 200}
-        ]
-    },
-    {
-        "id": "{ID:PRODUCT_POST_SMALL}",
-        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
-        "active": true,
-        "translations": {
-            "{de-DE}": {
-                "name": "Pfosten (Klein)"
-            },
-            "{en-GB}": {
-                "name": "Post (Small)"
-            }
-        },
-        "productNumber": "POST_SMALL",
-        "stock": 100,
-        "taxId": "{TAX_ID_STANDARD}",
-        "price": "{PRICE:20|S}",
-        "visibilities": [
-            {
-                "salesChannelId": "{SALES_CHANNEL_ID}",
-                "visibility": 30
-            }
-        ],
-        "categories": [
-            {
-                "id": "{ID:CATEGORY_PARTS_LIST_POSTS}"
-            }
-        ],
-        "cover": {
-            "mediaId": "{MEDIA_FILE:product/fence-post.jpg}"
-        },
-        "properties": [
-            {"id": "{MD5:LINE_656}"},
-            {"id": "{MD5:LINE_868}"}
-        ],
-        "configuratorSettings": [
-            {"id": "{ID:PRODUCT_POST_SMALL.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
-            {"id": "{ID:PRODUCT_POST_SMALL.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
-            {"id": "{ID:PRODUCT_POST_SMALL.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
-            {"id": "{ID:PRODUCT_POST_SMALL.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}", "_price": 112.5},
-            {"id": "{ID:PRODUCT_POST_SMALL.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 125},
-            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_MOUNTING_COVER}", "optionId": "{MD5:PARTS_LIST_POST_MOUNTING_COVER}", "_price": 105},
-            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_MOUNTING_CLAMPS}", "optionId": "{MD5:PARTS_LIST_POST_MOUNTING_CLAMPS}"},
-            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}"},
-            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "_price": 105},
-            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}"},
-            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "_price": 105},
-            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}"},
-            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_TYPE_SIDE}", "optionId": "{MD5:PARTS_LIST_POST_TYPE_SIDE}"},
-            {"id": "{ID:PRODUCT_POST_SMALL.PARTS_LIST_POST_TYPE_CORNER}", "optionId": "{MD5:PARTS_LIST_POST_TYPE_CORNER}", "_price": 105}
-        ]
-    },
-    {
-        "id": "{ID:PRODUCT_POST_LARGE}",
-        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
-        "active": true,
-        "translations": {
-            "{de-DE}": {
-                "name": "Pfosten (Groß)"
-            },
-            "{en-GB}": {
-                "name": "Post (Large)"
-            }
-        },
-        "productNumber": "POST_LARGE",
-        "stock": 100,
-        "taxId": "{TAX_ID_STANDARD}",
-        "price": "{PRICE:30|S}",
-        "visibilities": [
-            {
-                "salesChannelId": "{SALES_CHANNEL_ID}",
-                "visibility": 30
-            }
-        ],
-        "categories": [
-            {
-                "id": "{ID:CATEGORY_PARTS_LIST_POSTS}"
-            }
-        ],
-        "cover": {
-            "mediaId": "{MEDIA_FILE:product/fence-post.jpg}"
-        },
-        "properties": [
-            {"id": "{MD5:LINE_656}"},
-            {"id": "{MD5:LINE_868}"}
-        ],
-        "configuratorSettings": [
-            {"id": "{ID:PRODUCT_POST_LARGE.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
-            {"id": "{ID:PRODUCT_POST_LARGE.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
-            {"id": "{ID:PRODUCT_POST_LARGE.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
-            {"id": "{ID:PRODUCT_POST_LARGE.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 112.5},
-            {"id": "{ID:PRODUCT_POST_LARGE.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 125},
-            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_MOUNTING_COVER}", "optionId": "{MD5:PARTS_LIST_POST_MOUNTING_COVER}", "_price": 105},
-            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_MOUNTING_CLAMPS}", "optionId": "{MD5:PARTS_LIST_POST_MOUNTING_CLAMPS}"},
-            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}"},
-            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "_price": 105},
-            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}"},
-            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "_price": 105},
-            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}"},
-            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_TYPE_SIDE}", "optionId": "{MD5:PARTS_LIST_POST_TYPE_SIDE}"},
-            {"id": "{ID:PRODUCT_POST_LARGE.PARTS_LIST_POST_TYPE_CORNER}", "optionId": "{MD5:PARTS_LIST_POST_TYPE_CORNER}", "_price": 105}
-        ]
-    },
-    {
-        "id": "{ID:PRODUCT_DOOR_SMALL}",
-        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
-        "active": true,
-        "translations": {
-            "{de-DE}": {
-                "name": "Tor (Klein)"
-            },
-            "{en-GB}": {
-                "name": "Gate (Small)"
-            }
-        },
-        "productNumber": "DOOR_SMALL",
-        "stock": 100,
-        "taxId": "{TAX_ID_STANDARD}",
-        "price": "{PRICE:100|S}",
-        "visibilities": [
-            {
-                "salesChannelId": "{SALES_CHANNEL_ID}",
-                "visibility": 30
-            }
-        ],
-        "categories": [
-            {
-                "id": "{ID:CATEGORY_PARTS_LIST_DOORS}"
-            }
-        ],
-        "cover": {
-            "mediaId": "{MEDIA_FILE:product/fence-door.jpg}"
-        },
-        "properties": [
-            {"id": "{MD5:LINE_656}"},
-            {"id": "{MD5:LINE_868}"},
-            {"id": "{MD5:LENGTH_1000}"}
-        ],
-        "configuratorSettings": [
-            {"id": "{ID:PRODUCT_DOOR_SMALL.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
-            {"id": "{ID:PRODUCT_DOOR_SMALL.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
-            {"id": "{ID:PRODUCT_DOOR_SMALL.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
-            {"id": "{ID:PRODUCT_DOOR_SMALL.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}"},
-            {"id": "{ID:PRODUCT_DOOR_SMALL.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 112.5},
-            {"id": "{ID:PRODUCT_DOOR_SMALL.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 125},
-            {"id": "{ID:PRODUCT_DOOR_SMALL.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 150},
-            {"id": "{ID:PRODUCT_DOOR_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}"},
-            {"id": "{ID:PRODUCT_DOOR_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "_price": 105},
-            {"id": "{ID:PRODUCT_DOOR_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}"},
-            {"id": "{ID:PRODUCT_DOOR_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "_price": 105},
-            {"id": "{ID:PRODUCT_DOOR_SMALL.PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}"}
-        ]
-    },
-    {
-        "id": "{ID:PRODUCT_DOOR_LARGE}",
-        "cmsPageId": "{ID:CMS_PAGE_PRODUCT_BOM}",
-        "active": true,
-        "translations": {
-            "{de-DE}": {
-                "name": "Tor (Groß)"
-            },
-            "{en-GB}": {
-                "name": "Gate (Large)"
-            }
-        },
-        "productNumber": "DOOR_LARGE",
-        "stock": 100,
-        "taxId": "{TAX_ID_STANDARD}",
-        "price": "{PRICE:300|S}",
-        "visibilities": [
-            {
-                "salesChannelId": "{SALES_CHANNEL_ID}",
-                "visibility": 30
-            }
-        ],
-        "categories": [
-            {
-                "id": "{ID:CATEGORY_PARTS_LIST_DOORS}"
-            }
-        ],
-        "cover": {
-            "mediaId": "{MEDIA_FILE:product/fence-door.jpg}"
-        },
-        "properties": [
-            {"id": "{MD5:LINE_656}"},
-            {"id": "{MD5:LINE_868}"},
-            {"id": "{MD5:LENGTH_2500}"}
-        ],
-        "configuratorSettings": [
-            {"id": "{ID:PRODUCT_DOOR_LARGE.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}", "_price": 110},
-            {"id": "{ID:PRODUCT_DOOR_LARGE.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}", "_price": 110},
-            {"id": "{ID:PRODUCT_DOOR_LARGE.COLOR_NONE}", "optionId": "{MD5:COLOR_NONE}"},
-            {"id": "{ID:PRODUCT_DOOR_LARGE.HEIGHT_600}", "optionId": "{MD5:HEIGHT_600}"},
-            {"id": "{ID:PRODUCT_DOOR_LARGE.HEIGHT_800}", "optionId": "{MD5:HEIGHT_800}", "_price": 112.5},
-            {"id": "{ID:PRODUCT_DOOR_LARGE.HEIGHT_1000}", "optionId": "{MD5:HEIGHT_1000}", "_price": 125},
-            {"id": "{ID:PRODUCT_DOOR_LARGE.HEIGHT_1200}", "optionId": "{MD5:HEIGHT_1200}", "_price": 150},
-            {"id": "{ID:PRODUCT_DOOR_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE}"},
-            {"id": "{ID:PRODUCT_DOOR_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_CONCRETE_PLUS}", "_price": 105},
-            {"id": "{ID:PRODUCT_DOOR_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL}"},
-            {"id": "{ID:PRODUCT_DOOR_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_DOWEL_L}", "_price": 105},
-            {"id": "{ID:PRODUCT_DOOR_LARGE.PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}", "optionId": "{MD5:PARTS_LIST_POST_FLOOR_MOUNTING_SPIKE}"}
-        ]
-    },
-    {
-        "id": "{ID:PRODUCT_BIT}",
-        "active": true,
-        "name": "Akku Bit 5,5mm",
-        "productNumber": "BIT",
-        "stock": 100,
-        "taxId": "{TAX_ID_STANDARD}",
-        "price": "{PRICE:6|S}",
-        "visibilities": [
-            {
-                "salesChannelId": "{SALES_CHANNEL_ID}",
-                "visibility": 30
-            }
-        ],
-        "categories": [
-            {
-                "id": "{ID:CATEGORY_PARTS_LIST_OPTIONAL_ACCESSORIES}"
-            }
-        ],
-        "cover": {
-            "mediaId": "{MEDIA_FILE:product/bit.jpg}"
-        }
-    },
-    {
-        "id": "{ID:PRODUCT_DOSE}",
-        "active": true,
-        "translations": {
-            "{de-DE}": {
-                "name": "Sprühdose (400ml)"
-            },
-            "{en-GB}": {
-                "name": "Spray (400ml)"
-            }
-        },
-        "productNumber": "DOSE",
-        "stock": 100,
-        "taxId": "{TAX_ID_STANDARD}",
-        "price": "{PRICE:20|S}",
-        "visibilities": [
-            {
-                "salesChannelId": "{SALES_CHANNEL_ID}",
-                "visibility": 30
-            }
-        ],
-        "categories": [
-            {
-                "id": "{ID:CATEGORY_PARTS_LIST_OPTIONAL_ACCESSORIES}"
-            }
-        ],
-        "cover": {
-            "mediaId": "{MEDIA_FILE:product/spruhdose-400ml.jpg}"
-        },
-        "configuratorSettings": [
-            {"id": "{ID:PRODUCT_DOSE.COLOR_RAL_6005}", "optionId": "{MD5:COLOR_RAL_6005}"},
-            {"id": "{ID:PRODUCT_DOSE.COLOR_RAL_7016}", "optionId": "{MD5:COLOR_RAL_7016}"}
-        ]
-    }
+  {
+    "id": "{ID:PRODUCT_1}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA001",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_2}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA002",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_3}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA003",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_4}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA004",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_5}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA005",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_6}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA006",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_7}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA007",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_8}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA008",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_9}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA009",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_10}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA010",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_11}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA011",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_12}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA012",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_13}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA013",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_14}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA014",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_15}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA015",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_16}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA016",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_17}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA017",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_18}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA018",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_19}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA019",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_20}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA020",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_21}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA021",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_22}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA022",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_23}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA023",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_24}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA024",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_25}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA025",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_26}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA026",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_27}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA027",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_28}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA028",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_29}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA029",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_30}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA030",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_31}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA031",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_32}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA032",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_33}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA033",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_34}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA034",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_35}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA035",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_36}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA036",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_37}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA037",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_38}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA038",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_39}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA039",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_40}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA040",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_41}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA041",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_42}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA042",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_43}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA043",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_44}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA044",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_45}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA045",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_46}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA046",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_47}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA047",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  },
+  {
+    "id": "{ID:PRODUCT_48}",
+    "manufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
+    "active": true,
+    "name": "Demo Produkt",
+    "description": "{LOREM_IPSUM_50}",
+    "productNumber": "MMA048",
+    "stock": 100,
+    "taxId": "{TAX_ID_STANDARD}",
+    "price": 10,
+    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+    "categories": [{"id": "{ID:CATEGORY_MANUFACTURER}"}]
+  }
 ]

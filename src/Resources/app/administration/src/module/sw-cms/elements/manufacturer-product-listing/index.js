@@ -2,14 +2,14 @@ import './component';
 import './config';
 
 Shopware.Service('cmsService').registerCmsElement({
-    plugin: 'MoorlCreator',
+    plugin: 'MoorlManufacturer',
     icon: 'regular-view-grid',
     color: '#df9fdf',
-    name: 'creator-product-listing',
-    label: 'sw-cms.elements.creator-product-listing.name',
-    component: 'sw-cms-el-creator-product-listing',
+    name: 'manufacturer-product-listing',
+    label: 'sw-cms.elements.manufacturer-product-listing.name',
+    component: 'sw-cms-el-manufacturer-product-listing',
     previewComponent: true,
-    configComponent: 'sw-cms-el-config-creator-product-listing',
+    configComponent: 'sw-cms-el-config-manufacturer-product-listing',
     defaultConfig: {
         boxLayout: {
             source: 'static',

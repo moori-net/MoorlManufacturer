@@ -1,327 +1,569 @@
 [
-    {
-        "name": "Extended manufacturer default",
-        "type": "manufacturer_detail",
-        "id": "Moorl\\Manufacturer\\MoorlManufacturer::CMS_PAGE_MANUFACTURER_DEFAULT_ID",
-        "sections": [
+  {
+    "name": "Extended manufacturer default",
+    "type": "manufacturer_detail",
+    "id": "Moorl\\Manufacturer\\MoorlManufacturer::CMS_PAGE_MANUFACTURER_DEFAULT_ID",
+    "sections": [
+      {
+        "position": 0,
+        "type": "default",
+        "sizingMode": "full_width",
+        "backgroundMediaMode": "cover",
+        "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SECTION_1}",
+        "blocks": [
+          {
+            "position": 0,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "main",
+            "marginTop": "0",
+            "marginBottom": "60px",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundMediaMode": "cover",
+            "customFields": {},
+            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_1}",
+            "slots": [
+              {
+                "type": "manufacturer-header",
+                "slot": "slot-a",
+                "config": {
+                  "mode": {
+                    "value": "carousel",
+                    "source": "static"
+                  },
+                  "limit": {
+                    "value": 12,
+                    "source": "static"
+                  },
+                  "speed": {
+                    "value": 1000,
+                    "source": "static"
+                  },
+                  "gapSize": {
+                    "value": "20px",
+                    "source": "static"
+                  },
+                  "autoplay": {
+                    "value": true,
+                    "source": "static"
+                  },
+                  "animateIn": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "hasButton": {
+                    "value": true,
+                    "source": "static"
+                  },
+                  "itemWidth": {
+                    "value": "300px",
+                    "source": "static"
+                  },
+                  "mouseDrag": {
+                    "value": false,
+                    "source": "static"
+                  },
+                  "textAlign": {
+                    "value": "left",
+                    "source": "static"
+                  },
+                  "urlNewTab": {
+                    "value": true,
+                    "source": "static"
+                  },
+                  "animateOut": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "foreignKey": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "itemHeight": {
+                    "value": "400px",
+                    "source": "static"
+                  },
+                  "itemLayout": {
+                    "value": "overlay",
+                    "source": "static"
+                  },
+                  "buttonClass": {
+                    "value": "btn btn-primary",
+                    "source": "static"
+                  },
+                  "buttonLabel": {
+                    "value": "Click here!",
+                    "source": "static"
+                  },
+                  "displayMode": {
+                    "value": "cover",
+                    "source": "static"
+                  },
+                  "itemPadding": {
+                    "value": "0px",
+                    "source": "static"
+                  },
+                  "contentColor": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "listingItems": {
+                    "value": [],
+                    "source": "static"
+                  },
+                  "itemHasBorder": {
+                    "value": false,
+                    "source": "static"
+                  },
+                  "listingLayout": {
+                    "value": "grid",
+                    "source": "static"
+                  },
+                  "listingSource": {
+                    "value": "static",
+                    "source": "static"
+                  },
+                  "contentPadding": {
+                    "value": "20px",
+                    "source": "static"
+                  },
+                  "listingItemIds": {
+                    "value": [],
+                    "source": "static"
+                  },
+                  "listingSorting": {
+                    "value": "9fd97f750e0a0f3a22091bc51810b4d5",
+                    "source": "static"
+                  },
+                  "navigationDots": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "autoplayTimeout": {
+                    "value": 3000,
+                    "source": "static"
+                  },
+                  "navigationArrows": {
+                    "value": "outside",
+                    "source": "static"
+                  },
+                  "autoplayHoverPause": {
+                    "value": true,
+                    "source": "static"
+                  },
+                  "itemLayoutTemplate": {
+                    "value": "@Storefront/storefront/component/product/card/box.html.twig",
+                    "source": "static"
+                  },
+                  "itemBackgroundColor": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "contentHighlightColor": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "contentBackgroundColor": {
+                    "value": null,
+                    "source": "static"
+                  }
+                },
+                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_1}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "position": 1,
+        "type": "moorl-grid",
+        "sizingMode": "boxed",
+        "backgroundMediaMode": "cover",
+        "customFields": {
+          "moorl_section_grid_config": [
             {
-                "position": 0,
-                "type": "default",
-                "sizingMode": "boxed",
-                "backgroundMediaMode": "cover",
-                "visibility": {
-                    "mobile": true,
-                    "tablet": true,
-                    "desktop": true
+              "value": {
+                "lg": {
+                  "show": true,
+                  "order": 0,
+                  "width": "3",
+                  "inherit": false
                 },
-                "customFields": {
-                    "moorl_section_config": {
-                        "color": null
-                    }
+                "md": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
                 },
-                "id": "{ID:CMS_PAGE_FCD_SECTION_1}",
-                "blocks": [
-                    {
-                        "position": 0,
-                        "type": "moorl-column-layout-1",
-                        "sectionPosition": "main",
-                        "marginTop": "0",
-                        "marginBottom": "0",
-                        "marginLeft": "0",
-                        "marginRight": "0",
-                        "backgroundMediaMode": "cover",
-                        "visibility": {
-                            "mobile": true,
-                            "tablet": true,
-                            "desktop": true
-                        },
-                        "customFields": {},
-                        "id": "{ID:CMS_PAGE_FCD_BLOCK_1}",
-                        "slots": [
-                            {
-                                "type": "product-name",
-                                "slot": "slot-a",
-                                "config": {
-                                    "content": {
-                                        "source": "mapped",
-                                        "value": "moorl_manufacturer.translated.name"
-                                    },
-                                    "verticalAlign": {
-                                        "source": "static",
-                                        "value": null
-                                    }
-                                },
-                                "id": "{ID:CMS_PAGE_FCD_SLOT_1}"
-                            }
-                        ],
-                        "sizingMode": "boxed"
-                    },
-                    {
-                        "position": 1,
-                        "type": "moorl-column-layout-1",
-                        "sectionPosition": "main",
-                        "marginTop": "0",
-                        "marginBottom": "20px",
-                        "marginLeft": "0",
-                        "marginRight": "0",
-                        "backgroundMediaMode": "cover",
-                        "visibility": {
-                            "mobile": true,
-                            "tablet": true,
-                            "desktop": true
-                        },
-                        "customFields": {},
-                        "id": "{ID:CMS_PAGE_FCD_BLOCK_10}",
-                        "slots": [
-                            {
-                                "type": "text",
-                                "slot": "slot-a",
-                                "config": {
-                                    "content": {
-                                        "source": "mapped",
-                                        "value": "moorl_manufacturer.translated.description"
-                                    },
-                                    "verticalAlign": {
-                                        "source": "static",
-                                        "value": null
-                                    }
-                                },
-                                "id": "{ID:CMS_PAGE_FCD_SLOT_10}"
-                            }
-                        ],
-                        "sizingMode": "boxed"
-                    }
-                ]
+                "sm": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
+                },
+                "xl": {
+                  "show": true,
+                  "order": 0,
+                  "width": "3",
+                  "inherit": false
+                },
+                "xs": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
+                }
+              },
+              "isSticky": true,
+              "offsetTop": "30px",
+              "alignItems": "normal",
+              "justifyContent": "normal"
             },
             {
-                "position": 1,
-                "type": "moorl-grid",
-                "sizingMode": "boxed",
-                "backgroundMediaMode": "cover",
-                "visibility": {
-                    "mobile": true,
-                    "tablet": true,
-                    "desktop": true
+              "value": {
+                "lg": {
+                  "show": true,
+                  "order": 0,
+                  "width": "9",
+                  "inherit": false
                 },
-                "customFields": {
-                    "moorl_section_config": {
-                        "color": null
-                    },
-                    "moorl_section_spacing": 20,
-                    "moorl_section_grid_config": [
-                        {
-                            "value": {
-                                "lg": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": "6",
-                                    "inherit": false
-                                },
-                                "md": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": 12,
-                                    "inherit": true
-                                },
-                                "sm": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": 12,
-                                    "inherit": true
-                                },
-                                "xl": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": "6",
-                                    "inherit": false
-                                },
-                                "xs": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": 12,
-                                    "inherit": true
-                                },
-                                "xxl": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": 12,
-                                    "inherit": true
-                                }
-                            },
-                            "isSticky": false,
-                            "offsetTop": "30px",
-                            "alignItems": "normal",
-                            "justifyContent": "normal"
-                        },
-                        {
-                            "value": {
-                                "lg": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": "6",
-                                    "inherit": false
-                                },
-                                "md": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": 12,
-                                    "inherit": true
-                                },
-                                "sm": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": 12,
-                                    "inherit": true
-                                },
-                                "xl": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": "6",
-                                    "inherit": false
-                                },
-                                "xs": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": 12,
-                                    "inherit": true
-                                },
-                                "xxl": {
-                                    "show": true,
-                                    "order": 0,
-                                    "width": 12,
-                                    "inherit": true
-                                }
-                            },
-                            "isSticky": true,
-                            "offsetTop": "30px",
-                            "alignItems": "normal",
-                            "justifyContent": "normal"
-                        }
-                    ],
-                    "moorl_section_column_count": "2"
+                "md": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
                 },
-                "id": "{ID:CMS_PAGE_FCD_SECTION_2}",
-                "blocks": [
-                    {
-                        "position": 0,
-                        "type": "moorl-column-layout-1",
-                        "sectionPosition": "moorl_grid_0",
-                        "marginTop": "0",
-                        "marginBottom": "20px",
-                        "marginLeft": "0",
-                        "marginRight": "0",
-                        "backgroundMediaMode": "cover",
-                        "visibility": {
-                            "mobile": true,
-                            "tablet": true,
-                            "desktop": true
-                        },
-                        "customFields": {},
-                        "id": "{ID:CMS_PAGE_FCD_BLOCK_2}",
-                        "slots": [
-                            {
-                                "type": "moorl-manufacturer",
-                                "slot": "slot-a",
-                                "config": {
-                                    "manufacturer": {
-                                        "source": "mapped",
-                                        "value": "moorl_manufacturer.id"
-                                    }
-                                },
-                                "id": "{ID:CMS_PAGE_FCD_SLOT_2}"
-                            }
-                        ],
-                        "sizingMode": "boxed"
-                    },
-                    {
-                        "position": 1,
-                        "type": "moorl-column-layout-1",
-                        "sectionPosition": "moorl_grid_1",
-                        "marginTop": "0",
-                        "marginBottom": "0",
-                        "marginLeft": "0",
-                        "marginRight": "0",
-                        "backgroundMediaMode": "cover",
-                        "visibility": {
-                            "mobile": true,
-                            "tablet": true,
-                            "desktop": true
-                        },
-                        "customFields": {},
-                        "id": "{ID:CMS_PAGE_FCD_BLOCK_3}",
-                        "slots": [
-                            {
-                                "type": "image-gallery",
-                                "slot": "slot-a",
-                                "config": {
-                                    "sliderItems": {
-                                        "source": "mapped",
-                                        "value": "moorl_manufacturer.media"
-                                    },
-                                    "navigationArrows": {
-                                        "source": "static",
-                                        "value": "inside"
-                                    },
-                                    "navigationDots": {
-                                        "source": "static",
-                                        "value": "none"
-                                    },
-                                    "displayMode": {
-                                        "source": "static",
-                                        "value": "standard"
-                                    },
-                                    "minHeight": {
-                                        "source": "static",
-                                        "value": "340px"
-                                    },
-                                    "verticalAlign": {
-                                        "source": "static",
-                                        "value": null
-                                    },
-                                    "speed": {
-                                        "value": 300,
-                                        "source": "static"
-                                    },
-                                    "autoSlide": {
-                                        "value": false,
-                                        "source": "static"
-                                    },
-                                    "autoplayTimeout": {
-                                        "value": 5000,
-                                        "source": "static"
-                                    },
-                                    "isDecorative": {
-                                        "source": "static",
-                                        "value": false
-                                    },
-                                    "zoom": {
-                                        "value": false,
-                                        "source": "static"
-                                    },
-                                    "fullScreen": {
-                                        "value": false,
-                                        "source": "static"
-                                    },
-                                    "galleryPosition": {
-                                        "value": "left",
-                                        "source": "static"
-                                    },
-                                    "magnifierOverGallery": {
-                                        "value": false,
-                                        "source": "static"
-                                    },
-                                    "keepAspectRatioOnZoom": {
-                                        "value": true,
-                                        "source": "static"
-                                    }
-                                },
-                                "id": "{ID:CMS_PAGE_FCD_SLOT_3}"
-                            }
-                        ],
-                        "sizingMode": "boxed"
-                    }
-                ]
+                "sm": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
+                },
+                "xl": {
+                  "show": true,
+                  "order": 0,
+                  "width": "9",
+                  "inherit": false
+                },
+                "xs": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
+                }
+              },
+              "isSticky": false,
+              "offsetTop": "30px",
+              "alignItems": "normal",
+              "justifyContent": "normal"
             }
+          ],
+          "moorl_section_column_count": "2"
+        },
+        "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SECTION_2}",
+        "blocks": [
+          {
+            "position": 0,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "moorl_grid_0",
+            "marginTop": "0",
+            "marginBottom": "60px",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundMediaMode": "cover",
+            "customFields": {},
+            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_3}",
+            "slots": [
+              {
+                "type": "moorl-toc",
+                "slot": "slot-a",
+                "config": {
+                  "content": {
+                    "source": "mapped",
+                    "value": "moorl_manufacturer.description"
+                  }
+                },
+                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_3}"
+              }
+            ]
+          },
+          {
+            "position": 1,
+            "type": "text",
+            "sectionPosition": "moorl_grid_1",
+            "marginTop": "0",
+            "marginBottom": "60px",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundMediaMode": "cover",
+            "customFields": {},
+            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_4}",
+            "slots": [
+              {
+                "type": "text",
+                "slot": "content",
+                "config": {
+                  "content": {
+                    "source": "mapped",
+                    "value": "moorl_manufacturer.description"
+                  },
+                  "verticalAlign": {
+                    "source": "static",
+                    "value": null
+                  }
+                },
+                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_4}"
+              }
+            ]
+          }
         ]
-    }
+      },
+      {
+        "position": 2,
+        "type": "default",
+        "sizingMode": "full_width",
+        "backgroundMediaMode": "cover",
+        "cssClass": "bg-light",
+        "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SECTION_3}",
+        "blocks": [
+          {
+            "position": 0,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "main",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundMediaMode": "cover",
+            "customFields": {},
+            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_5}",
+            "slots": [
+              {
+                "type": "manufacturer-listing",
+                "slot": "slot-a",
+                "config": {
+                  "listingSource": {
+                    "source": "static",
+                    "value": "static"
+                  },
+                  "foreignKey": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "listingSorting": {
+                    "source": "static",
+                    "value": "9fd97f750e0a0f3a22091bc51810b4d5"
+                  },
+                  "listingItemIds": {
+                    "source": "static",
+                    "value": []
+                  },
+                  "listingItems": {
+                    "source": "static",
+                    "value": []
+                  },
+                  "listingLayout": {
+                    "source": "static",
+                    "value": "slider"
+                  },
+                  "listingHeaderTitle": {
+                    "source": "static",
+                    "value": "Weitere Hersteller entdecken"
+                  },
+                  "itemLayout": {
+                    "source": "static",
+                    "value": "avatar"
+                  },
+                  "itemLayoutTemplate": {
+                    "source": "static",
+                    "value": "@Storefront/storefront/component/product/card/box.html.twig"
+                  },
+                  "displayMode": {
+                    "source": "static",
+                    "value": "cover"
+                  },
+                  "textAlign": {
+                    "source": "static",
+                    "value": "center"
+                  },
+                  "limit": {
+                    "source": "static",
+                    "value": 12
+                  },
+                  "gapSize": {
+                    "source": "static",
+                    "value": "20px"
+                  },
+                  "itemWidth": {
+                    "source": "static",
+                    "value": "300px"
+                  },
+                  "itemHeight": {
+                    "source": "static",
+                    "value": "400px"
+                  },
+                  "itemPadding": {
+                    "source": "static",
+                    "value": "0px"
+                  },
+                  "itemBackgroundColor": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "itemHasBorder": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "contentPadding": {
+                    "source": "static",
+                    "value": "20px"
+                  },
+                  "contentBackgroundColor": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "contentHighlightColor": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "contentColor": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "hasButton": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "buttonClass": {
+                    "source": "static",
+                    "value": "btn btn-primary"
+                  },
+                  "buttonLabel": {
+                    "source": "static",
+                    "value": "Click here!"
+                  },
+                  "urlNewTab": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "speed": {
+                    "source": "static",
+                    "value": 1000
+                  },
+                  "autoplayTimeout": {
+                    "source": "static",
+                    "value": 3000
+                  },
+                  "autoplay": {
+                    "source": "static",
+                    "value": true
+                  },
+                  "autoplayHoverPause": {
+                    "source": "static",
+                    "value": true
+                  },
+                  "animateIn": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "animateOut": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "mode": {
+                    "source": "static",
+                    "value": "carousel"
+                  },
+                  "navigationArrows": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "navigationDots": {
+                    "source": "static",
+                    "value": "outside"
+                  },
+                  "mouseDrag": {
+                    "source": "static",
+                    "value": false
+                  }
+                },
+                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_5}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "position": 3,
+        "type": "default",
+        "sizingMode": "boxed",
+        "backgroundColor": "",
+        "backgroundMediaMode": "cover",
+        "visibility": {
+          "mobile": true,
+          "tablet": true,
+          "desktop": true
+        },
+        "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SECTION_4}",
+        "blocks": [
+          {
+            "position": 0,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "main",
+            "marginTop": "0",
+            "marginBottom": "20px",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundColor": "",
+            "backgroundMediaMode": "cover",
+            "visibility": {
+              "mobile": true,
+              "tablet": true,
+              "desktop": true
+            },
+            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_6}",
+            "slots": [
+              {
+                "type": "manufacturer-product-listing",
+                "slot": "slot-a",
+                "config": {
+                  "boxLayout": {
+                    "source": "static",
+                    "value": "standard"
+                  },
+                  "showSorting": {
+                    "source": "static",
+                    "value": true
+                  },
+                  "useCustomSorting": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "availableSortings": {
+                    "source": "static",
+                    "value": []
+                  },
+                  "defaultSorting": {
+                    "source": "static",
+                    "value": ""
+                  },
+                  "filters": {
+                    "source": "static",
+                    "value": "manufacturer-filter,rating-filter,price-filter,shipping-free-filter,property-filter"
+                  },
+                  "propertyWhitelist": {
+                    "source": "static",
+                    "value": []
+                  }
+                },
+                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_6}",
+                "_isDirty": false
+              }
+            ],
+            "sizingMode": "boxed"
+          }
+        ]
+      }
+    ]
+  }
 ]

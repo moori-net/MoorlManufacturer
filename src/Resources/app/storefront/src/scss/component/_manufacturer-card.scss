@@ -1,0 +1,26 @@
+.moorl-manufacturer-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: center;
+
+  img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .moorl-manufacturer-card {
+    grid-template-columns: 240px 1fr;
+
+    img {
+      width: 240px;
+      height: 240px;
+    }
+  }
+}

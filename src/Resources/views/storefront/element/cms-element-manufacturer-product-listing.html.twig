@@ -1,12 +1,12 @@
 {% block element_manufacturer_product_listing %}
     {% set searchResult = page.products %}
     {% set listingColumns = 'col-sm-6 col-lg-4 col-xl-3' %}
-    {% set filterUrl = url('frontend.moorl.manufacturer.filter', { creatorId: page.creator.id }) %}
-    {% set dataUrl = url('frontend.moorl.manufacturer.products', { creatorId: page.creator.id }) %}
+    {% set filterUrl = url('frontend.moorl.manufacturer.filter', { manufacturerId: page.manufacturer.id }) %}
+    {% set dataUrl = url('frontend.moorl.manufacturer.products', { manufacturerId: page.manufacturer.id }) %}
     {% set params = { 'no-aggregations': 1 } %}
 
     {% if searchResult %}
-        {% block element_creator_product_listing_wrapper %}
+        {% block element_manufacturer_product_listing_wrapper %}
             {% sw_include '@Storefront/storefront/component/product/listing.html.twig' with {
                 searchResult: searchResult,
                 dataUrl: dataUrl,

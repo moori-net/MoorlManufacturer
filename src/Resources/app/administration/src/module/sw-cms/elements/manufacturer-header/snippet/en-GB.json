@@ -1,0 +1,10 @@
+{
+    "sw-cms": {
+        "elements": {
+            "manufacturer-header": {
+                "name": "Creator header",
+                "tooltipSettingDisabled": "This element will be set by the public profile."
+            }
+        }
+    }
+}

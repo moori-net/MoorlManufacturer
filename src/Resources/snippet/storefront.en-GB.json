@@ -1,19 +1,5 @@
 {
     "moorl-manufacturer": {
-        "manufacturers": "Parts list configurators",
-        "logical-configurator": {
-            "field": {
-                "totalLength": "Total length",
-                "side_a": "Side A",
-                "side_b": "Side B",
-                "side_c": "Side C",
-                "side_d": "Side D"
-            }
-        },
-        "accessoryList": "Optional accessories",
-        "partsList": "Parts list",
-        "load": "Calculate parts list",
-        "calculatedPartsList": "Calculated parts list",
-        "calculatedPartsListError": "An error occurred during calculation. Please check your input."
+        "manufacturers": "Manufacturers"
     }
 }

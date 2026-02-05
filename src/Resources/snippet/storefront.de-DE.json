@@ -1,19 +1,5 @@
 {
   "moorl-manufacturer": {
-    "manufacturers": "Stücklisten-Konfiguratoren",
-    "logical-configurator": {
-      "field": {
-        "totalLength": "Gesamtlänge",
-        "side_a": "Seite A",
-        "side_b": "Seite B",
-        "side_c": "Seite C",
-        "side_d": "Seite D"
-      }
-    },
-    "accessoryList": "Optionale Zubehörteile",
-    "partsList": "Stückliste",
-    "load": "Stückliste berechnen",
-    "calculatedPartsList": "Berechnete Stückliste",
-    "calculatedPartsListError": "Bei der Berechnung ist ein Fehler aufgetreten, bitte überprüfen Sie Ihre Eingabe."
+    "manufacturers": "Hersteller"
   }
 }

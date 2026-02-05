@@ -5,6 +5,7 @@ namespace Moorl\Manufacturer\Storefront\Controller;
 use Moorl\Manufacturer\Storefront\Page\Manufacturer\ManufacturerPageLoader;
 use Shopware\Core\System\SalesChannel\SalesChannelContext;
 use Shopware\Storefront\Controller\StorefrontController;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
@@ -33,5 +34,11 @@ class ManufacturerController extends StorefrontController
         return $this->renderStorefront('@Storefront/storefront/element/cms-element-manufacturer-product-listing.html.twig', [
             'page' => $page
         ]);
+    }
+
+    #[Route(path: '/manufacturer/{manufacturerId}/filter', name: 'frontend.moorl.manufacturer.filter', methods: ['GET'], defaults: ['XmlHttpRequest' => true])]
+    public function filter(SalesChannelContext $context, Request $request): JsonResponse
+    {
+        return new JsonResponse([]);
     }
 }

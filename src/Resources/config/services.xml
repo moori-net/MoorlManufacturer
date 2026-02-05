@@ -23,10 +23,6 @@
             <tag name="shopware.entity.definition" entity="moorl_manufacturer_translation"/>
         </service>
 
-        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerMediaDefinition">
-            <tag name="shopware.entity.definition" entity="moorl_manufacturer_media"/>
-        </service>
-
         <service id="Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\SalesChannelManufacturerDefinition">
             <tag name="shopware.sales_channel.entity.definition"/>
         </service>

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "{ID:MOORL_MANUFACTURER_AUDI}",
+    "active": true,
+    "merchantUrl": "https://www.audi.de/",
+    "name": "Audi",
+    "teaser": "{LOREM_IPSUM_50}",
+    "description": "{DEMO_HTML}",
+    "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
+    "bannerId": "{MEDIA_FILE:product_manufacturer/audi-banner.jpg}"
+  },
+  {
+    "id": "{ID:MOORL_MANUFACTURER_VW}",
+    "active": true,
+    "merchantUrl": "https://www.volkswagen.de/",
+    "name": "Volkswagen",
+    "teaser": "{LOREM_IPSUM_50}",
+    "description": "{DEMO_HTML}",
+    "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}"
+  }
+]

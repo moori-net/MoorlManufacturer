@@ -1,0 +1,72 @@
+{% block manufacturer_page_header %}
+    {% set manufacturer = page.manufacturer %}
+
+    <div class="cms-element-manufacturer-header">
+        {% block manufacturer_page_header_banner %}
+            <div class="moorl-manufacturer-banner"
+                 {% if manufacturer.avatar.customFields.moorl_manufacturer_avg_color %}style="background-color: {{ manufacturer.avatar.customFields.moorl_manufacturer_avg_color }}" {% endif %}>
+                {% if manufacturer.banner %}
+                    {% sw_thumbnails 'manufacturer-banner' with {
+                        media: manufacturer.banner,
+                        attributes: {
+                            'class': '',
+                            'alt': manufacturer.translated.name,
+                            'title': manufacturer.translated.name
+                        }
+                    } %}
+                {% endif %}
+            </div>
+        {% endblock %}
+
+        {% block manufacturer_page_header_container %}
+            <div class="container p-0">
+                <div class="row">
+                    {% block manufacturer_page_header_avatar %}
+                        {% if manufacturer.avatar %}
+                            <div class="col-auto">
+                                <div class="moorl-manufacturer-avatar">
+                                    {% sw_thumbnails 'manufacturer-avatar' with {
+                                        media: manufacturer.avatar,
+                                        attributes: {
+                                            'itemprop': 'image',
+                                            'class': '',
+                                            'alt': manufacturer.translated.name,
+                                            'title': manufacturer.translated.name
+                                        }
+                                    } %}
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endblock %}
+                    <div class="col">
+                        {% block manufacturer_page_header_title %}
+                            <h1 class="moorl-manufacturer-title">
+                                <span itemprop="name">{{ manufacturer.translated.name }}</span>
+                                {% if manufacturer.translated.role %}
+                                    <small itemprop="jobTitle">{{ manufacturer.translated.role }}</small>
+                                {% endif %}
+                            </h1>
+                        {% endblock %}
+
+                        {% block manufacturer_page_header_description %}
+                            <div itemprop="description" class="moorl-manufacturer-description">
+                                {{ manufacturer.translated.teaser }}
+                            </div>
+                        {% endblock %}
+
+                        {% block manufacturer_page_header_actions %}
+                            <div class="moorl-manufacturer-actions">
+                                {% if manufacturer.link %}
+                                    <a class="btn btn-secondary" href="{{ manufacturer.link }}"
+                                       title="{{ "moorl-manufacturer.link"|trans }}" rel="noopener" target="_blank">
+                                        {{ "moorl-manufacturer.link"|trans }}
+                                    </a>
+                                {% endif %}
+                            </div>
+                        {% endblock %}
+                    </div>
+                </div>
+            </div>
+        {% endblock %}
+    </div>
+{% endblock %}

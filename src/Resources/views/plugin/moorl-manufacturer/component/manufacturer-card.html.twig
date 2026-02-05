@@ -1,0 +1,46 @@
+{% if manufacturer %}
+    <div class="moorl-manufacturer-card"
+         itemscope
+         itemprop="author"
+         itemtype="https://schema.org/Person">
+        {% if manufacturer.avatar %}
+            <div class="moorl-manufacturer-card-avatar">
+                {% sw_thumbnails 'manufacturer-avatar' with {
+                    media: manufacturer.avatar,
+                    attributes: {
+                        'itemprop': 'image',
+                        'class': '',
+                        'alt': manufacturer.translated.name,
+                        'title': manufacturer.translated.name
+                    }
+                } %}
+            </div>
+        {% else %}
+            <div></div>
+        {% endif %}
+
+        <div class="moorl-manufacturer-card-content">
+            <p class="h4 moorl-manufacturer-card-teaser">
+                <span itemprop="name">
+                    {{ manufacturer.translated.name }}
+                </span>
+                {% if manufacturer.translated.role %}
+                    <small itemprop="jobTitle" class="text-muted">
+                        {{ manufacturer.translated.role }}
+                    </small>
+                {% endif %}
+            </p>
+
+            <p itemprop="description" class="moorl-manufacturer-card-teaser">
+                {{ manufacturer.translated.teaser }}
+            </p>
+
+            {% if manufacturer.active %}
+                <a itemprop="mainEntityOfPage" href="{{ seoUrl('frontend.moorl.manufacturer.detail', {manufacturerId: manufacturer.id}) }}"
+                   title="{{ "moorl-manufacturer.readMore"|trans|sw_sanitize }}">
+                    {{ "moorl-manufacturer.readMore"|trans|sw_sanitize }}
+                </a>
+            {% endif %}
+        </div>
+    </div>
+{% endif %}
