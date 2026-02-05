@@ -3,7 +3,7 @@
 {% block moorl_foundation_listing_item %}
     {% sw_include '@MoorlFoundation/plugin/moorl-foundation/listing-item.html.twig' with {
         url: seoUrl('frontend.moorl.manufacturer.detail', {manufacturerId: item.id}),
-        media: item.cover.media,
+        media: item.cover.media ?: item.productManufacturer.media,
         title: item.translated.name,
         description: item.translated.teaser
     } %}

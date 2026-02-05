@@ -18,5 +18,77 @@
     "description": "{DEMO_HTML}",
     "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
     "bannerId": "{MEDIA_FILE:product_manufacturer/vw-banner.jpg}"
+  },
+  {
+    "id": "{ID:PRODUCT_MANUFACTURER_BENTLEY}",
+    "active": true,
+    "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_BENTLEY}",
+    "merchantUrl": "https://www.bentleymotors.com/",
+    "name": "Bentley",
+    "description": "{LOREM_IPSUM_50}"
+  },
+  {
+    "id": "{ID:MOORL_MANUFACTURER_BMW}",
+    "active": true,
+    "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_BMW}",
+    "merchantUrl": "https://www.bmw.de/",
+    "name": "BMW",
+    "description": "{LOREM_IPSUM_50}"
+  },
+  {
+    "id": "{ID:MOORL_MANUFACTURER_CHEVROLET}",
+    "active": true,
+    "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_CHEVROLET}",
+    "merchantUrl": "https://www.chevrolet.de/",
+    "name": "Chevrolet",
+    "description": "{LOREM_IPSUM_50}"
+  },
+  {
+    "id": "{ID:MOORL_MANUFACTURER_DAIHATSU}",
+    "active": true,
+    "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_DAIHATSU}",
+    "merchantUrl": "https://www.daihatsu.de/",
+    "name": "Daihatsu",
+    "description": "{LOREM_IPSUM_50}"
+  },
+  {
+    "id": "{ID:MOORL_MANUFACTURER_FIAT}",
+    "active": true,
+    "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_FIAT}",
+    "merchantUrl": "https://www.fiat.de/",
+    "name": "FIAT",
+    "description": "{LOREM_IPSUM_50}"
+  },
+  {
+    "id": "{ID:MOORL_MANUFACTURER_FORD}",
+    "active": true,
+    "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_FORD}",
+    "merchantUrl": "https://www.ford.de/",
+    "name": "Ford",
+    "description": "{LOREM_IPSUM_50}"
+  },
+  {
+    "id": "{ID:MOORL_MANUFACTURER_GMC}",
+    "active": true,
+    "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_GMC}",
+    "merchantUrl": "https://www.gmc.com/",
+    "name": "GMC",
+    "description": "{LOREM_IPSUM_50}"
+  },
+  {
+    "id": "{ID:MOORL_MANUFACTURER_HONDA}",
+    "active": true,
+    "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_HONDA}",
+    "merchantUrl": "https://www.honda.de/",
+    "name": "Honda",
+    "description": "{LOREM_IPSUM_50}"
+  },
+  {
+    "id": "{ID:MOORL_MANUFACTURER_LANDROVER}",
+    "active": true,
+    "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_LANDROVER}",
+    "merchantUrl": "https://www.landrover.de/",
+    "name": "Landrover",
+    "description": "{LOREM_IPSUM_50}"
   }
 ]

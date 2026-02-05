@@ -2,8 +2,7 @@
 
 namespace Moorl\Manufacturer\Core\Content\Product\SalesChannel;
 
-use Moorl\Manufacturer\Storefront\Page\Manufacturer\ManufacturerPageLoader;
-use Shopware\Core\System\SalesChannel\Event\SalesChannelProcessCriteriaEvent;
+use Shopware\Storefront\Page\Product\ProductPageCriteriaEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 class ProductSubscriber implements EventSubscriberInterface
@@ -11,17 +10,13 @@ class ProductSubscriber implements EventSubscriberInterface
     public static function getSubscribedEvents(): array
     {
         return [
-            'sales_channel.product.process.criteria' => 'processCriteria'
+            ProductPageCriteriaEvent::class => 'processCriteria',
         ];
     }
 
-    public function processCriteria(SalesChannelProcessCriteriaEvent $event): void
+    public function processCriteria(ProductPageCriteriaEvent $event): void
     {
         $criteria = $event->getCriteria();
-        if (!$criteria->hasState(ManufacturerPageLoader::CRITERIA_STATE)) {
-            return;
-        }
-
-        $criteria->resetGroupFields();
+        $criteria->addAssociation('manufacturer.moorlManufacturers');
     }
 }

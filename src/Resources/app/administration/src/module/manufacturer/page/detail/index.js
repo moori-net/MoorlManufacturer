@@ -10,6 +10,10 @@ Shopware.Component.override('moorl-manufacturer-detail', {
     watch: {
         'item.productManufacturerId': {
             handler() {
+                if (!this.item._isNew) {
+                    return;
+                }
+
                 const criteria = new Criteria();
                 criteria.setIds([this.item.productManufacturerId]);
 

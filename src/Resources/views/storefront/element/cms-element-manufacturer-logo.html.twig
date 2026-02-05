@@ -1,0 +1,12 @@
+{% sw_extends '@Storefront/storefront/element/cms-element-manufacturer-logo.html.twig' %}
+
+
+{% block element_manufacturer_logo %}
+    {% set manufacturer = page.product.manufacturer.extensions.moorlManufacturers.first() %}
+
+    {% if manufacturer %}
+        {% sw_include '@Storefront/plugin/moorl-manufacturer/component/manufacturer-card-mini.html.twig' %}
+    {% else %}
+        {{ parent() }}
+    {% endif %}
+{% endblock %}

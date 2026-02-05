@@ -2,11 +2,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
     <card>
-        <title>General</title>
-        <title lang="de-DE">Einstellungen</title>
-    </card>
-
-    <card>
         <title>Advanced search</title>
         <title lang="de-DE">Erweiterte Suche</title>
 
@@ -28,7 +23,7 @@
             <name>searchActive</name>
             <label>Search active</label>
             <label lang="de-DE">Suchergebnisse aktiv</label>
-            <defaultValue>true</defaultValue>
+            <defaultValue>false</defaultValue>
         </input-field>
 
         <input-field type="int">

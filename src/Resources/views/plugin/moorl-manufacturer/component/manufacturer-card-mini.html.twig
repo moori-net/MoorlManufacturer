@@ -1,0 +1,31 @@
+{% if manufacturer %}
+    {% set innerContent %}
+        {% sw_thumbnails 'manufacturer-avatar' with {
+            media: manufacturer.productManufacturer.media,
+            attributes: {
+                'itemprop': 'image',
+                'class': '',
+                'alt': manufacturer.translated.name,
+                'title': manufacturer.translated.name
+            }
+        } %}
+        <span itemprop="name">{{ manufacturer.translated.name }}</span>
+    {% endset %}
+
+    <div itemscope
+         itemprop="manufacturer"
+         itemtype="https://schema.org/Brand">
+        {% if manufacturer.active %}
+            <a class="btn btn-light moorl-manufacturer-card-mini"
+               itemprop="mainEntityOfPage"
+               href="{{ seoUrl('frontend.moorl.manufacturer.detail', {manufacturerId: manufacturer.id}) }}"
+               title="{{ manufacturer.translated.name }}">
+                {{ innerContent }}
+            </a>
+        {% else %}
+            <div class="btn btn-light moorl-manufacturer-card-mini">
+                {{ innerContent }}
+            </div>
+        {% endif %}
+    </div>
+{% endif %}

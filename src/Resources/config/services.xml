@@ -27,6 +27,14 @@
             <tag name="shopware.sales_channel.entity.definition"/>
         </service>
 
+        <service id="Moorl\Manufacturer\Core\Content\ProductManufacturer\ProductManufacturerExtension">
+            <tag name="shopware.entity.extension"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Product\SalesChannel\ProductSubscriber">
+            <tag name="kernel.event_subscriber"/>
+        </service>
+
         <service id="Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\ManufacturerListing">
             <argument type="service" id="sales_channel.moorl_manufacturer.repository"/>
 
