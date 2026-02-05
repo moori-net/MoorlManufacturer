@@ -26,8 +26,8 @@
             "en-GB": "Extended Manufacturer"
         },
         "description": {
-            "de-DE": "Mit dem Stücklisten Konfigurator lassen sich basierend auf Kompatibilitätsregeln einfache Konfiguratoren erstellen, die anhand vordefinierten Kriterien eine Stückliste zusammen stellt.",
-            "en-GB": "The Parts List (BOM) Configurator allows you to create simple configurators based on compatibility rules, which compile a parts list using predefined criteria."
+            "de-DE": "Dieses Plugin ermöglicht es, Hersteller und Marken stärker hervorzuheben. Dazu gibt es viele Möglichkeiten, z.B. die Erstellung eigener CMS-Seiten mit Produkten und SEO.",
+            "en-GB": "This plugin makes it possible to highlight manufacturers and brands more prominently. There are many ways to do this, such as creating your own CMS pages including products and SEO."
         },
         "manufacturerLink": {
             "de-DE": "https://docs.moori.net/",
