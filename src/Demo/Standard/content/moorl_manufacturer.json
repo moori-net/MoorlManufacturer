@@ -7,7 +7,10 @@
     "teaser": "{LOREM_IPSUM_50}",
     "description": "{DEMO_HTML}",
     "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_AUDI}",
-    "bannerId": "{MEDIA_FILE:product_manufacturer/audi-banner-2.jpg}"
+    "bannerId": "{MEDIA_FILE:product_manufacturer/audi-banner-2.jpg}",
+    "phoneNumber": "+49123456789",
+    "email": "hello@audi.de",
+    "countryCode": "DE"
   },
   {
     "id": "{ID:MOORL_MANUFACTURER_VW}",
@@ -17,7 +20,10 @@
     "teaser": "{LOREM_IPSUM_50}",
     "description": "{DEMO_HTML}",
     "productManufacturerId": "{ID:PRODUCT_MANUFACTURER_VW}",
-    "bannerId": "{MEDIA_FILE:product_manufacturer/vw-banner.jpg}"
+    "bannerId": "{MEDIA_FILE:product_manufacturer/vw-banner.jpg}",
+    "phoneNumber": "+49123456789",
+    "email": "hello@volkswagen.de",
+    "countryCode": "DE"
   },
   {
     "id": "{ID:PRODUCT_MANUFACTURER_BENTLEY}",

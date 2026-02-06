@@ -7,14 +7,14 @@ use MoorlFoundation\Core\Framework\DataAbstractionLayer\Dbal\EntityDefinitionQue
 use Shopware\Core\Framework\Migration\MigrationStep;
 use Shopware\Core\Framework\Plugin\Requirement\Exception\MissingRequirementException;
 
-class Migration1770391520MoorlManufacturerCategory extends MigrationStep
+class Migration1770399837MoorlManufacturerCategory extends MigrationStep
 {
     public const OPERATION_HASH = '8d46265bf4ebc8b1b6cb8d9e8764ca2e';
     public const PLUGIN_VERSION = '1.7.0';
 
     public function getCreationTimestamp(): int
     {
-        return 1770391520;
+        return 1770399837;
     }
 
     public function update(Connection $connection): void
@@ -28,7 +28,6 @@ SQL;
         // Try to execute all queries at once
         try {
             $connection->executeStatement($sql);
-            $this->additionalCustomUpdate($connection);
             return;
         } catch (\Exception) {
             if (!class_exists(EntityDefinitionQueryHelper::class)) {
@@ -51,17 +50,5 @@ SQL;
             $sql = "ALTER TABLE moorl_manufacturer_category ADD CONSTRAINT `fk.moorl_manufacturer_category.category_id` FOREIGN KEY (category_id, category_version_id) REFERENCES category (id, version_id) ON UPDATE CASCADE ON DELETE CASCADE;";
             EntityDefinitionQueryHelper::tryExecuteStatement($connection, $sql, 'moorl_manufacturer_category');
         }
-
-        $this->additionalCustomUpdate($connection);
-    }
-
-    public function updateDestructive(Connection $connection): void
-    {
-        // Add destructive update if necessary
-    }
-
-    private function additionalCustomUpdate(Connection $connection): void
-    {
-        // Add custom update if necessary
     }
 }

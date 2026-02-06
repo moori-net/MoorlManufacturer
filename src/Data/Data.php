@@ -38,6 +38,11 @@ class Data extends DataExtension implements DataInterface
         return MoorlManufacturer::DATA_CREATED_AT;
     }
 
+    public function getLockedEntityRecords(): array
+    {
+        return MoorlManufacturer::LOCKED_ENTITY_RECORDS;
+    }
+
     public function getName(): string
     {
         return 'data';

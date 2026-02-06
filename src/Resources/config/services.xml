@@ -12,6 +12,7 @@
         <!-- Entities -->
         <service id="Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerDefinition">
             <tag name="shopware.entity.definition" entity="moorl_manufacturer"/>
+            <tag name="moorl.foundation.entity_auto_location"/>
         </service>
 
         <service id="Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerTranslationDefinition">

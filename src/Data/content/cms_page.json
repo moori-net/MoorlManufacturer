@@ -29,7 +29,7 @@
             "type": "moorl-column-layout-1",
             "sectionPosition": "main",
             "marginTop": "0",
-            "marginBottom": "60px",
+            "marginBottom": "0",
             "marginLeft": "0",
             "marginRight": "0",
             "backgroundColor": "",
@@ -191,6 +191,32 @@
               }
             ],
             "sizingMode": "boxed"
+          },
+          {
+            "position": 1,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "main",
+            "marginTop": "0",
+            "marginBottom": "60px",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundColor": "",
+            "backgroundMediaMode": "cover",
+            "visibility": {
+              "mobile": true,
+              "tablet": true,
+              "desktop": true
+            },
+            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_2}",
+            "slots": [
+              {
+                "type": "manufacturer-meta",
+                "slot": "slot-a",
+                "config": {},
+                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_2}"
+              }
+            ],
+            "sizingMode": "boxed"
           }
         ]
       },
@@ -304,7 +330,7 @@
               "desktop": true
             },
             "customFields": {},
-            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_2}",
+            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_3}",
             "slots": [
               {
                 "type": "moorl-toc",
@@ -315,7 +341,7 @@
                     "value": "moorl_manufacturer.description"
                   }
                 },
-                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_2}"
+                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_3}"
               }
             ],
             "sizingMode": "boxed"
@@ -336,7 +362,7 @@
               "desktop": true
             },
             "customFields": {},
-            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_3}",
+            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_4}",
             "slots": [
               {
                 "type": "text",
@@ -351,7 +377,7 @@
                     "value": null
                   }
                 },
-                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_3}"
+                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_4}"
               }
             ],
             "sizingMode": "boxed"
@@ -386,7 +412,7 @@
               "tablet": true,
               "desktop": true
             },
-            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_4}",
+            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_5}",
             "slots": [
               {
                 "type": "manufacturer-product-listing",
@@ -421,7 +447,7 @@
                     "value": []
                   }
                 },
-                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_4}"
+                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_5}"
               }
             ],
             "sizingMode": "boxed"
@@ -458,7 +484,7 @@
               "desktop": true
             },
             "customFields": {},
-            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_5}",
+            "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_6}",
             "slots": [
               {
                 "type": "manufacturer-listing",
@@ -617,7 +643,237 @@
                     "source": "static"
                   }
                 },
-                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_5}"
+                "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_6}"
+              }
+            ],
+            "sizingMode": "boxed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "translations": {
+      "{de-DE}": {
+        "name": "Erweiterte Hersteller (Liste)"
+      },
+      "{en-GB}": {
+        "name": "Extended Manufacturer (Listing)"
+      }
+    },
+    "type": "page",
+    "id": "{ID:CMS_PAGE_ROOT}",
+    "sections": [
+      {
+        "position": 0,
+        "type": "sidebar",
+        "sizingMode": "boxed",
+        "backgroundColor": "",
+        "backgroundMediaMode": "cover",
+        "visibility": {
+          "mobile": true,
+          "tablet": true,
+          "desktop": true
+        },
+        "id": "{ID:CMS_PAGE_ROOT_SECTION_1}",
+        "blocks": [
+          {
+            "position": 0,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "sidebar",
+            "marginTop": "0",
+            "marginBottom": "20px",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundColor": "",
+            "backgroundMediaMode": "cover",
+            "visibility": {
+              "mobile": true,
+              "tablet": true,
+              "desktop": true
+            },
+            "id": "{ID:CMS_PAGE_ROOT_BLOCK_1}",
+            "slots": [
+              {
+                "type": "moorl-sidebar-filter",
+                "slot": "slot-a",
+                "config": {},
+                "id": "{ID:CMS_PAGE_ROOT_SLOT_1}"
+              }
+            ],
+            "sizingMode": "boxed"
+          },
+          {
+            "position": 1,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "main",
+            "marginTop": "0",
+            "marginBottom": "20px",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundColor": "",
+            "backgroundMediaMode": "cover",
+            "visibility": {
+              "mobile": true,
+              "tablet": true,
+              "desktop": true
+            },
+            "id": "{ID:CMS_PAGE_ROOT_BLOCK_2}",
+            "slots": [
+              {
+                "type": "manufacturer-listing",
+                "slot": "slot-a",
+                "config": {
+                  "listingSource": {
+                    "source": "static",
+                    "value": "auto"
+                  },
+                  "listingSorting": {
+                    "source": "static",
+                    "value": "7be23c33979e33908ca45f0f6816bf4f"
+                  },
+                  "foreignKey": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "limit": {
+                    "source": "static",
+                    "value": 12
+                  },
+                  "listingItemIds": {
+                    "source": "static",
+                    "value": []
+                  },
+                  "listingHeaderTitle": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "listingLayout": {
+                    "source": "static",
+                    "value": "grid"
+                  },
+                  "listingJustifyContent": {
+                    "source": "static",
+                    "value": "normal"
+                  },
+                  "itemLayout": {
+                    "source": "static",
+                    "value": "avatar"
+                  },
+                  "displayMode": {
+                    "source": "static",
+                    "value": "cover"
+                  },
+                  "itemLayoutTemplate": {
+                    "source": "static",
+                    "value": "@Storefront/storefront/component/product/card/box.html.twig"
+                  },
+                  "gapSize": {
+                    "source": "static",
+                    "value": "20px"
+                  },
+                  "itemWidth": {
+                    "source": "static",
+                    "value": "200px"
+                  },
+                  "itemHeight": {
+                    "source": "static",
+                    "value": "240px"
+                  },
+                  "itemPadding": {
+                    "source": "static",
+                    "value": "0px"
+                  },
+                  "hasButton": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "buttonLabel": {
+                    "source": "static",
+                    "value": "Click here!"
+                  },
+                  "buttonClass": {
+                    "source": "static",
+                    "value": "btn btn-primary"
+                  },
+                  "urlNewTab": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "textAlign": {
+                    "source": "static",
+                    "value": "center"
+                  },
+                  "contentLength": {
+                    "source": "static",
+                    "value": 150
+                  },
+                  "contentPadding": {
+                    "source": "static",
+                    "value": "5px"
+                  },
+                  "contentColor": {
+                    "source": "static",
+                    "value": ""
+                  },
+                  "contentBackgroundColor": {
+                    "source": "static",
+                    "value": ""
+                  },
+                  "contentHighlightColor": {
+                    "source": "static",
+                    "value": ""
+                  },
+                  "itemBackgroundColor": {
+                    "source": "static",
+                    "value": ""
+                  },
+                  "itemHasBorder": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "mode": {
+                    "source": "static",
+                    "value": "carousel"
+                  },
+                  "speed": {
+                    "source": "static",
+                    "value": 1000
+                  },
+                  "autoplayTimeout": {
+                    "source": "static",
+                    "value": 3000
+                  },
+                  "autoplay": {
+                    "source": "static",
+                    "value": true
+                  },
+                  "autoplayHoverPause": {
+                    "source": "static",
+                    "value": true
+                  },
+                  "mouseDrag": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "animateIn": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "animateOut": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "navigationArrows": {
+                    "source": "static",
+                    "value": "outside"
+                  },
+                  "navigationDots": {
+                    "source": "static",
+                    "value": null
+                  }
+                },
+                "id": "{ID:CMS_PAGE_ROOT_SLOT_2}"
               }
             ],
             "sizingMode": "boxed"

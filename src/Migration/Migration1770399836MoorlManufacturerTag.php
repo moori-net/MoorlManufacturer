@@ -7,14 +7,14 @@ use MoorlFoundation\Core\Framework\DataAbstractionLayer\Dbal\EntityDefinitionQue
 use Shopware\Core\Framework\Migration\MigrationStep;
 use Shopware\Core\Framework\Plugin\Requirement\Exception\MissingRequirementException;
 
-class Migration1770390371MoorlManufacturerTag extends MigrationStep
+class Migration1770399836MoorlManufacturerTag extends MigrationStep
 {
     public const OPERATION_HASH = '8e11f19f685da9be32f700c91960aed9';
     public const PLUGIN_VERSION = '1.7.0';
 
     public function getCreationTimestamp(): int
     {
-        return 1770390371;
+        return 1770399836;
     }
 
     public function update(Connection $connection): void
@@ -28,7 +28,6 @@ SQL;
         // Try to execute all queries at once
         try {
             $connection->executeStatement($sql);
-            $this->additionalCustomUpdate($connection);
             return;
         } catch (\Exception) {
             if (!class_exists(EntityDefinitionQueryHelper::class)) {
@@ -51,17 +50,5 @@ SQL;
             $sql = "ALTER TABLE moorl_manufacturer_tag ADD CONSTRAINT `fk.moorl_manufacturer_tag.tag_id` FOREIGN KEY (tag_id) REFERENCES tag (id) ON UPDATE CASCADE ON DELETE CASCADE;";
             EntityDefinitionQueryHelper::tryExecuteStatement($connection, $sql, 'moorl_manufacturer_tag');
         }
-
-        $this->additionalCustomUpdate($connection);
-    }
-
-    public function updateDestructive(Connection $connection): void
-    {
-        // Add destructive update if necessary
-    }
-
-    private function additionalCustomUpdate(Connection $connection): void
-    {
-        // Add custom update if necessary
     }
 }

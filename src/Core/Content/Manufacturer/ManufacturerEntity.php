@@ -3,8 +3,11 @@
 namespace Moorl\Manufacturer\Core\Content\Manufacturer;
 
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityActiveTrait;
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityAddressTrait;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityAvatarTrait;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityBannerTrait;
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityContactTrait;
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityLocationTrait;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityProductManufacturerTrait;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityThingMetaTrait;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityThingPageTrait;
@@ -23,6 +26,9 @@ class ManufacturerEntity extends Entity
     use EntityProductManufacturerTrait;
     use EntityBannerTrait;
     use EntityAvatarTrait;
+    use EntityAddressTrait;
+    use EntityContactTrait;
+    use EntityLocationTrait;
 
     protected int $productCount = 0;
     protected ?TagCollection $tags = null;

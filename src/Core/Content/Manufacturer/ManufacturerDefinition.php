@@ -5,6 +5,7 @@ namespace Moorl\Manufacturer\Core\Content\Manufacturer;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldAddressCollection;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldContactCollection;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldEntityCollection;
+use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldLocationCollection;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldMultiEntityCollection;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldThingCollection;
 use Shopware\Core\Content\Category\CategoryDefinition;
@@ -55,6 +56,7 @@ class ManufacturerDefinition extends EntityDefinition
                 (new IntField('product_count', 'productCount'))->addFlags(new WriteProtected())
             ],
             FieldThingCollection::getFieldItems(thingBanner: true, thingAvatar: true, media: false),
+            FieldLocationCollection::getFieldItems(),
             FieldAddressCollection::getFieldItems(),
             FieldContactCollection::getFieldItems(),
             FieldMultiEntityCollection::getManyToOneFieldItems([

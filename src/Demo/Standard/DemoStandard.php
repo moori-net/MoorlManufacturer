@@ -50,4 +50,11 @@ class DemoStandard extends DataExtension implements DataInterface
     {
         return MoorlManufacturer::DATA_CREATED_AT;
     }
+
+    public function getInstallConfig(): array
+    {
+        return [
+            "MoorlManufacturer.config.category" => '{ID:CATEGORY_MANUFACTURER}'
+        ];
+    }
 }
