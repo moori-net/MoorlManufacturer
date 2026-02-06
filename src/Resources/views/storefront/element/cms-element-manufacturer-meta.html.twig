@@ -10,8 +10,8 @@
             {% block manufacturer_meta_product_count %}
                 {% if manufacturer.productCount %}
                     <li>
-                        {% sw_icon 'list' %}
-                        <small>{{ manufacturer.productCount }} {{ "moorl-manufacturer.products"|trans }}</small>
+                        {% sw_icon 'cart' %}
+                        {{ manufacturer.productCount }} {{ "moorl-manufacturer.products"|trans }}
                     </li>
                 {% endif %}
             {% endblock %}
@@ -23,7 +23,7 @@
                         <div>
                             {% for category in manufacturer.categories %}
                                 <a
-                                        href="{{ seoUrl('frontend.navigation.page', { navigationId: category.id, manufacturer: manufacturer.productManufacturerId }) }}"
+                                        href="{{ seoUrl('frontend.navigation.page', {navigationId: category.id}) }}?manufacturer={{ manufacturer.productManufacturerId }}"
                                         title="{{ category.translated.name }}"
                                 >{{ category.translated.name }}</a>
                             {% endfor %}

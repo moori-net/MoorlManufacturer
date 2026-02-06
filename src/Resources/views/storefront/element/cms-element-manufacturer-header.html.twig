@@ -45,9 +45,6 @@
                             <h1 class="moorl-manufacturer-title">
                                 <span itemprop="name">{{ manufacturer.translated.name }}</span>
                             </h1>
-                            <p>
-                                <small>{{ manufacturer.productCount }} {{ "moorl-manufacturer.products"|trans }}</small>
-                            </p>
                         {% endblock %}
 
                         {% block manufacturer_page_header_description %}
@@ -57,19 +54,7 @@
                         {% endblock %}
 
                         {% block manufacturer_page_header_actions %}
-                            <div class="moorl-manufacturer-actions">
-                                {% if manufacturer.merchantUrl %}
-                                    <a
-                                            class="btn btn-secondary"
-                                            href="{{ manufacturer.merchantUrl }}"
-                                            title="{{ "moorl-manufacturer.link"|trans }}"
-                                            rel="noopener"
-                                            target="_blank"
-                                    >
-                                        {{ "moorl-manufacturer.link"|trans }}
-                                    </a>
-                                {% endif %}
-                            </div>
+                            <div class="moorl-manufacturer-actions"></div>
                         {% endblock %}
                     </div>
                 </div>
