@@ -1,6 +1,13 @@
 [
   {
-    "name": "Extended manufacturer default",
+    "translations": {
+      "{de-DE}": {
+        "name": "Erweiterte Hersteller (Standard)"
+      },
+      "{en-GB}": {
+        "name": "Extended Manufacturer (Default)"
+      }
+    },
     "type": "manufacturer_detail",
     "id": "Moorl\\Manufacturer\\MoorlManufacturer::CMS_PAGE_MANUFACTURER_DEFAULT_ID",
     "sections": [
@@ -369,7 +376,7 @@
             "type": "moorl-column-layout-1",
             "sectionPosition": "main",
             "marginTop": "0",
-            "marginBottom": "20px",
+            "marginBottom": "60px",
             "marginLeft": "0",
             "marginRight": "0",
             "backgroundColor": "",
@@ -507,11 +514,11 @@
                   },
                   "itemWidth": {
                     "source": "static",
-                    "value": "300px"
+                    "value": "200px"
                   },
                   "itemHeight": {
                     "source": "static",
-                    "value": "400px"
+                    "value": "240px"
                   },
                   "itemPadding": {
                     "source": "static",
@@ -543,7 +550,7 @@
                   },
                   "contentPadding": {
                     "source": "static",
-                    "value": "20px"
+                    "value": "5px"
                   },
                   "contentColor": {
                     "source": "static",

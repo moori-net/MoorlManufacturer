@@ -67,7 +67,7 @@
                   },
                   "listingHeaderTitle": {
                     "source": "static",
-                    "value": null
+                    "value": "Weitere Hersteller entdecken"
                   },
                   "listingLayout": {
                     "source": "static",
@@ -95,11 +95,11 @@
                   },
                   "itemWidth": {
                     "source": "static",
-                    "value": "300px"
+                    "value": "200px"
                   },
                   "itemHeight": {
                     "source": "static",
-                    "value": "400px"
+                    "value": "240px"
                   },
                   "itemPadding": {
                     "source": "static",
@@ -131,23 +131,23 @@
                   },
                   "contentPadding": {
                     "source": "static",
-                    "value": "20px"
+                    "value": "5px"
                   },
                   "contentColor": {
                     "source": "static",
-                    "value": ""
+                    "value": null
                   },
                   "contentBackgroundColor": {
                     "source": "static",
-                    "value": ""
+                    "value": null
                   },
                   "contentHighlightColor": {
                     "source": "static",
-                    "value": ""
+                    "value": null
                   },
                   "itemBackgroundColor": {
                     "source": "static",
-                    "value": ""
+                    "value": null
                   },
                   "itemHasBorder": {
                     "source": "static",
@@ -187,71 +187,18 @@
                   },
                   "navigationArrows": {
                     "source": "static",
-                    "value": "outside"
+                    "value": null
                   },
                   "navigationDots": {
                     "source": "static",
-                    "value": null
+                    "value": "outside"
+                  },
+                  "listingItems": {
+                    "value": [],
+                    "source": "static"
                   }
                 },
                 "id": "{ID:CMS_PAGE_ROOT_SLOT_1}"
-              }
-            ],
-            "sizingMode": "boxed"
-          },
-          {
-            "position": 1,
-            "type": "product-listing",
-            "sectionPosition": "main",
-            "marginTop": "20px",
-            "marginBottom": "20px",
-            "backgroundColor": "",
-            "backgroundMediaMode": "cover",
-            "visibility": {
-              "mobile": true,
-              "tablet": true,
-              "desktop": true
-            },
-            "id": "{ID:CMS_PAGE_ROOT_BLOCK_2}",
-            "slots": [
-              {
-                "type": "product-listing",
-                "slot": "content",
-                "config": {
-                  "boxLayout": {
-                    "source": "static",
-                    "value": "standard"
-                  },
-                  "boxHeadlineLevel": {
-                    "source": "static",
-                    "value": 2
-                  },
-                  "showSorting": {
-                    "source": "static",
-                    "value": true
-                  },
-                  "useCustomSorting": {
-                    "source": "static",
-                    "value": false
-                  },
-                  "availableSortings": {
-                    "source": "static",
-                    "value": []
-                  },
-                  "defaultSorting": {
-                    "source": "static",
-                    "value": ""
-                  },
-                  "filters": {
-                    "source": "static",
-                    "value": "manufacturer-filter,rating-filter,price-filter,shipping-free-filter,property-filter"
-                  },
-                  "propertyWhitelist": {
-                    "source": "static",
-                    "value": []
-                  }
-                },
-                "id": "{ID:CMS_PAGE_ROOT_SLOT_2}"
               }
             ],
             "sizingMode": "boxed"
