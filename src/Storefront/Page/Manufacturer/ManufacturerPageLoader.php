@@ -29,6 +29,8 @@ class ManufacturerPageLoader
         }
         
         $criteria = new Criteria();
+        $criteria->addAssociation('tags');
+        $criteria->addAssociation('categories');
         $result = $this->manufacturerDetailRoute->load($manufacturerId, $request, $salesChannelContext, $criteria);
         /** @var SalesChannelManufacturerEntity $manufacturer */
         $manufacturer = $result->getManufacturer();

@@ -11,6 +11,7 @@ use MoorlFoundation\Core\Framework\DataAbstractionLayer\EntityThingPageTrait;
 use Shopware\Core\Framework\DataAbstractionLayer\Entity;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityCustomFieldsTrait;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityIdTrait;
+use Shopware\Core\System\Tag\TagCollection;
 
 class ManufacturerEntity extends Entity
 {
@@ -24,6 +25,7 @@ class ManufacturerEntity extends Entity
     use EntityAvatarTrait;
 
     protected int $productCount = 0;
+    protected ?TagCollection $tags = null;
 
     public function getProductCount(): int
     {
@@ -33,5 +35,15 @@ class ManufacturerEntity extends Entity
     public function setProductCount(int $productCount): void
     {
         $this->productCount = $productCount;
+    }
+
+    public function getTags(): ?TagCollection
+    {
+        return $this->tags;
+    }
+
+    public function setTags(?TagCollection $tags): void
+    {
+        $this->tags = $tags;
     }
 }

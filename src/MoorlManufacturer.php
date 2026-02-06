@@ -18,7 +18,9 @@ class MoorlManufacturer extends Plugin
     final public const DATA_CREATED_AT = '2025-01-29 00:00:00.000';
     final public const PLUGIN_TABLES = [
         'moorl_manufacturer',
-        'moorl_manufacturer_translation'
+        'moorl_manufacturer_translation',
+        'moorl_manufacturer_tag',
+        'moorl_manufacturer_category',
     ];
     final public const SHOPWARE_TABLES = [
         'seo_url_template',

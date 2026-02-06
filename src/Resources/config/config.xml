@@ -2,6 +2,18 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
     <card>
+        <title>General</title>
+        <title lang="de-DE">Einstellungen</title>
+
+        <component name="sw-entity-single-select">
+            <name>category</name>
+            <entity>category</entity>
+            <label>Main page with manufacturer overview</label>
+            <label lang="de-DE">Hauptseite mit Herstellerübersicht</label>
+        </component>
+    </card>
+
+    <card>
         <title>Advanced search</title>
         <title lang="de-DE">Erweiterte Suche</title>
 

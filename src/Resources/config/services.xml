@@ -18,11 +18,27 @@
             <tag name="shopware.entity.definition" entity="moorl_manufacturer_translation"/>
         </service>
 
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerTagDefinition">
+            <tag name="shopware.entity.definition" entity="moorl_manufacturer_tag"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerCategoryDefinition">
+            <tag name="shopware.entity.definition" entity="moorl_manufacturer_category"/>
+        </service>
+
         <service id="Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\SalesChannelManufacturerDefinition">
             <tag name="shopware.sales_channel.entity.definition"/>
         </service>
 
         <service id="Moorl\Manufacturer\Core\Content\ProductManufacturer\ProductManufacturerExtension">
+            <tag name="shopware.entity.extension"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Tag\TagExtension">
+            <tag name="shopware.entity.extension"/>
+        </service>
+
+        <service id="Moorl\Manufacturer\Core\Content\Category\CategoryExtension">
             <tag name="shopware.entity.extension"/>
         </service>
 

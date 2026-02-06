@@ -7,12 +7,14 @@ use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldContactC
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldEntityCollection;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldMultiEntityCollection;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Collection\FieldThingCollection;
+use Shopware\Core\Content\Category\CategoryDefinition;
 use Shopware\Core\Content\Product\Aggregate\ProductManufacturer\ProductManufacturerDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\Flag\Required;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\Flag\WriteProtected;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\IntField;
 use Shopware\Core\Framework\DataAbstractionLayer\FieldCollection;
+use Shopware\Core\System\Tag\TagDefinition;
 
 class ManufacturerDefinition extends EntityDefinition
 {
@@ -58,6 +60,13 @@ class ManufacturerDefinition extends EntityDefinition
             FieldMultiEntityCollection::getManyToOneFieldItems([
                 [ProductManufacturerDefinition::class, [new Required()], []],
             ]),
+            FieldMultiEntityCollection::getManyToManyFieldItems(
+                localClass: self::class,
+                references: [
+                    [TagDefinition::class, ManufacturerTagDefinition::class],
+                    [CategoryDefinition::class, ManufacturerCategoryDefinition::class]
+                ]
+            ),
         ));
     }
 }

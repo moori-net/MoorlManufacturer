@@ -1,0 +1,106 @@
+{% if config('MoorlManufacturer.config.category') %}
+    {% set overviewLink = seoUrl('frontend.navigation.page', { navigationId: config('MoorlManufacturer.config.category') }) %}
+{% else %}
+    {% set overviewLink = null %}
+{% endif %}
+
+<div class="cms-element-{{ element.type }} cms-element-moorl-meta">
+    {% block manufacturer_meta %}
+        <ul>
+            {% block manufacturer_meta_product_count %}
+                {% if manufacturer.productCount %}
+                    <li>
+                        {% sw_icon 'list' %}
+                        <small>{{ manufacturer.productCount }} {{ "moorl-manufacturer.products"|trans }}</small>
+                    </li>
+                {% endif %}
+            {% endblock %}
+
+            {% block manufacturer_meta_categories %}
+                {% if manufacturer.categories.count() %}
+                    <li>
+                        {% sw_icon 'bookmark' %}
+                        <div>
+                            {% for category in manufacturer.categories %}
+                                <a
+                                        href="{{ seoUrl('frontend.navigation.page', { navigationId: category.id, manufacturer: manufacturer.productManufacturerId }) }}"
+                                        title="{{ category.translated.name }}"
+                                >{{ category.translated.name }}</a>
+                            {% endfor %}
+                        </div>
+                    </li>
+                {% endif %}
+            {% endblock %}
+
+            {% block manufacturer_meta_tags %}
+                {% if manufacturer.tags.count() %}
+                    <li>
+                        {% sw_icon 'tags' %}
+                        <div>
+                            {% for tag in manufacturer.tags %}
+                                {% if overviewLink %}
+                                    <a
+                                            href="{{ overviewLink }}?tag={{ tag.id }}"
+                                            title="{{ tag.name }}"
+                                    >{{ tag.name }}</a>
+                                {% else %}
+                                    <span>{{ tag.name }}</span>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </li>
+                {% endif %}
+            {% endblock %}
+
+            {% block manufacturer_link %}
+                {% if manufacturer.merchantUrl %}
+                    <li>
+                        {% sw_icon 'link' %}
+                        <a
+                                href="{{ manufacturer.merchantUrl }}"
+                                title="{{ "moorl-manufacturer.link"|trans }}"
+                                rel="noopener"
+                                target="_blank"
+                        >
+                            {{ "moorl-manufacturer.link"|trans }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endblock %}
+
+            {% block manufacturer_phone_number %}
+                {% if manufacturer.phoneNumber %}
+                    <li>
+                        {% sw_icon 'mobile' %}
+                        <a href="tel:{{ manufacturer.phoneNumber }}">
+                            {{ manufacturer.phoneNumber }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endblock %}
+
+            {% block manufacturer_email %}
+                {% if manufacturer.email %}
+                    <li>
+                        {% sw_icon 'envelope' %}
+                        <a href="mailto:{{ manufacturer.email }}">
+                            {{ manufacturer.email }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endblock %}
+
+            {% block manufacturer_meta_back %}
+                {% if overviewLink %}
+                    <li>
+                        {% sw_icon 'stack' %}
+                        <a
+                                href="{{ overviewLink }}"
+                                title="{{ "moorl-magazine.backToOverview"|trans }}"
+                        >{{ "moorl-magazine.backToOverview"|trans }}</a>
+                    </li>
+                {% endif %}
+            {% endblock %}
+        </ul>
+    {% endblock %}
+</div>
