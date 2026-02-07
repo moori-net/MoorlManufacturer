@@ -655,6 +655,722 @@
   {
     "translations": {
       "{de-DE}": {
+        "name": "Erweiterte Hersteller (Mit Karte)"
+      },
+      "{en-GB}": {
+        "name": "Extended Manufacturer (With map)"
+      }
+    },
+    "type": "manufacturer_detail",
+    "id": "{ID:CMS_PAGE_WITH_MAP}",
+    "sections": [
+      {
+        "position": 0,
+        "type": "default",
+        "sizingMode": "full_width",
+        "backgroundColor": "",
+        "backgroundMediaMode": "cover",
+        "visibility": {
+          "mobile": true,
+          "tablet": true,
+          "desktop": true
+        },
+        "id": "{ID:CMS_PAGE_WITH_MAP_SECTION_1}",
+        "blocks": [
+          {
+            "position": 0,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "main",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundColor": "",
+            "backgroundMediaMode": "cover",
+            "visibility": {
+              "mobile": true,
+              "tablet": true,
+              "desktop": true
+            },
+            "customFields": {},
+            "id": "{ID:CMS_PAGE_WITH_MAP_BLOCK_1}",
+            "slots": [
+              {
+                "type": "manufacturer-header",
+                "slot": "slot-a",
+                "config": {
+                  "mode": {
+                    "value": "carousel",
+                    "source": "static"
+                  },
+                  "limit": {
+                    "value": 12,
+                    "source": "static"
+                  },
+                  "speed": {
+                    "value": 1000,
+                    "source": "static"
+                  },
+                  "gapSize": {
+                    "value": "20px",
+                    "source": "static"
+                  },
+                  "autoplay": {
+                    "value": true,
+                    "source": "static"
+                  },
+                  "animateIn": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "hasButton": {
+                    "value": true,
+                    "source": "static"
+                  },
+                  "itemWidth": {
+                    "value": "300px",
+                    "source": "static"
+                  },
+                  "mouseDrag": {
+                    "value": false,
+                    "source": "static"
+                  },
+                  "textAlign": {
+                    "value": "left",
+                    "source": "static"
+                  },
+                  "urlNewTab": {
+                    "value": true,
+                    "source": "static"
+                  },
+                  "animateOut": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "foreignKey": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "itemHeight": {
+                    "value": "400px",
+                    "source": "static"
+                  },
+                  "itemLayout": {
+                    "value": "overlay",
+                    "source": "static"
+                  },
+                  "buttonClass": {
+                    "value": "btn btn-primary",
+                    "source": "static"
+                  },
+                  "buttonLabel": {
+                    "value": "Click here!",
+                    "source": "static"
+                  },
+                  "displayMode": {
+                    "value": "cover",
+                    "source": "static"
+                  },
+                  "itemPadding": {
+                    "value": "0px",
+                    "source": "static"
+                  },
+                  "contentColor": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "listingItems": {
+                    "value": [],
+                    "source": "static"
+                  },
+                  "itemHasBorder": {
+                    "value": false,
+                    "source": "static"
+                  },
+                  "listingLayout": {
+                    "value": "grid",
+                    "source": "static"
+                  },
+                  "listingSource": {
+                    "value": "static",
+                    "source": "static"
+                  },
+                  "contentPadding": {
+                    "value": "20px",
+                    "source": "static"
+                  },
+                  "listingItemIds": {
+                    "value": [],
+                    "source": "static"
+                  },
+                  "listingSorting": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "navigationDots": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "autoplayTimeout": {
+                    "value": 3000,
+                    "source": "static"
+                  },
+                  "navigationArrows": {
+                    "value": "outside",
+                    "source": "static"
+                  },
+                  "autoplayHoverPause": {
+                    "value": true,
+                    "source": "static"
+                  },
+                  "itemLayoutTemplate": {
+                    "value": "@Storefront/storefront/component/product/card/box.html.twig",
+                    "source": "static"
+                  },
+                  "itemBackgroundColor": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "contentHighlightColor": {
+                    "value": null,
+                    "source": "static"
+                  },
+                  "contentBackgroundColor": {
+                    "value": null,
+                    "source": "static"
+                  }
+                },
+                "id": "{ID:CMS_PAGE_WITH_MAP_SLOT_1}"
+              }
+            ],
+            "sizingMode": "boxed"
+          },
+          {
+            "position": 1,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "main",
+            "marginTop": "0",
+            "marginBottom": "60px",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundColor": "",
+            "backgroundMediaMode": "cover",
+            "visibility": {
+              "mobile": true,
+              "tablet": true,
+              "desktop": true
+            },
+            "id": "{ID:CMS_PAGE_WITH_MAP_BLOCK_2}",
+            "slots": [
+              {
+                "type": "manufacturer-meta",
+                "slot": "slot-a",
+                "config": {},
+                "id": "{ID:CMS_PAGE_WITH_MAP_SLOT_2}"
+              }
+            ],
+            "sizingMode": "boxed"
+          }
+        ]
+      },
+      {
+        "position": 1,
+        "type": "moorl-grid",
+        "sizingMode": "boxed",
+        "backgroundColor": "",
+        "backgroundMediaMode": "cover",
+        "visibility": {
+          "mobile": true,
+          "tablet": true,
+          "desktop": true
+        },
+        "customFields": {
+          "moorl_section_grid_config": [
+            {
+              "value": {
+                "lg": {
+                  "show": true,
+                  "order": 0,
+                  "width": "3",
+                  "inherit": false
+                },
+                "md": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
+                },
+                "sm": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
+                },
+                "xl": {
+                  "show": true,
+                  "order": 0,
+                  "width": "3",
+                  "inherit": false
+                },
+                "xs": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
+                }
+              },
+              "isSticky": true,
+              "offsetTop": "30px",
+              "alignItems": "normal",
+              "justifyContent": "normal"
+            },
+            {
+              "value": {
+                "lg": {
+                  "show": true,
+                  "order": 0,
+                  "width": "9",
+                  "inherit": false
+                },
+                "md": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
+                },
+                "sm": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
+                },
+                "xl": {
+                  "show": true,
+                  "order": 0,
+                  "width": "9",
+                  "inherit": false
+                },
+                "xs": {
+                  "show": true,
+                  "order": 0,
+                  "width": 12,
+                  "inherit": true
+                }
+              },
+              "isSticky": false,
+              "offsetTop": "30px",
+              "alignItems": "normal",
+              "justifyContent": "normal"
+            }
+          ],
+          "moorl_section_column_count": "2"
+        },
+        "id": "{ID:CMS_PAGE_WITH_MAP_SECTION_2}",
+        "blocks": [
+          {
+            "position": 0,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "moorl_grid_0",
+            "marginTop": "0",
+            "marginBottom": "60px",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundColor": "",
+            "backgroundMediaMode": "cover",
+            "visibility": {
+              "mobile": true,
+              "tablet": true,
+              "desktop": true
+            },
+            "customFields": {},
+            "id": "{ID:CMS_PAGE_WITH_MAP_BLOCK_3}",
+            "slots": [
+              {
+                "type": "moorl-toc",
+                "slot": "slot-a",
+                "config": {
+                  "content": {
+                    "source": "mapped",
+                    "value": "moorl_manufacturer.description"
+                  }
+                },
+                "id": "{ID:CMS_PAGE_WITH_MAP_SLOT_3}"
+              }
+            ],
+            "sizingMode": "boxed"
+          },
+          {
+            "position": 1,
+            "type": "text",
+            "sectionPosition": "moorl_grid_1",
+            "marginTop": "0",
+            "marginBottom": "60px",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundColor": "",
+            "backgroundMediaMode": "cover",
+            "visibility": {
+              "mobile": true,
+              "tablet": true,
+              "desktop": true
+            },
+            "customFields": {},
+            "id": "{ID:CMS_PAGE_WITH_MAP_BLOCK_4}",
+            "slots": [
+              {
+                "type": "text",
+                "slot": "content",
+                "config": {
+                  "content": {
+                    "source": "mapped",
+                    "value": "moorl_manufacturer.description"
+                  },
+                  "verticalAlign": {
+                    "source": "static",
+                    "value": null
+                  }
+                },
+                "id": "{ID:CMS_PAGE_WITH_MAP_SLOT_4}"
+              }
+            ],
+            "sizingMode": "boxed"
+          }
+        ]
+      },
+      {
+        "position": 2,
+        "type": "default",
+        "sizingMode": "boxed",
+        "backgroundColor": "",
+        "backgroundMediaMode": "cover",
+        "visibility": {
+          "mobile": true,
+          "tablet": true,
+          "desktop": true
+        },
+        "id": "{ID:CMS_PAGE_WITH_MAP_SECTION_3}",
+        "blocks": [
+          {
+            "position": 0,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "main",
+            "marginTop": "0",
+            "marginBottom": "60px",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundColor": "",
+            "backgroundMediaMode": "cover",
+            "visibility": {
+              "mobile": true,
+              "tablet": true,
+              "desktop": true
+            },
+            "id": "{ID:CMS_PAGE_WITH_MAP_BLOCK_5}",
+            "slots": [
+              {
+                "type": "manufacturer-product-listing",
+                "slot": "slot-a",
+                "config": {
+                  "boxLayout": {
+                    "source": "static",
+                    "value": "standard"
+                  },
+                  "showSorting": {
+                    "source": "static",
+                    "value": true
+                  },
+                  "useCustomSorting": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "availableSortings": {
+                    "source": "static",
+                    "value": []
+                  },
+                  "defaultSorting": {
+                    "source": "static",
+                    "value": ""
+                  },
+                  "filters": {
+                    "source": "static",
+                    "value": "manufacturer-filter,rating-filter,price-filter,shipping-free-filter,property-filter"
+                  },
+                  "propertyWhitelist": {
+                    "source": "static",
+                    "value": []
+                  }
+                },
+                "id": "{ID:CMS_PAGE_WITH_MAP_SLOT_5}"
+              }
+            ],
+            "sizingMode": "boxed"
+          }
+        ]
+      },
+      {
+        "position": 3,
+        "type": "default",
+        "sizingMode": "full_width",
+        "backgroundColor": "",
+        "backgroundMediaMode": "cover",
+        "cssClass": "bg-light",
+        "visibility": {
+          "mobile": true,
+          "tablet": true,
+          "desktop": true
+        },
+        "id": "{ID:CMS_PAGE_WITH_MAP_SECTION_4}",
+        "blocks": [
+          {
+            "position": 0,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "main",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundColor": "",
+            "backgroundMediaMode": "cover",
+            "visibility": {
+              "mobile": true,
+              "tablet": true,
+              "desktop": true
+            },
+            "id": "{ID:CMS_PAGE_WITH_MAP_BLOCK_6}",
+            "slots": [
+              {
+                "type": "moorl-location",
+                "slot": "slot-a",
+                "config": {
+                  "locationLat": {
+                    "source": "mapped",
+                    "value": "moorl_manufacturer.locationLat"
+                  },
+                  "locationLon": {
+                    "source": "mapped",
+                    "value": "moorl_manufacturer.locationLon"
+                  },
+                  "markerId": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "marker": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "height": {
+                    "source": "static",
+                    "value": "300px"
+                  },
+                  "overrideOsmOptions": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "osmOptions": {
+                    "source": "static",
+                    "value": []
+                  },
+                  "legend": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "legendItems": {
+                    "source": "static",
+                    "value": []
+                  }
+                },
+                "id": "{ID:CMS_PAGE_WITH_MAP_SLOT_6}"
+              }
+            ],
+            "sizingMode": "boxed"
+          },
+          {
+            "position": 1,
+            "type": "moorl-column-layout-1",
+            "sectionPosition": "main",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "marginLeft": "0",
+            "marginRight": "0",
+            "backgroundColor": "",
+            "backgroundMediaMode": "cover",
+            "visibility": {
+              "mobile": true,
+              "tablet": true,
+              "desktop": true
+            },
+            "customFields": {},
+            "id": "{ID:CMS_PAGE_WITH_MAP_BLOCK_7}",
+            "slots": [
+              {
+                "type": "manufacturer-listing",
+                "slot": "slot-a",
+                "config": {
+                  "listingSource": {
+                    "source": "static",
+                    "value": "static"
+                  },
+                  "listingSorting": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "foreignKey": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "limit": {
+                    "source": "static",
+                    "value": 12
+                  },
+                  "listingItemIds": {
+                    "source": "static",
+                    "value": []
+                  },
+                  "listingHeaderTitle": {
+                    "source": "static",
+                    "value": "Weitere Hersteller entdecken"
+                  },
+                  "listingLayout": {
+                    "source": "static",
+                    "value": "slider"
+                  },
+                  "listingJustifyContent": {
+                    "source": "static",
+                    "value": "normal"
+                  },
+                  "itemLayout": {
+                    "source": "static",
+                    "value": "avatar"
+                  },
+                  "displayMode": {
+                    "source": "static",
+                    "value": "cover"
+                  },
+                  "itemLayoutTemplate": {
+                    "source": "static",
+                    "value": "@Storefront/storefront/component/product/card/box.html.twig"
+                  },
+                  "gapSize": {
+                    "source": "static",
+                    "value": "20px"
+                  },
+                  "itemWidth": {
+                    "source": "static",
+                    "value": "200px"
+                  },
+                  "itemHeight": {
+                    "source": "static",
+                    "value": "240px"
+                  },
+                  "itemPadding": {
+                    "source": "static",
+                    "value": "0px"
+                  },
+                  "hasButton": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "buttonLabel": {
+                    "source": "static",
+                    "value": "Click here!"
+                  },
+                  "buttonClass": {
+                    "source": "static",
+                    "value": "btn btn-primary"
+                  },
+                  "urlNewTab": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "textAlign": {
+                    "source": "static",
+                    "value": "center"
+                  },
+                  "contentLength": {
+                    "source": "static",
+                    "value": 150
+                  },
+                  "contentPadding": {
+                    "source": "static",
+                    "value": "5px"
+                  },
+                  "contentColor": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "contentBackgroundColor": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "contentHighlightColor": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "itemBackgroundColor": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "itemHasBorder": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "mode": {
+                    "source": "static",
+                    "value": "carousel"
+                  },
+                  "speed": {
+                    "source": "static",
+                    "value": 1000
+                  },
+                  "autoplayTimeout": {
+                    "source": "static",
+                    "value": 3000
+                  },
+                  "autoplay": {
+                    "source": "static",
+                    "value": true
+                  },
+                  "autoplayHoverPause": {
+                    "source": "static",
+                    "value": true
+                  },
+                  "mouseDrag": {
+                    "source": "static",
+                    "value": false
+                  },
+                  "animateIn": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "animateOut": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "navigationArrows": {
+                    "source": "static",
+                    "value": null
+                  },
+                  "navigationDots": {
+                    "source": "static",
+                    "value": "outside"
+                  },
+                  "listingItems": {
+                    "value": [],
+                    "source": "static"
+                  }
+                },
+                "id": "{ID:CMS_PAGE_WITH_MAP_SLOT_7}"
+              }
+            ],
+            "sizingMode": "boxed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "translations": {
+      "{de-DE}": {
         "name": "Erweiterte Hersteller (Liste)"
       },
       "{en-GB}": {

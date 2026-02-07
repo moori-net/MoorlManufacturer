@@ -15,6 +15,11 @@ onMoorlFoundationReady(() => {
         properties: [
             {name: 'active', visibility: 100},
             {name: 'name', visibility: 200},
+            {name: 'merchantUrl', visibility: 100},
+            {name: 'phoneNumber', visibility: 100},
+            {name: 'email', visibility: 100},
+            {name: 'productCount', visibility: 100},
+            {name: 'city', visibility: 100},
         ],
         pluginName: 'MoorlManufacturer',
         demoName: 'standard',

@@ -10,7 +10,12 @@
     "bannerId": "{MEDIA_FILE:product_manufacturer/audi-banner-2.jpg}",
     "phoneNumber": "+49123456789",
     "email": "hello@audi.de",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "street": "Auto-Union-Straße 1",
+    "zipcode": "85057",
+    "city": "Ingolstadt",
+    "locationLat": 48.7825823,
+    "locationLon": 11.4143785
   },
   {
     "id": "{ID:MOORL_MANUFACTURER_VW}",
@@ -23,7 +28,12 @@
     "bannerId": "{MEDIA_FILE:product_manufacturer/vw-banner.jpg}",
     "phoneNumber": "+49123456789",
     "email": "hello@volkswagen.de",
-    "countryCode": "DE"
+    "countryCode": "DE",
+    "street": "Berliner Ring 2",
+    "zipcode": "38440",
+    "city": "Wolfsburg",
+    "locationLat": 52.4389351,
+    "locationLon": 10.764627
   },
   {
     "id": "{ID:PRODUCT_MANUFACTURER_BENTLEY}",
