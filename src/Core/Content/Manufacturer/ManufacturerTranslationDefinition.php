@@ -32,6 +32,8 @@ class ManufacturerTranslationDefinition extends EntityTranslationDefinition
 
     protected function defineFields(): FieldCollection
     {
-        return new FieldCollection(FieldThingCollection::getTranslatedFieldItems());
+        return new FieldCollection(
+            FieldThingCollection::getTranslatedFieldItems()
+        );
     }
 }
