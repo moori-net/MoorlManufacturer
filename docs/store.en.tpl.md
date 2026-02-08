@@ -2,55 +2,69 @@
 
 {file:snippets/docs_demo_plugin.en.md}
 
-**Simple. Intuitive. Error-free.**
+## Feature Overview
 
-With the **Parts List (BOM) Configurator**, you can create complex product configurations - without any programming and without the risk of incorrect orders.
+### Extended Manufacturer Data
+Enhance manufacturers with a wide range of additional information, such as:
+- Address and location
+- Contact options (email, phone, website)
+- Additional media like images or downloads
+- Custom text fields for individual content
 
-## What does the Parts List (BOM) Configurator do?
+All data is managed centrally and available throughout the entire shop.
 
-The BOM Configurator allows you to create an intelligent product configurator within the Shopware 6 admin. It combines **multiple variations, properties, and product groups** into a single configuration.
+---
 
-This creates a dynamic filter that shows your customers **only compatible products**, based on their selections (e.g., color, height, material, or performance).
+### Manufacturer Search in the Storefront
+Customers can specifically search for manufacturers in the storefront. This improves:
+- usability
+- navigation within the shop
+- discoverability of brands and products
 
-## Intelligent logic - perfect combinations
+---
 
-Once the customer selects certain variations, the system automatically filters out all incompatible products.
+### CMS Elements: Listing & Slider
+Manufacturers can be flexibly integrated into Shopping Experiences:
+- **Manufacturer listing** (e.g. A–Z or filtered)
+- **Manufacturer slider** for home or category pages
 
-The result:
+Ideal for brand presentation and strengthening your brand story.
 
-- No incorrect combinations
-- No complaints due to incompatible items
-- A seamless, user-friendly purchase process
+---
 
-The customer simply selects the desired quantity of each suggested product - the configurator ensures that all chosen items fit together perfectly.
+### New CMS Page Type: Manufacturer Detail Page
+The plugin introduces a completely new CMS page type:
+- Dedicated **detail pages per manufacturer**
+- Fully customizable using the familiar Shopware CMS features
 
-## Automatic bill of materials calculation
+#### New CMS elements specifically for manufacturer pages:
+- Manufacturer banner (hero section)
+- Detailed manufacturer description
+- Table of contents for better structure
+- Product listing: all products of a manufacturer at a glance
 
-A special highlight of the plugin:  
-You can use any configuration to **automatically calculate the correct products and their required quantities**.
+This allows you to create a high-quality landing page for each brand.
 
-Perfect for:
+---
 
-- Product sets or assemblies
-- Technical configurations (e.g., machinery, furniture, systems)
-- Spare part or accessory configurators
+## Benefits at a Glance
+- Significantly extended manufacturer management
+- Improved UX through search and structured detail pages
+- Greater flexibility thanks to CMS integration
+- Optimal brand presentation
+- Ideal for SEO-optimized manufacturer landing pages
 
-## Your benefits at a glance
+---
 
-- Intuitive creation of complex configurations in the Shopware admin
-- Dynamic filtering for compatible product combinations
-- Automatic bill of materials calculation based on configuration
-- Minimizes incorrect orders and returns
-- Increases conversion and customer satisfaction
+## Typical Use Cases
+- Shops with a strong brand focus
+- Manufacturer or brand overview pages
+- Content-rich manufacturer landing pages
+- B2B shops with detailed manufacturer information
 
-## Use cases
+---
 
-- Furniture configurator (e.g., tabletop + table legs + accessories)
-- Mechanical or industrial equipment configuration
-- Electrical and spare part configurators
-- Vehicle or bicycle component shops
-
-## Conclusion
-
-With the **BOM Configurator**, you transform your Shopware shop into an intelligent, error-tolerant configuration system.  
-Your customers enjoy a smooth and intuitive shopping experience - while you save time, support effort, and unnecessary costs.
+## Compatibility
+- Shopware 6
+- Fully compatible with Shopping Experiences (CMS)
+- Built to be update-safe and future-proof

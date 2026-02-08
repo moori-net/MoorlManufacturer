@@ -7,7 +7,7 @@ store:
     - de_DE
     - en_GB
   categories:
-    - Bezahlung
+    - Sonderfunktionen
   type: extension
   icon: src/Resources/config/plugin.png
   automatic_bugfix_version_compatibility: true
@@ -19,29 +19,29 @@ store:
     en: file:docs/manual.en.md
   tags:
     de:
-      - Produkt
-      - Stückliste
-      - Konfigurator
+      - Hersteller
+      - SEO
+      - Storefront
     en:
-      - Product
-      - Parts list
-      - Configurator
+      - Manufacturer
+      - SEO
+      - Storefront
   videos:
     de: []
     en: []
   highlights:
     de:
-      - Flexible Stücklisten erstellen
-      - Zusammenspiel aus Eigenschaften, Ausprägungen und dynamischen Produktgruppen
-      - Warenkorb Vorschau
-      - Erweiterung durch benutzerdefinierte Kalkulatoren möglich
-      - Volle Gestaltungsfreiheit durch CMS Templates, Listings und Suche
+      - Herstellersuche
+      - Zusätzliche CMS Elemente
+      - CMS Seite für Hersteller mit Produktübersicht
+      - Zusätzliche Daten - Adresse, Geokoordinaten, Kontaktmöglichkeiten
+      - Anspruchsvolle Gestaltungsmöglichkeiten
     en:
-      - Create flexible parts lists
-      - Interplay of characteristics, features, and dynamic product groups
-      - Shopping cart preview
-      - Extension possible through custom calculators
-      - Complete design freedom with CMS templates, listings, and search
+      - Manufacturer search
+      - Additional CMS elements
+      - MS page for manufacturers with product overview
+      - Additional data—address, coordinates, contact details
+      - Advanced design options
   features:
     de: []
     en: []
@@ -108,16 +108,16 @@ store:
         de: true
         en: true
       preview:
-        de: false
-        en: false
+        de: true
+        en: true
       priority: 0
     - file: docs/images/storefront-manufacturer-listing.png
       activate:
         de: true
         en: true
       preview:
-        de: true
-        en: true
+        de: false
+        en: false
       priority: 100
     - file: docs/images/storefront-product-detail.png
       activate:
