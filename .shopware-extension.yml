@@ -103,56 +103,7 @@ store:
       preview:
         de: false
         en: false
-    - file: docs/images/admin-9.png
-      activate:
-        de: true
-        en: true
-      preview:
-        de: false
-        en: false
-    - file: docs/images/admin-10.png
-      activate:
-        de: true
-        en: true
-      preview:
-        de: false
-        en: false
-    - file: docs/images/admin-11.png
-      activate:
-        de: true
-        en: true
-      preview:
-        de: false
-        en: false
-    - file: docs/images/admin-12.png
-      activate:
-        de: true
-        en: true
-      preview:
-        de: false
-        en: false
-    - file: docs/images/admin-13.png
-      activate:
-        de: true
-        en: true
-      preview:
-        de: false
-        en: false
-    - file: docs/images/admin-14.png
-      activate:
-        de: true
-        en: true
-      preview:
-        de: false
-        en: false
-    - file: docs/images/admin-15.png
-      activate:
-        de: true
-        en: true
-      preview:
-        de: false
-        en: false
-    - file: docs/images/storefront-1.png
+    - file: docs/images/storefront-manufacturer-detail.png
       activate:
         de: true
         en: true
@@ -160,7 +111,7 @@ store:
         de: false
         en: false
       priority: 0
-    - file: docs/images/storefront-2.png
+    - file: docs/images/storefront-manufacturer-listing.png
       activate:
         de: true
         en: true
@@ -168,7 +119,7 @@ store:
         de: true
         en: true
       priority: 100
-    - file: docs/images/storefront-3.png
+    - file: docs/images/storefront-product-detail.png
       activate:
         de: true
         en: true
@@ -176,39 +127,7 @@ store:
         de: false
         en: false
       priority: 0
-    - file: docs/images/storefront-4.png
-      activate:
-        de: true
-        en: true
-      preview:
-        de: false
-        en: false
-      priority: 0
-    - file: docs/images/storefront-5.png
-      activate:
-        de: true
-        en: true
-      preview:
-        de: false
-        en: false
-      priority: 0
-    - file: docs/images/storefront-6.png
-      activate:
-        de: true
-        en: true
-      preview:
-        de: false
-        en: false
-      priority: 0
-    - file: docs/images/storefront-7.png
-      activate:
-        de: true
-        en: true
-      preview:
-        de: false
-        en: false
-      priority: 0
-    - file: docs/images/storefront-8.png
+    - file: docs/images/storefront-search.png
       activate:
         de: true
         en: true

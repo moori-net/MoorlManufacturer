@@ -10,6 +10,7 @@
     },
     "type": "manufacturer_detail",
     "id": "Moorl\\Manufacturer\\MoorlManufacturer::CMS_PAGE_MANUFACTURER_DEFAULT_ID",
+    "previewMediaId": "{MEDIA_FILE:storefront-manufacturer-detail.png|cms_page}",
     "sections": [
       {
         "position": 0,
@@ -663,6 +664,7 @@
     },
     "type": "page",
     "id": "{ID:CMS_PAGE_ROOT}",
+    "previewMediaId": "{MEDIA_FILE:storefront-manufacturer-listing.png|cms_page}",
     "sections": [
       {
         "position": 0,

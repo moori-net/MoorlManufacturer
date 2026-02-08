@@ -2,6 +2,7 @@
   "moorl-manufacturer": {
     "manufacturers": "Hersteller",
     "link": "Hersteller Website",
-    "products": "Produkte"
+    "products": "Produkte",
+    "backToOverview": "Zurück zur Übersicht"
   }
 }
