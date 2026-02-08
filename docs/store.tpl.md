@@ -68,3 +68,4 @@ So entsteht eine hochwertige Landingpage für jede Marke.
 - Shopware 6
 - Vollständig kompatibel mit Erlebniswelten (CMS)
 - Update- und zukunftssicher aufgebaut
+- 
