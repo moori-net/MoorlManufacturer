@@ -24,7 +24,10 @@ onMoorlFoundationReady(() => {
         pluginName: 'MoorlManufacturer',
         demoName: 'standard',
         entityMapping: {
-            productManufacturer: {tab: 'general', card: 'general', order: 'first'}
+            productManufacturer: {tab: 'general', card: 'general', order: 'first'},
+            marker: {hidden: true},
+            locationCache: {hidden: true},
+            bannerColor: {hidden: true},
         },
         cmsElements: [
             {
