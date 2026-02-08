@@ -10,7 +10,7 @@ tags:
 
 {var:description_de_de}
 
-![Vorschau](images/storefront-4.png)
+![Vorschau](images/storefront-manufacturer-detail.png)
 
 ---
 
