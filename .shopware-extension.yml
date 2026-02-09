@@ -34,13 +34,13 @@ store:
       - Herstellersuche
       - Zusätzliche CMS Elemente
       - CMS Seite für Hersteller mit Produktübersicht
-      - Zusätzliche Daten - Adresse, Geokoordinaten, Kontaktmöglichkeiten
+      - "Zusätzliche Daten: Adresse, Geokoordinaten, Kontaktmöglichkeiten"
       - Anspruchsvolle Gestaltungsmöglichkeiten
     en:
       - Manufacturer search
       - Additional CMS elements
-      - MS page for manufacturers with product overview
-      - Additional data—address, coordinates, contact details
+      - CMS page for manufacturers with product overview
+      - "Additional data: address, coordinates, contact details"
       - Advanced design options
   features:
     de: []
