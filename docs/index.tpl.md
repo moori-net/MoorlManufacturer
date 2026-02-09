@@ -43,9 +43,9 @@ tags:
 
 Dieses Plugin basiert auf die Hersteller, die es bereits in Shopware gibt, diese können optional erweitert werden. Um einen erweiterten Hersteller zu erstellen, muss mindestens ein Hersteller in Shopware angelegt sein.
 
-Legen Sie zuerst einen Hersteller in Shopware an: `Kataloge` → `Hersteller` -> `Hersteller hinzufügen`.
+Legen Sie zuerst einen Hersteller in Shopware an: `Kataloge` → `Hersteller` → `Hersteller hinzufügen`.
 
-Anschließend können Sie einen neuen erweiterten Hersteller erstellen: `Kataloge` → `Erweiterte Hersteller` -> `hinzufügen`.
+Anschließend können Sie einen neuen erweiterten Hersteller erstellen: `Kataloge` → `Erweiterte Hersteller` → `hinzufügen`.
 
 ### Eingabemaske
 
