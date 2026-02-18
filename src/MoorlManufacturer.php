@@ -33,7 +33,7 @@ class MoorlManufacturer extends Plugin
         'category_translation',
         'seo_url',
         'property_group',
-        'product_stream', /* Insert before products because indexing */
+        'product_stream',
         'product_manufacturer',
         'product',
         'product_translation',
