@@ -9,6 +9,7 @@ use Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\Events\Manufacture
 use Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\Events\ManufacturerSearchResultEvent;
 use Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\Events\ManufacturerSuggestCriteriaEvent;
 use Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel\Events\ManufacturerSuggestResultEvent;
+use Moorl\Manufacturer\MoorlManufacturer;
 use MoorlFoundation\Core\System\EntityListingExtension;
 use MoorlFoundation\Core\System\EntityListingInterface;
 use Shopware\Core\Content\Product\Events\ProductSearchResultEvent;
@@ -18,6 +19,11 @@ use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
 
 class ManufacturerListing extends EntityListingExtension implements EntityListingInterface
 {
+    public function getPluginName(): ?string
+    {
+        return MoorlManufacturer::NAME;
+    }
+
     public function getEntityName(): string
     {
         return ManufacturerDefinition::ENTITY_NAME;
@@ -31,39 +37,6 @@ class ManufacturerListing extends EntityListingExtension implements EntityListin
     public function getSnippet(): ?string
     {
         return 'moorl-manufacturer.manufacturers';
-    }
-
-    public function getElementConfig(): array
-    {
-        if ($this->isSearch() && $this->systemConfigService->get('MoorlManufacturer.config.searchConfigActive')) {
-            return $this->systemConfigService->get('MoorlManufacturer.config.searchConfig') ?: parent::getElementConfig();
-        } elseif ($this->isSuggest() && $this->systemConfigService->get('MoorlManufacturer.config.suggestConfigActive')) {
-            return $this->systemConfigService->get('MoorlManufacturer.config.suggestConfig') ?: parent::getElementConfig();
-        }
-
-        return parent::getElementConfig();
-    }
-
-    public function isActive(): bool
-    {
-        if ($this->isSearch()) {
-            return $this->systemConfigService->getBool('MoorlManufacturer.config.searchActive');
-        } elseif ($this->isSuggest()) {
-            return $this->systemConfigService->getBool('MoorlManufacturer.config.suggestActive');
-        }
-
-        return true;
-    }
-
-    public function getLimit(): int
-    {
-        if ($this->isSearch()) {
-            return $this->systemConfigService->get('MoorlManufacturer.config.searchLimit') ?: 12;
-        } elseif ($this->isSuggest()) {
-            return $this->systemConfigService->get('MoorlManufacturer.config.suggestLimit') ?: 6;
-        }
-
-        return 1;
     }
 
     public function processCriteria(Criteria $criteria): void
