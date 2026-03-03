@@ -4,6 +4,6 @@ Shopware.Service('cmsService').registerCmsElement({
     color: '#c0eebe',
     previewComponent: true,
     name: 'moorl-manufacturer-meta',
-    label: 'sw-cms.elements.manufacturer-meta.name',
+    label: 'sw-cms.elements.moorl-manufacturer-meta.name',
     component: true
 });
