@@ -4,6 +4,6 @@ Shopware.Service('cmsService').registerCmsElement({
     color: '#df9fdf',
     previewComponent: true,
     name: 'moorl-manufacturer-card',
-    label: 'sw-cms.elements.manufacturer-card.name',
+    label: 'sw-cms.elements.moorl-manufacturer-card.name',
     component: true
 });

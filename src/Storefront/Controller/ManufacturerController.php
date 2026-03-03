@@ -31,7 +31,7 @@ class ManufacturerController extends StorefrontController
     {
         $page = $this->manufacturerPageLoader->load($request, $salesChannelContext);
 
-        return $this->renderStorefront('@Storefront/storefront/element/cms-element-manufacturer-product-listing.html.twig', [
+        return $this->renderStorefront('@Storefront/storefront/element/cms-element-moorl-manufacturer-product-listing.html.twig', [
             'page' => $page
         ]);
     }

@@ -6,7 +6,7 @@ Shopware.Service('cmsService').registerCmsElement({
     color: '#df9fdf',
     previewComponent: true,
     name: 'moorl-manufacturer-header',
-    label: 'sw-cms.elements.manufacturer-header.name',
+    label: 'sw-cms.elements.moorl-manufacturer-header.name',
     component: 'sw-cms-el-manufacturer-header',
-    disabledConfigInfoTextKey: 'sw-cms.elements.manufacturer-header.tooltipSettingDisabled',
+    disabledConfigInfoTextKey: 'sw-cms.elements.moorl-manufacturer-header.tooltipSettingDisabled',
 });

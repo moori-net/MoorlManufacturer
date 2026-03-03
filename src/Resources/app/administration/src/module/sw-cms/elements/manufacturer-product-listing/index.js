@@ -6,10 +6,10 @@ Shopware.Service('cmsService').registerCmsElement({
     icon: 'regular-view-grid',
     color: '#df9fdf',
     name: 'moorl-manufacturer-product-listing',
-    label: 'sw-cms.elements.manufacturer-product-listing.name',
-    component: 'sw-cms-el-manufacturer-product-listing',
+    label: 'sw-cms.elements.moorl-manufacturer-product-listing.name',
+    component: 'sw-cms-el-moorl-manufacturer-product-listing',
     previewComponent: true,
-    configComponent: 'sw-cms-el-config-manufacturer-product-listing',
+    configComponent: 'sw-cms-el-config-moorl-manufacturer-product-listing',
     defaultConfig: {
         boxLayout: {
             source: 'static',
