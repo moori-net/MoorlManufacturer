@@ -44,7 +44,7 @@
             "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_1}",
             "slots": [
               {
-                "type": "manufacturer-header",
+                "type": "moorl-manufacturer-header",
                 "slot": "slot-a",
                 "config": {
                   "mode": {
@@ -211,7 +211,7 @@
             "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_2}",
             "slots": [
               {
-                "type": "manufacturer-meta",
+                "type": "moorl-manufacturer-meta",
                 "slot": "slot-a",
                 "config": {},
                 "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_SLOT_2}"
@@ -416,7 +416,7 @@
             "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_5}",
             "slots": [
               {
-                "type": "manufacturer-product-listing",
+                "type": "moorl-manufacturer-product-listing",
                 "slot": "slot-a",
                 "config": {
                   "boxLayout": {
@@ -441,7 +441,7 @@
                   },
                   "filters": {
                     "source": "static",
-                    "value": "manufacturer-filter,rating-filter,price-filter,shipping-free-filter,property-filter"
+                    "value": "moorl-manufacturer-filter,rating-filter,price-filter,shipping-free-filter,property-filter"
                   },
                   "propertyWhitelist": {
                     "source": "static",
@@ -488,7 +488,7 @@
             "id": "{ID:CMS_PAGE_MANUFACTURER_DEFAULT_BLOCK_6}",
             "slots": [
               {
-                "type": "manufacturer-listing",
+                "type": "moorl-manufacturer-listing",
                 "slot": "slot-a",
                 "config": {
                   "listingSource": {
@@ -723,7 +723,7 @@
             "id": "{ID:CMS_PAGE_ROOT_BLOCK_2}",
             "slots": [
               {
-                "type": "manufacturer-listing",
+                "type": "moorl-manufacturer-listing",
                 "slot": "slot-a",
                 "config": {
                   "listingSource": {

@@ -3,7 +3,7 @@ Shopware.Service('cmsService').registerCmsElement({
     icon: 'regular-tag',
     color: '#c0eebe',
     previewComponent: true,
-    name: 'manufacturer-meta',
+    name: 'moorl-manufacturer-meta',
     label: 'sw-cms.elements.manufacturer-meta.name',
     component: true
 });

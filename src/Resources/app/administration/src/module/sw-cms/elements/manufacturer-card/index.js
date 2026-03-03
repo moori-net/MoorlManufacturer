@@ -3,7 +3,7 @@ Shopware.Service('cmsService').registerCmsElement({
     icon: 'regular-user',
     color: '#df9fdf',
     previewComponent: true,
-    name: 'manufacturer-card',
+    name: 'moorl-manufacturer-card',
     label: 'sw-cms.elements.manufacturer-card.name',
     component: true
 });
