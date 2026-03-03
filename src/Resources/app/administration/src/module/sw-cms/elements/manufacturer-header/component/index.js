@@ -41,8 +41,8 @@ Shopware.Component.register('sw-cms-el-manufacturer-header', {
 
     methods: {
         createdComponent() {
-            this.initElementConfig('manufacturer-header');
-            this.initElementData('manufacturer-header');
+            this.initElementConfig('moorl-manufacturer-header');
+            this.initElementData('moorl-manufacturer-header');
         },
     },
 });

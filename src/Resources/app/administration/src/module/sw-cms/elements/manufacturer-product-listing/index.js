@@ -5,7 +5,7 @@ Shopware.Service('cmsService').registerCmsElement({
     plugin: 'MoorlManufacturer',
     icon: 'regular-view-grid',
     color: '#df9fdf',
-    name: 'manufacturer-product-listing',
+    name: 'moorl-manufacturer-product-listing',
     label: 'sw-cms.elements.manufacturer-product-listing.name',
     component: 'sw-cms-el-manufacturer-product-listing',
     previewComponent: true,

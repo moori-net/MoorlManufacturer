@@ -1,7 +1,7 @@
 {
     "sw-cms": {
         "elements": {
-            "manufacturer-header": {
+            "moorl-manufacturer-header": {
                 "name": "Manufacturer header",
                 "tooltipSettingDisabled": "This element will be set by the manufacturer."
             }

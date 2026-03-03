@@ -31,7 +31,7 @@ onMoorlFoundationReady(() => {
         },
         cmsElements: [
             {
-                name: 'manufacturer-listing',
+                name: 'moorl-manufacturer-listing',
                 parent: 'listing',
                 icon: 'regular-view-grid',
                 cmsElementEntity: {

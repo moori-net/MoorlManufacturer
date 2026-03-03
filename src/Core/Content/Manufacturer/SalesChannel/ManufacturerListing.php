@@ -31,7 +31,7 @@ class ManufacturerListing extends EntityListingExtension implements EntityListin
 
     public function getTitle(): string
     {
-        return 'manufacturer-listing';
+        return 'moorl-manufacturer-listing';
     }
 
     public function getSnippet(): ?string

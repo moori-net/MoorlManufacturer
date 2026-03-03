@@ -12,7 +12,7 @@ class ManufacturerListingCmsElementResolver extends FoundationListingCmsElementR
 {
     public function getType(): string
     {
-        return 'manufacturer-listing';
+        return 'moorl-manufacturer-listing';
     }
 
     public function enrich(CmsSlotEntity $slot, ResolverContext $resolverContext, ElementDataCollection $result): void

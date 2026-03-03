@@ -8,7 +8,7 @@
                     {% if manufacturer.bannerColor %}style="background-color:{{ manufacturer.bannerColor }}"{% endif %}
             >
                 {% if manufacturer.banner %}
-                    {% sw_thumbnails 'manufacturer-banner' with {
+                    {% sw_thumbnails 'moorl-manufacturer-banner' with {
                         media: manufacturer.banner,
                         attributes: {
                             'class': '',
@@ -27,7 +27,7 @@
                         {% if manufacturer.avatar or manufacturer.productManufacturer.media %}
                             <div class="col-auto">
                                 <div class="moorl-manufacturer-avatar">
-                                    {% sw_thumbnails 'manufacturer-avatar' with {
+                                    {% sw_thumbnails 'moorl-manufacturer-avatar' with {
                                         media: manufacturer.avatar ?: manufacturer.productManufacturer.media,
                                         attributes: {
                                             'itemprop': 'image',
