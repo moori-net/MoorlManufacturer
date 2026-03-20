@@ -1,0 +1,25 @@
+{
+  "base": "/bundles/moorlmanufacturer/administration/",
+  "entryPoints": {
+    "moorl-manufacturer": {
+      "css": [
+        "/bundles/moorlmanufacturer/administration/assets/moorl-manufacturer-Di4DlbZB.css"
+      ],
+      "dynamic": [],
+      "js": [
+        "/bundles/moorlmanufacturer/administration/assets/moorl-manufacturer-B5nKuD9N.js"
+      ],
+      "legacy": false,
+      "preload": []
+    }
+  },
+  "legacy": false,
+  "metadatas": {},
+  "version": [
+    "7.1.0",
+    7,
+    1,
+    0
+  ],
+  "viteServer": null
+}

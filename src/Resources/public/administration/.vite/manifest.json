@@ -1,0 +1,11 @@
+{
+  "main.js": {
+    "file": "assets/moorl-manufacturer-B5nKuD9N.js",
+    "name": "moorl-manufacturer",
+    "src": "main.js",
+    "isEntry": true,
+    "css": [
+      "assets/moorl-manufacturer-Di4DlbZB.css"
+    ]
+  }
+}
