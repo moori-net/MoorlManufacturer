@@ -42,7 +42,7 @@ UPDATE moorl_manufacturer m
 INNER JOIN (
     SELECT product_manufacturer_id, COUNT(*) AS cnt
     FROM product
-    WHERE active = 1
+    WHERE active = 1 AND parent_id IS NULL AND product_manufacturer_id IS NOT NULL
     GROUP BY product_manufacturer_id
 ) p ON p.product_manufacturer_id = m.product_manufacturer_id
 SET m.product_count = p.cnt

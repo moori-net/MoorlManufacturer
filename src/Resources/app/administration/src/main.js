@@ -1,9 +1,20 @@
 function onMoorlFoundationReady(callback) {
-    if (window.MoorlFoundation) {
+    if (window.MoorlFoundation) return callback();
+
+    const t = setTimeout(() => {
+        console.error('[MoorlFoundation] Object/Event not loaded.');
+        window.removeEventListener('MoorlFoundationReady', onReady);
+    }, 5000);
+
+    function onReady() {
+        clearTimeout(t);
+        if (!window.MoorlFoundation) {
+            return console.error('[MoorlFoundation] Event exists, Object failed.');
+        }
         callback();
-    } else {
-        window.addEventListener('MoorlFoundationReady', callback, { once: true });
     }
+
+    window.addEventListener('MoorlFoundationReady', onReady, { once: true });
 }
 
 onMoorlFoundationReady(() => {
@@ -27,7 +38,6 @@ onMoorlFoundationReady(() => {
             productManufacturer: {tab: 'general', card: 'general', order: 'first'},
             marker: {hidden: true},
             locationCache: {hidden: true},
-            bannerColor: {hidden: true},
         },
         cmsElements: [
             {

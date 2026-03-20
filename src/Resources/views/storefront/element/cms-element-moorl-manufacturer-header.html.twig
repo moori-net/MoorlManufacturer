@@ -5,7 +5,7 @@
         {% block manufacturer_page_header_banner %}
             <div
                     class="moorl-manufacturer-banner"
-                    {% if manufacturer.bannerColor %}style="background-color:{{ manufacturer.bannerColor }}"{% endif %}
+                    {% if manufacturer.bannerColor %}style="--banner-color: {{ manufacturer.bannerColor }}"{% endif %}
             >
                 {% if manufacturer.banner %}
                     {% sw_thumbnails 'moorl-manufacturer-banner' with {
@@ -22,7 +22,7 @@
 
         {% block manufacturer_page_header_container %}
             <div class="container p-0">
-                <div class="row">
+                <div class="row m-0">
                     {% block manufacturer_page_header_avatar %}
                         {% if manufacturer.avatar or manufacturer.productManufacturer.media %}
                             <div class="col-auto">

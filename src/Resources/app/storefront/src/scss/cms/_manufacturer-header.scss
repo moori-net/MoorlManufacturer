@@ -1,8 +1,9 @@
 .cms-element-manufacturer-header {
   background-color: $light;
+  --banner-color: #{$dark};
 
   .moorl-manufacturer-banner {
-    background-color: $border-color;
+    background-color: var(--banner-color);
     min-height: 185px;
 
     img {
@@ -10,11 +11,6 @@
       height: 320px;
       object-fit: cover;
     }
-  }
-
-  .row {
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .moorl-manufacturer-avatar {
