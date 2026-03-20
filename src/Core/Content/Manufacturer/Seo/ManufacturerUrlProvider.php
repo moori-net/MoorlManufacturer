@@ -91,7 +91,7 @@ class ManufacturerUrlProvider extends AbstractUrlProvider
     {
         if (!$collectionCriteria) {
             $collectionCriteria = new Criteria();
-            $collectionCriteria->addFilter(new ManufacturerAvailableFilter($salesChannelContext));
+            $collectionCriteria->addFilter(new ManufacturerAvailableFilter());
         }
         $collectionCriteria->setLimit($limit);
 

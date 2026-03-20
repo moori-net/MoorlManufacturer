@@ -32,6 +32,8 @@ class ManufacturerDetailRoute
     {
         $criteria->setIds([$manufacturerId]);
 
+        $criteria->addAssociation('productManufacturer.media');
+
         /** @var SalesChannelManufacturerEntity $manufacturer */
         $manufacturer = $this->manufacturerRepository
             ->search($criteria, $context)
