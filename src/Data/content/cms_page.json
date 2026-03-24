@@ -16,6 +16,7 @@
         "position": 0,
         "type": "default",
         "sizingMode": "full_width",
+        "cssClass": "p-0",
         "backgroundColor": "",
         "backgroundMediaMode": "cover",
         "visibility": {
