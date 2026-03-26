@@ -5,7 +5,6 @@ namespace Moorl\Manufacturer\Migration;
 use Doctrine\DBAL\Connection;
 use MoorlFoundation\Core\Framework\DataAbstractionLayer\Dbal\EntityDefinitionQueryHelper;
 use Shopware\Core\Framework\Migration\MigrationStep;
-use Shopware\Core\Framework\Plugin\Requirement\Exception\MissingRequirementException;
 
 class Migration1770399835MoorlManufacturerTranslation extends MigrationStep
 {
@@ -29,11 +28,7 @@ SQL;
         try {
             $connection->executeStatement($sql);
             return;
-        } catch (\Exception) {
-            if (!class_exists(EntityDefinitionQueryHelper::class)) {
-                throw new MissingRequirementException('moorl/foundation', '1.6.50');
-            }
-        }
+        } catch (\Exception) {}
 
         // Try to execute all queries step by step
         if (!EntityDefinitionQueryHelper::tableExists($connection, 'moorl_manufacturer_translation', '')) {
