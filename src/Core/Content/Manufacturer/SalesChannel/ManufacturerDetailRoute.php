@@ -2,6 +2,7 @@
 
 namespace Moorl\Manufacturer\Core\Content\Manufacturer\SalesChannel;
 
+use Moorl\Manufacturer\Core\Content\Manufacturer\Exception\ManufacturerNotFoundException;
 use Moorl\Manufacturer\Core\Content\Manufacturer\ManufacturerDefinition;
 use Shopware\Core\Content\Cms\DataResolver\ResolverContext\EntityResolverContext;
 use Shopware\Core\Content\Cms\Exception\PageNotFoundException;
@@ -34,10 +35,13 @@ class ManufacturerDetailRoute
 
         $criteria->addAssociation('productManufacturer.media');
 
-        /** @var SalesChannelManufacturerEntity $manufacturer */
         $manufacturer = $this->manufacturerRepository
             ->search($criteria, $context)
             ->first();
+
+        if (!$manufacturer instanceof SalesChannelManufacturerEntity) {
+            throw new ManufacturerNotFoundException($manufacturerId);
+        }
 
         $pageId = $manufacturer->getCmsPageId();
 
