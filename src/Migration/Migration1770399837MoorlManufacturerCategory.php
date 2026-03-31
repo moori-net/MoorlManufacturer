@@ -18,19 +18,6 @@ class Migration1770399837MoorlManufacturerCategory extends MigrationStep
 
     public function update(Connection $connection): void
     {
-        $sql = <<<SQL
-CREATE TABLE moorl_manufacturer_category (category_id BINARY(16) NOT NULL, moorl_manufacturer_id BINARY(16) NOT NULL, category_version_id BINARY(16) DEFAULT 0x0FA91CE3E96A4BC2BE4BD9CE752C3425 NOT NULL, PRIMARY KEY (moorl_manufacturer_id, category_id, category_version_id)) DEFAULT CHARACTER SET utf8mb4;
-ALTER TABLE moorl_manufacturer_category ADD CONSTRAINT `fk.moorl_manufacturer_category.moorl_manufacturer_id` FOREIGN KEY (moorl_manufacturer_id) REFERENCES moorl_manufacturer (id) ON UPDATE CASCADE ON DELETE CASCADE;
-ALTER TABLE moorl_manufacturer_category ADD CONSTRAINT `fk.moorl_manufacturer_category.category_id` FOREIGN KEY (category_id, category_version_id) REFERENCES category (id, version_id) ON UPDATE CASCADE ON DELETE CASCADE;
-SQL;
-
-        // Try to execute all queries at once
-        try {
-            $connection->executeStatement($sql);
-            return;
-        } catch (\Exception) {}
-
-        // Try to execute all queries step by step
         if (!EntityDefinitionQueryHelper::tableExists($connection, 'moorl_manufacturer_category', '')) {
             $sql = "CREATE TABLE moorl_manufacturer_category (category_id BINARY(16) NOT NULL, moorl_manufacturer_id BINARY(16) NOT NULL, category_version_id BINARY(16) DEFAULT 0x0FA91CE3E96A4BC2BE4BD9CE752C3425 NOT NULL, PRIMARY KEY (moorl_manufacturer_id, category_id, category_version_id)) DEFAULT CHARACTER SET utf8mb4;";
             EntityDefinitionQueryHelper::tryExecuteStatement($connection, $sql, 'moorl_manufacturer_category');

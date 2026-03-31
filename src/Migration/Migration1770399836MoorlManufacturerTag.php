@@ -18,19 +18,6 @@ class Migration1770399836MoorlManufacturerTag extends MigrationStep
 
     public function update(Connection $connection): void
     {
-        $sql = <<<SQL
-CREATE TABLE moorl_manufacturer_tag (moorl_manufacturer_id BINARY(16) NOT NULL, tag_id BINARY(16) NOT NULL, PRIMARY KEY (moorl_manufacturer_id, tag_id)) DEFAULT CHARACTER SET utf8mb4;
-ALTER TABLE moorl_manufacturer_tag ADD CONSTRAINT `fk.moorl_manufacturer_tag.moorl_manufacturer_id` FOREIGN KEY (moorl_manufacturer_id) REFERENCES moorl_manufacturer (id) ON UPDATE CASCADE ON DELETE CASCADE;
-ALTER TABLE moorl_manufacturer_tag ADD CONSTRAINT `fk.moorl_manufacturer_tag.tag_id` FOREIGN KEY (tag_id) REFERENCES tag (id) ON UPDATE CASCADE ON DELETE CASCADE;
-SQL;
-
-        // Try to execute all queries at once
-        try {
-            $connection->executeStatement($sql);
-            return;
-        } catch (\Exception) {}
-
-        // Try to execute all queries step by step
         if (!EntityDefinitionQueryHelper::tableExists($connection, 'moorl_manufacturer_tag', '')) {
             $sql = "CREATE TABLE moorl_manufacturer_tag (moorl_manufacturer_id BINARY(16) NOT NULL, tag_id BINARY(16) NOT NULL, PRIMARY KEY (moorl_manufacturer_id, tag_id)) DEFAULT CHARACTER SET utf8mb4;";
             EntityDefinitionQueryHelper::tryExecuteStatement($connection, $sql, 'moorl_manufacturer_tag');
