@@ -67,16 +67,15 @@ class ManufacturerPageLoader
             return;
         }
 
-        $metaDescription = $page->getManufacturer()->getTranslation('teaser')
-            ?? $page->getManufacturer()->getTranslation('teaser');
+        $manufacturer = $page->getManufacturer();
+
+        $metaDescription = $manufacturer->getTranslation('metaDescription') ?? $manufacturer->getTranslation('teaser');
         $metaInformation->setMetaDescription((string) $metaDescription);
 
-        if ((string) $page->getManufacturer()->getTranslation('name') !== '') {
-            $metaInformation->setMetaTitle((string) $page->getManufacturer()->getTranslation('name'));
-            return;
-        }
+        $metaTitle = $manufacturer->getTranslation('metaTitle') ?? $manufacturer->getTranslation('name');
+        $metaInformation->setMetaTitle((string) $metaTitle);
 
-        $metaTitleParts = [$page->getManufacturer()->getTranslation('name')];
-        $metaInformation->setMetaTitle(implode(' | ', $metaTitleParts));
+        $metaKeywords = $manufacturer->getTranslation('metaKeywords') ?? $manufacturer->getTranslation('keywords');
+        $metaInformation->setMetaKeywords((string) $metaKeywords);
     }
 }
