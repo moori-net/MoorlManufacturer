@@ -150,3 +150,5 @@ build:
         paths:
           - docs
           - TODO.md
+          - .gitattributes
+          - .shopware-extension.yml
