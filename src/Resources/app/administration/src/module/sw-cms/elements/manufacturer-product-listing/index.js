@@ -8,7 +8,7 @@ Shopware.Service('cmsService').registerCmsElement({
     name: 'moorl-manufacturer-product-listing',
     label: 'sw-cms.elements.moorl-manufacturer-product-listing.name',
     component: 'sw-cms-el-moorl-manufacturer-product-listing',
-    previewComponent: true,
+    previewComponent: 'sw-cms-el-preview-moorl-default',
     configComponent: 'sw-cms-el-config-moorl-manufacturer-product-listing',
     defaultConfig: {
         boxLayout: {
