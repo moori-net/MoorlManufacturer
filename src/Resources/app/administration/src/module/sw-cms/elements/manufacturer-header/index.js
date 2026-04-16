@@ -4,7 +4,7 @@ Shopware.Service('cmsService').registerCmsElement({
     plugin: 'MoorlManufacturer',
     icon: 'regular-user',
     color: '#df9fdf',
-    previewComponent: true,
+    previewComponent: 'sw-cms-el-preview-moorl-default',
     name: 'moorl-manufacturer-header',
     label: 'sw-cms.elements.moorl-manufacturer-header.name',
     component: 'sw-cms-el-manufacturer-header',
