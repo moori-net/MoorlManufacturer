@@ -152,3 +152,7 @@ build:
           - TODO.md
           - .gitattributes
           - .shopware-extension.yml
+          - .superpowers
+          - CODEX.md
+          - tests
+          - phpunit.xml.dist
